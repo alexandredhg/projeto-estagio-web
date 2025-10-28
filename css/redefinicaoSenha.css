@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+h1{
+    background-color: blueviolet;
+    color: white;
+    font-size: 50px;
+    height: 60px;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+h2{
+    font-size: 40px;
+    font-family: inherit;
+}
+
+.button{
+    font-size: 30px;
+    font-family: inherit;
+    background-color: red;color: white;
+    height: 40px;
+    width: 115px;
+    border: none;
+    cursor: pointer;    
+}
+
+.button2{
+    font-size: 30px;
+    font-family: inherit;
+    background-color: red;color: white;
+    height: 40px;
+    width: 140px;
+    border: none;
+    cursor: pointer;    
+}
+
+label{
+    font-size: 32px;
+    color: black;
+    font-family: inherit;
+    
+}
+
+input{    
+    height: 42px;    
+    text-align: center;
+    font-size: 32px;
+    background-color: aqua;
+    border: 3px solid black;
+    border-radius: 0%;
+    font-family: inherit;
+    color: black;
+    cursor: pointer;
+}
+
+.msg{
+    font-size: 35px;
+font-family: inherit;
+
+}
+
+.btnMostrar{
+    width: 80px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sair{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90px;
+    height: 45px;
+    box-sizing: border-box;
+    border-radius: 0%;
+    background-color: black;
+    border: none;
+    font-family: inherit;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+
+.sair{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

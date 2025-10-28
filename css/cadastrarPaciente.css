@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+*{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    font-size: 30px;    
+    background-color: blue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    background-color: gray;
+    color: white;    
+    height: 35px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;           
+}
+
+.button{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: red;
+    color: white;
+    height: 35px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.sair{
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}

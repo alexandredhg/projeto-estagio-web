@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Login</title>
+        <link rel="stylesheet"  href="css/loginAdm.css" />
+    </head>    
+    <body>
+        <h1>Página de Login</h1>
+        <br>
+        <h2>Login:</h2>
+        <br><br>
+        <form id="formLoginAdm" class="centralForm">
+            <div>
+                <label for="txtEmail">* E-mail: </label>
+                <br>
+                <input type="email" id="txtEmail" />
+            </div>
+            <br>
+            <div>
+                <label for="txtSenha">* Senha: </label>
+                <br>
+                <input type="password" id="txtSenha" />                
+            </div>            
+            <br>         
+            <div>
+                <button type="submit"  class="btnEntrar">Entrar</button>
+
+                <button type="button" id="toggleSenha"  class="btnMostrar">Mostrar</button>
+            </div>
+            <br>
+            <div>
+                <a href="areaCoordenacao.html"></a>
+            </div>
+        </form>
+        <br>
+        <!--<hr/>-->
+        <div id="divMensagem" role="alert" aria-live="assertive"  class="msg"></div>        
+        <div class="sair">
+            <br>
+            <a href="areaRestrita.html">Sair</a> 
+        </div>        
+    </body>
+    <script type="module" src="dist/loginAdm.js"></script>
+</html>
