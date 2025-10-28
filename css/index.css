@@ -11,11 +11,11 @@ body{
 }
 
 h1{
-    font-size: 25px;    
+    font-size: 2vw;    
     background-color: blue;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 25px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
@@ -25,9 +25,9 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 25px;   
+    font-size: 2vw;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 25px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
@@ -35,11 +35,11 @@ h2{
 }
 
 h3{
-    font-size: 25px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;     
     background-color: coral;
     color: white;    
-    height: 25px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
@@ -68,13 +68,10 @@ h3{
 }
 
 .menuUl{
-    font-size: 15px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: center;
               
     
 }
