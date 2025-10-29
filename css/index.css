@@ -8,8 +8,8 @@
 body{
     margin-left: 3vw;
     margin-right: 3vw;
-    margin-top: 3vw;
-    margin-bottom: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
 }
 
 h1{       
@@ -51,8 +51,8 @@ h3{
 .baner{ 
     display: flex;    
     justify-content: space-between; 
-    margin-left: 10vw; 
-    margin-right: 10vw;
+    margin-left: 5vw; 
+    margin-right: 5vw;
     
 }
 
