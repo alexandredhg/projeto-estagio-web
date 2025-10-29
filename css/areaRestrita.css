@@ -5,40 +5,40 @@
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
-h1{
-    font-size: 30px;    
+h1{        
     background-color: blue;
     color: white;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 35px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h2{
-    font-size: 30px;    
+h2{       
     background-color: gray;
     color: white;
+    font-size: 2vw; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 35px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h3{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+h3{         
     background-color: coral;
-    color: white;    
-    height: 35px;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
@@ -54,7 +54,7 @@ h3{
 }
 
 .menuUl{
-    font-size: 25px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
     text-align: center;          
@@ -62,7 +62,9 @@ h3{
 }
 
 .sair{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-align: center;
+
 }

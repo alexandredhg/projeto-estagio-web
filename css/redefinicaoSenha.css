@@ -5,15 +5,15 @@
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 h1{
     background-color: blueviolet;
     color: white;
-    font-size: 50px;
-    height: 60px;
+    font-size: 2vw;
+    height: 3vw;
     font-family: inherit;
     display: flex;
     align-items: center;
@@ -21,83 +21,66 @@ h1{
 }
 
 h2{
-    font-size: 40px;
-    font-family: inherit;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
 }
 
-.button{
-    font-size: 30px;
-    font-family: inherit;
-    background-color: red;color: white;
-    height: 40px;
-    width: 115px;
+.btnMostrar{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gray;
+    color: white;
+    height: 3vw;
+    width: 10vw;
     border: none;
     cursor: pointer;    
 }
 
-.button2{
-    font-size: 30px;
-    font-family: inherit;
-    background-color: red;color: white;
-    height: 40px;
-    width: 140px;
+.btnCadastrar{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color: white;
+    height: 3vw;
+    width: 12vw;
     border: none;
     cursor: pointer;    
 }
 
 label{
-    font-size: 32px;
+    font-size: 2vw;
     color: black;
-    font-family: inherit;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
 
 input{    
-    height: 42px;    
-    text-align: center;
-    font-size: 32px;
+    height: 3vw;  
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: aqua;
     border: 3px solid black;
-    border-radius: 0%;
-    font-family: inherit;
+    border-radius: 0%;    
     color: black;
+    text-align: center;
     cursor: pointer;
 }
 
 .msg{
-    font-size: 35px;
-font-family: inherit;
+    font-size: 2vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-}
-
-.btnMostrar{
-    width: 80px;
-    height: 30px;
-    background-color: black;
-    color: white;
-    border: none;
-    font-size: 20px;
-    cursor: pointer;
 }
 
 .sair{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    width: 90px;
-    height: 45px;
-    box-sizing: border-box;
-    border-radius: 0%;
-    background-color: black;
-    border: none;
-    font-family: inherit;
-    font-size: 32px;
-    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     text-align: center;
 }
 
-.sair{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+.centralForm{
+    text-align: center;
 }

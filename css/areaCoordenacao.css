@@ -5,24 +5,30 @@
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
-h1{
-    font-size: 30px;    
+h1{        
     background-color: blue;
     color: white;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 35px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+h2{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
 .sair{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     

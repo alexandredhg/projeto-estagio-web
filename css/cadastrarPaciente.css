@@ -5,53 +5,54 @@
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
+    margin-left: 3vw;
+    margin-right: 3vw;
 }
 
 *{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-    font-size: 30px;    
+h1{       
     background-color: blue;
     color: white;
+    font-size: 2vw; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 35px;
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-h2{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+h2{          
     background-color: gray;
-    color: white;    
-    height: 35px;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;           
 }
 
-.button{
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.button{    
     background-color: red;
     color: white;
-    height: 35px;
-    width: 180px;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    width: 13vw;
     border: none;
     cursor: pointer;
     
 }
 
 .sair{
-    font-size: 30px;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     
 }
