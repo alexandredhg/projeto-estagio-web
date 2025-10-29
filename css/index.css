@@ -8,6 +8,8 @@
 body{
     margin-left: 3vw;
     margin-right: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
 }
 
 h1{       
@@ -46,13 +48,13 @@ h3{
     justify-content: center;           
 }
 
-/*.baner{ 
+.baner{ 
     display: flex;    
     justify-content: space-between; 
-    margin-left: 3vw; 
-    margin-right: 3vw;
+    margin-left: 10vw; 
+    margin-right: 10vw;
     
-}*/
+}
 
 .img{
     border-radius: 50%;
