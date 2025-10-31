@@ -1,8 +1,7 @@
 *{
     padding: 0;
-    margin: 0; 
-    box-sizing: 0;   
-    
+    margin: 0;
+    box-sizing: 0;
 }
 
 body{
@@ -12,10 +11,10 @@ body{
     margin-bottom: 4vw;
 }
 
-h1{       
+h1{        
     background-color: blue;
     color: white;
-    font-size: 2vw; 
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 3vw;
     border: none;
@@ -24,10 +23,10 @@ h1{
     justify-content: center;
 }
 
-h2{
-    background-color: gray; 
+h2{        
+    background-color: gray;
     color: white;
-    font-size: 2vw;   
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 3vw;
     border: none;
@@ -36,63 +35,44 @@ h2{
     justify-content: center;
 }
 
-h3{       
+h3{        
     background-color: coral;
-    color:  white;
+    color: white;
     font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;     
-    height: 3vw;
+    height: 3vw;    
     border: none;
     display: flex;
     align-items: center;
-    justify-content: center;           
+    justify-content: center;  
+
 }
 
-.baner{ 
-    display: flex;
-    justify-content: space-between;
-    align-items: center;      
-       
-    
-}
-
-.baner2{
-    border: 1px solid white;
-    text-align: center;
-    height: 20vw;
-    width: 35vw;
-}
-
-/*.img{
-    border-radius: 50%;
-    border: none;
-}*/
-
-.menuLi{   
-    
-    color:  blueviolet;    
-    text-decoration: none; 
+h4{
     font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-         
+    font-weight: bold;
+}
+
+.sair{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+
+/*.menuLi{   
+    
+    color: blueviolet ;    
+    text-decoration: none;   
                 
 }
 
-.menuUl{  
+.menuUl{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style-type: none;
-    text-align: center;
-    /*display: flex;
-    justify-content: space-between;
-    margin-left: 5vw;
-    margin-right: 5vw;*/ 
-                  
-}
-
-
-
-
-
-
-
-
+              
+    
+}*/
 
