@@ -7,7 +7,39 @@
     </head>
     <body>
         <h1>Acompanhamento do Paciente</h1>
-        <br><br><br>        
+        <br>
+        <h2>Ficha de Acompanhamento do Paciente</h2>
+        
+        <form id="formAcompanhamentoPaciente"  class="centro">
+            <br><br>            
+            <div>
+                <label form="txtDataAtendimento">* Data do Atendimento:</label>
+                <input type="date" id="txtDataAtendimento" required />                
+            </div>
+            <br>           
+            <div>
+                <label form="txtNome">* Nome do Terapeuta:</label>
+                <input type="nome" id="txtNome" required />
+            </div>
+            <br>
+            <div>
+                <label form="txtNome">* Nome do Paciente:</label>
+                <input type="nome" id="txtNome" required />
+            </div>
+            <br>
+            <div>
+                <label form="txtQueixa">* Queixa do Paciente:</label>
+                <input type="text" id="txtQueixa" required />
+            </div>
+            <br><br>
+            <div>                
+                <label for="txtMensagem">* Relatório do Terapeuta</label>
+                <textarea name="txtMensagem" id="txtMensagem" placeholder="Esscreva seu Relatório" 
+                rows="5" cols="30"  required></textarea>                
+            </div>           
+            <br><br>
+            <button type="submit" id="btnSubmit"  class="button" >Cadastrar</button>
+            <br><br>       
         <div class="sair">
         <a href="areaTerapeuta.html">Sair</a>
         </div>        

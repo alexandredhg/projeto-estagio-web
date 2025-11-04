@@ -11,18 +11,40 @@ body{
     margin-bottom: 4vw;
 }
 
-h1{        
+*{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centro{
+    text-align: center;
+}
+
+h1{       
     background-color: blue;
     color: white;
-    font-size: 2vw;
+    font-size: 2vw; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 3vw;
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
+h2{          
+    background-color: gray;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    height: 3vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;           
+}
+
+
 
 h2{
     font-size: 2vw;
@@ -49,5 +71,18 @@ h2{
     font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
+    text-align: center;
+    
+}
+
+.button{    
+    background-color: red;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    width: 13vw;
+    border: none;
+    cursor: pointer;
     
 }
