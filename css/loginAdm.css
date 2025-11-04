@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+h1{
+    background-color: blue;    
+    color: white;
+    font-size: 2vw;
+    height: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+h2{
+    background-color: gray;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.btnEntrar{  
+    background-color: blue;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    width: 10vw;
+    border: none;
+    cursor: pointer;    
+}
+
+.btnMostrar{    
+        background-color: gray;
+        color: white;
+        font-size: 2vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        height: 3vw;
+        width: 10vw;
+        border: none;
+        cursor: pointer;    
+}
+
+input{
+    background-color: aqua;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+label{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.centralForm{
+    text-align: center;
+}
+
+.msg{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.sair{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página do Fomulário de Análise do Paciênte</title>
+        <link rel="stylesheet"  href="css/formularioAnamnese.css" />
+    </head>
+    <body>
+        <h1>Instituto Benjamin Constant</h1>
+        <br>        
+        <h2>Ambulatório de Massoterapia</h2>
+        <br><br><br>       
+        <h4>Formulário de Análise do Paciênte:</h4>
+        <br><br>
+        <form id="formAnamnese">
+            <div>
+                <label for="txtDataAtendimento">* Data do Atendimento:</label>
+                <input type="date" id="txtDataAtendimento" required />
+            </div>
+
+            <br>
+            <h4>Dados Pessoais:</h4>
+            <br>
+
+            <div>
+                <label for="txtNome">* Nome Completo:</label>
+                <input type="text" id="txtNome" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtDataNascimento">* Data do Nascimento:</label>
+                <input type="date" id="txtDataNasciimento" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtIdade">* Idade:</label>
+                <input type="number" id="txtIdade" required />
+            </div>
+            <br>
+            <div>
+                <label for="slGenero">* Genero:</label>
+                <select id="slGenero">
+                    <option value="">Selecione...</option>
+                    <option value="F">Feminino</option>
+                    <option value="M">Masculino</option>
+                    <option value="N">Prefiro náo Informar</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="txtCor">* Cor:</label>
+                <input type="text" id="txtCor" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtTelefone">* Telefone:</label>
+                <input type="tel" id="txtTelefone" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtEmail">* E-mail:</label>
+                <input type="email" id="txtEmail" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtEstadoCivil">* Estado Civil:</label>
+                <input type="text" id="txtEstadoCivil" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtNaturalidade">* Naturalidade:</label>
+                <input type="text" id="txtNaturalidade" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtNacionalidade">* Nacionalidade:</label>
+                <input type="text" id="txtNacionalidade" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtEndereco">* Endereço:</label>
+                <input type="text" id="txtEndereco" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtComplemento">* Complemento:</label>
+                <input type="text" id="txtComplemento" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtBairro">* Bairro:</label>
+                <input type="text" id="txtBairro" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtCidade">* Cidade:</label>
+                <input type="text" id="txtCidade" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtEstado">* Estado:</label>
+                <input type="text" id="txtEstado" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtProfissao">* Profissão/Ocupação:</label>
+                <input type="text" id="txtProfissao" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtFilhos">* Filhos:</label>
+                <input type="text" id="txFilhos" required />
+            </div>
+
+            <br><br>
+            <h4>Sintomas:</h4>
+            <br>
+
+            <div>
+                <label for="txtQueixaPrincipal">* Queixa Principal (QP):</label>
+                <input type="text" id="txtQueixaPrincipal" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtHistoriaDoenca">* História da Doença Atual (HDA):</label>
+                <input type="text" id="txtHistoriaDoenca" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtHistoriaPatologia">* História de Patologias Pregressas (HPP):</label>
+                <input type="text" id="txtHistoriaPatologia" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtProcedimentoCirurgico">* Realizou algum procedimento cirúrgico:</label>
+                <input type="text" id="txtProcedimentoCirurgico" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtHistoriaFamiliar">* História Familiar (HF):</label>
+                <input type="text" id="txtHistoriaFamiliar" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtHistoriaSocial">* História Social (HS):</label>
+                <input type="text" id="txtHistoriaSocial" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtAltura">* Altura:</label>
+                <input type="text" id="txtAltura" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtPeso">* Peso:</label>
+                <input type="text" id="txtPeso" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtPressaoArterial">* Pressão Arterial:</label>
+                <input type="text" id="txtPressaoArterial" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtTrtamentoAtual">* Tratamento Atual:</label>
+                <input type="text" id="txtTrtamentoAtual" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtMedicamento">* Medicamentos:</label>
+                <input type="text" id="txtMedicamento" required />
+            </div>
+
+            <br>
+            <h4>Inspeção/Exames Fisicos</h4>
+            <br>
+
+            <div>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />
+                <br><br>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />
+                <br><br>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />
+                <br><br>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />
+                <br><br>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />
+                <br><br>
+                <label for="txtExamrsFisicos">*</label>
+                <input type="text" id="txtExamrsFisicos" required />                
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Disposição Geral:</legend>
+                    <input type="checkbox" id="ckBoa" name="ckDisposicaoGeral" value="boa" />
+                    <label for="ckBoa">Boa</label>
+                    
+                    <input type="checkbox" id="ckRuin" name="ckDisposicaoGeral" value="ruin" />
+                    <label for="ckRuin">Ruin</label>
+                    
+                    <input type="checkbox" id="ckMelhorDia" name="ckDisposicaoGeral" value="melhorDia" />
+                    <label for="ckMelhorDia">Melhor/Dia</label>
+                    
+                    <input type="checkbox" id="ckMelhorNoite" name="ckDisposicaoGeral" value="melhorNoite" />
+                    <label for="ckMelhorNoite">Melhor/Noite</label>
+                </fieldset>
+            </div>            
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Sensibilidade Térmica:</legend>
+                    <input type="checkbox" id="ckSenteFrio" name="ckSensibilidadeTermica" value="senteFrio" />
+                    <label for="ckSenteFrio">Sente Frio</label>
+                    
+                    <input type="checkbox" id="ckSenteCalor" name="ckSenaibilidadeTermica" value="senteCalor" />
+                    <label for="ckSenteCalor">Sente Calor</label>
+                                                            
+                    <input type="checkbox" id="ckMBanhoFrio" name="ckSensibilidadeTermica" value="banhoFrio" />
+                    <label for="ckBanhoFrio">Prefere Banho Frio</label> 
+                    
+                    <input type="checkbox" id="ckMBanhoQuente" name="ckSensibilidadeTermica" value="banhoQuente" />
+                    <label for="ckBanhoQuente">Prefere Banho Quente</label>
+                    <br>                    
+                    <input type="checkbox" id="ckFrioExtremidade" name="ckSensibilidadeTermica" value="frioExtremidade" />
+                    <label for="ckFrioExtremidade">Frio Nas Extremidades</label>
+                    
+                    <input type="checkbox" id="ckCalorExtremidade" name="ckSensibilidadeTermica" value="calorExtremidade" />
+                    <label for="ckCalorExtremidade">Calor Nas Extremidades</label>
+                    
+                    <input type="checkbox" id="ckCalorPeito" name="ckSensibilidadeTermica" value="calorPeito" />
+                    <label for="ckCalorPeito">Calor no Peito</label>
+                    
+                    <input type="checkbox" id="ckCalorAlto" name="ckSensinilidadeTermica" value="calorAlto" />
+                    <label for="ckCalorAlto">Calor no Alto</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Sono:</legend>
+                    <input type="checkbox" id="ckBom" name="ckSono" value="bom" />
+                    <label for="ckbom">Bom</label>
+                    
+                    <input type="checkbox" id="ckInsoniaTnicial" name="ckSono" value="insoniaInicial" />
+                    <label for="ckInsoniaInicial">Insônia Inicial</label>
+                                                            
+                    <input type="checkbox" id="ckInsoniaTerminal" name="ckSono" value="insoniaTerminal" />
+                    <label for="ckInsoniaTerminal">Insônia Terminal</label> 
+                    
+                    <input type="checkbox" id="ckInsoniaIntermitente" name="ckSono" value="insoniaIntermitente" />
+                    <label for="ckInsoniaIntermitente">Insônia Intermitente</label> 
+                    
+                </fieldset>
+            </div>            
+            <div>
+                <label for="txtHorasSono">* Quantas Horas de Sono em Média por Noite: </label>
+                <input type="text" id="txtHorasSono" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtSonho">* Costuma ter Sonhos:</label>
+                <input type="text" id="txtSonho" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtTipoSonho">* Quais São os Tipos de Sonhos:</label>
+                <input type="text" id="txTipotSonho" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Alimentação:</legend>
+                    <input type="checkbox" id="ckMuitoBoa" name="ckAlimentacao" value="muitoBoa" />
+                    <label for="ckMuitoBoa">Muito Boa</label>
+                    
+                    <input type="checkbox" id="ckBoa" name="ckAlimentacao" value="boa" />
+                    <label for="ckBoa">Boa</label>
+
+                    <input type="checkbox" id="ckIrregular" name="ckAlimentacao" value="irregular" />
+                    <label for="ckMuitoBoa">Irregular</label>
+
+                    <input type="checkbox" id="ckPessima" name="ckAlimentacao" value="pessima" />
+                    <label for="ckPessima">Péssima</label>
+                    
+                </fieldset>
+            </div>            
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Sede:</legend>
+                    <input type="checkbox" id="ckMuitaSede" name="ckSede" value="muitaSede" />
+                    <label for="ckMuitaSede">Muita Sede</label>
+                    
+                    <input type="checkbox" id="ckPoucaSede" name="ckSede" value="poucaSede" />
+                    <label for="ckPoucaSede">Pouca Sede</label>
+                                        
+                    <input type="checkbox" id="ckSedeNormal" name="ckSede" value="sedeNormal" />
+                    <label for="ckSedeNormal">Sede Normal</label>
+                    <br>
+                    <input type="checkbox" id="ckAguaGelada" name="ckSede" value="aguaGwlada" />
+                    <label for="ckAguaGelada">Bebe Água Gelada</label>
+                    
+                    <input type="checkbox" id="ckAguaNatural" name="ckSede" value="aguaNatural" />
+                    <label for="ckAguaNatural">Bebe Água Natural</label>
+                    <br>
+                    <input type="checkbox" id="ckLiquidoQuente" name="ckSede" value="liquidoQuente" />
+                    <label for="ckLiquidoQuente">Prefere Beber Líquidos Quentes</label>
+
+                    <input type="checkbox" id="ckLiquidoGelado" name="ckSede" value="liquidoGwlado" />
+                    <label for="ckLiquidoGelado">Prefere Beber Líquidos Gelados</label>
+                                                       
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Paladar (Preferências):</legend>
+                    <input type="checkbox" id="ckSalgado" name="ckPaladar" value="salgado" />
+                    <label for="ckSalgado">Salgado</label>
+
+                    <input type="checkbox" id="ckDoce" name="ckPaladar" value="doce" />
+                    <label for="ckDoce">Doce</label>
+
+                    <input type="checkbox" id="ckAcido" name="ckPaladar" value="acido" />
+                    <label for="ckAcido">Ácido</label>
+                    <br>
+                    <input type="checkbox" id="ckPicante" name="ckPaladar" value="picante" />
+                    <label for="ckPicante">Picante</label>
+
+                    <input type="checkbox" id="ckAmargo" name="ckPaladar" value="amargo" />
+                    <label for="ckAmargo">Amargo</label>
+
+                    <input type="checkbox" id="ckSemPreferencia" name="ckPaladar" value="semPreferencia" />
+                    <label for="ckSalgado">Sem Preferência</label>
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Dores:</legend>
+                    <input type="checkbox" id="ckMelhoraPressao" name="ckDores" value="melhoraPressao" />
+                    <label for="ckMelhoraPressao">Melhora com Pressão</label>
+
+                    <input type="checkbox" id="ckPioraPressao" name="ckDores" value="ckPioraPressao" />
+                    <label for="ckPioraPressao">Piora com Pressão</label>
+                    <br>         
+                    <input type="checkbox" id="ckMelhoraMovimento" name="ckDores" value="melhoraMovimento" />
+                    <label for="ckMelhoraMovimento">Melhora com Movimento</label>
+
+                    <input type="checkbox" id="ckPioraMovimento" name="ckDores" value="pioraMovimento" />
+                    <label for="ckPioraMovimento">Piora com Movimento</label>
+                    <br>
+                    <input type="checkbox" id="ckMelhoraCalor" name="ckDores" value="melhoraCalor" />
+                    <label for="ckMelhoraCalor">Melhora com Calor</label>
+
+                    <input type="checkbox" id="ckPioraCalor" name="ckDores" value="pioraCalor" />
+                    <label for="ckPioraCalor">Piora com Calor</label>
+                    <br>
+                    <input type="checkbox" id="ckMelhoraFrio" name="ckDores" value="melhoraFrio" />
+                    <label for="ckMelhoraFrio">Melhora com Frio</label>
+
+                    <input type="checkbox" id="ckPioraFrio" name="ckDores" value="pioraFrio" />
+                    <label for="ckPioraFrio">Piora com Frio</label>
+                    <br>
+                    <input type="checkbox" id="ckPioraUmidade" name="ckDores" value="pioraUmidade" />
+                    <label for="ckPioraUmidade">Piora com Umidade</label>
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Temperamento/Personalidade:</legend>
+                    <input type="checkbox" id="ckF" name="ckTemperamento" value="f" />
+                    <label for="ckF">F</label>
+
+                    <input type="checkbox" id="ckC" name="ckTemperamento" value="c" />
+                    <label for="ckC">C</label>
+
+                    <input type="checkbox" id="ckP" name="ckTemperamento" value="p" />
+                    <label for="ckO">P</label>
+
+                    <input type="checkbox" id="ckBp" name="ckTemperamento" value="bp" />
+                    <label for="ckBp">BP</label>
+
+                    <input type="checkbox" id="ckR" name="ckTemperamento" value="r" />
+                    <label for="ckR">R</label>                   
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+             <div>
+                <fieldset>
+                    <legend>* Acuidade Auditiva:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckAcuidadeAlditiva" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckDinibuida" name="ckAcuidadeAlditiva" value="diminuida" />
+                    <label for="ckDiminuida">Diminuída</label>
+
+                    <input type="checkbox" id="ckZumbido" name="ckAcuidadeAlditiva" value="zumbido" />
+                    <label for="ckZumbido">Zumbido</label>
+
+                    <input type="checkbox" id="cKDorOuvido" name="ckAcuidadeAlditiva" value="dorOuvido" />
+                    <label for="cKDorOuvido">Dor de Ouvido</label>                                     
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Acuidade Visual:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckAcuidadeVisual" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckBaixaVisao" name="ckAcuidadeVisual" value="baixaVisao" />
+                    <label for="ckBaixaVisao">Baixa Visão'</label>
+
+                    <input type="checkbox" id="ckCegueira" name="ckAcuidadeVisual" value="cegueira" />
+                    <label for="ckCegueira">Cegueira</label>
+                    <br>
+                    <input type="checkbox" id="ckAstigmatismo" name="ckAcuidadeVisual" value="astigmatismo" />
+                    <label for="ckAstigmatismo">Astigmatismo</label>
+
+                     <input type="checkbox" id="ckHipermetropia" name="ckAcuidadeVisual" value="hipermetropia" />
+                    <label for="ckHipermetropia">Hipermetropia</label>
+                    <br>
+                     <input type="checkbox" id="ckVisãoDupla" name="ckAcuidadeVisual" value="visãoDupla" />
+                    <label for="ckVisãoDupla ">Visão Dupla</label>
+
+                     <input type="checkbox" id="ckPrurido" name="ckAcuidadeVisual" value="prurido" />
+                    <label for="ckPrurido">Prurido</label>                                                        
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Olfato:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckOlfato" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckDiminuido" name="ckOlfato" value="diminuido" />
+                    <label for="ckDiminuido">Diminuido</label>
+
+                    <input type="checkbox" id="ckObstrucaoFrequente" name="ckOlfato" value="obstrucaoFrequente" />
+                    <label for="ckObstrucaoFrequente">Obstrução Nasal Frequente</label>
+                    <br>
+                    <input type="checkbox" id="ckRinite'" name="ckOlfato" value="rinite" />
+                    <label for="ckRinitel">Rinite</label>
+
+                    <input type="checkbox" id="ckSinusite'" name="ckOlfato" value="sinusite" />
+                    <label for="ckSinusite">Sinusite</label>                                                                          
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Respiração:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckRespiracao" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckCurta" name="ckRespiracao" value="curta" />
+                    <label for="ckCurta">Curta</label>
+
+                    <input type="checkbox" id="ckDispnéia" name="ckRespiracao" value="dispnéia" />
+                    <label for="ckDispnéia">Dispnéia</label>
+
+                    <input type="checkbox" id="ckAsma" name="ckRespiracao" value="asma" />
+                    <label for="ckAsma">Asma</label>
+                    <br>
+                    <input type="checkbox" id="ckTosse" name="ckRespiracao" value="tosse" />
+                    <label for="ckTosse">Tosse</label>
+                    
+                    <input type="checkbox" id="ckPigarro" name="ckRespiracao" value="pigarro" />
+                    <label for="ckPigarro">Pigarro</label>
+
+                    <input type="checkbox" id="ckAlergia" name="ckRespiracao" value="alergia" />
+                    <label for="ckAlergia">Alergia</label>
+
+                    <input type="checkbox" id="ckDesvioSepto" name="ckRespiracao" value="DesvioSepto" />
+                    <label for="ckDesvioSepto">Desvio de Septo</label>
+                                                                                 
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Digestão:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckDigestao" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckLenta" name="ckDigestao" value="lenta" />
+                    <label for="ckLenta">Lenta</label>
+
+                    <input type="checkbox" id="ckRapida" name="ckDigestao" value="rapida" />
+                    <label for="ckRapida">Rapida</label>
+                    <br>
+                    <input type="checkbox" id="ckDistensaoAbdominal" name="ckDigestao" value="distensaoAbdominal" />
+                    <label for="ckDistensaoAbdominal">Distensão Abdominal</label>
+
+                    <input type="checkbox" id="ckEpigastralgia" name="ckDigestao" value="epigastralgia" />
+                    <label for="ckEpigastralgia">Epigastralgia</label>
+
+                    <input type="checkbox" id="ckAzia" name="ckDigestao" value="azia" />
+                    <label for="ckAzia">Azia</label>
+                    <br>
+                    <input type="checkbox" id="ckGostoAmargoBoca" name="ckDigestao" value="gostoAmargoBoca" />
+                    <label for="ckGostoAmargoBoca">Gosto Amargo na Boca</label>
+
+                    <input type="checkbox" id="ckDorAbdominal" name="ckDigestao" value="dorAbdominal" />
+                    <label for="ckDorAbdominal">Dor Abdominal</label>
+
+                    <input type="checkbox" id="ckFlatulência" name="ckDigestao" value="flatulência" />
+                    <label for="ckFlatulência">Flatulência</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Evacuação:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckEvacuacao" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckConstipacao" name="ckEvacuacao" value="constipacao" />
+                    <label for="ckConstipacao">Constipação</label>
+
+                    <input type="checkbox" id="ckDiarreia" name="ckEvacuacao" value="diarreia" />
+                    <label for="ckDiarreia">Diarréia</label>
+                    <br>
+                    <input type="checkbox" id="ckFezesBolinhas" name="ckEvacuacao" value="fezesBolinhas" />
+                    <label for="ckFezesBolinhas">Fezes em Bolinhas</label>
+
+                    <input type="checkbox" id="ckFezesPedaços" name="ckEvacuacao" value="fezesPedaços" />
+                    <label for="ckFezesPedaços">Fezes c/ Pedaços de Alimentos</label>
+                    <br>
+                    <input type="checkbox" id="ckIntestinoIrritável" name="ckEvacuacao" value="intestinoIrritável" />
+                    <label for="ckIntestinoIrritável">Intestino Irritável</label>
+
+                    <input type="checkbox" id="ckOdorForte" name="ckEvacuacao" value="odorForte" />
+                    <label for="ckOdorForte">Odor Forte</label>
+
+                    <input type="checkbox" id="ckSemOdor" name="ckEvacuacao" value="semOdor" />
+                    <label for="ckSemOdor">Sem Odor</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>            
+            <div>
+                <fieldset>
+                    <legend>* Urina:</legend>
+                    <input type="checkbox" id="ckBranca" name="ckOlfato" value="branca" />
+                    <label for="ckBranca">Branca</label>
+
+                    <input type="checkbox" id="ckAmarela" name="ckOlfato" value="amarela" />
+                    <label for="ckAmarela">Amarela</label>
+
+                    <input type="checkbox" id="ckAmarelaEscura" name="ckOlfato" value="amarelaEscura" />
+                    <label for="ckAmarelaEscura">Amarela Escura</label>
+                    <br>
+                    <input type="checkbox" id="ckPouca" name="ckOlfato" value="pouca" />
+                    <label for="ckPouca">Pouca</label>
+
+                    <input type="checkbox" id="ckAbundante" name="ckOlfato" value="abundante" />
+                    <label for="ckAbundante">Abundante</label>
+                    <br>
+                    <input type="checkbox" id="ckOdorForte" name="ckOlfato" value="odorForte" />
+                    <label for="ckOdorForte">Odor Forte</label>
+
+                    <input type="checkbox" id="ckSemOdor" name="ckOlfato" value="semOdor" />
+                    <label for="ckSemOdor">Sem Odor</label>
+                    <br>
+                    <input type="checkbox" id="ckCistiteFrequente" name="ckOlfato" value="cistiteFrequente" />
+                    <label for="ckCistiteFrequente">Cistite Frequente</label>
+
+                    <input type="checkbox" id="ckEspumosa" name="ckOlfato" value="espumosa" />
+                    <label for="ckEspumosa">Espumosa</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Circulação:</legend>
+                    <input type="checkbox" id="ckNormotenso" name="ckCirculacao" value="normotenso" />
+                    <label for="ckNormotenso">Normotenso</label>
+
+                    <input type="checkbox" id="ckHipotensao" name="ckCirculacao" value="hipotensao" />
+                    <label for="ckHipotensao">Hipotensão</label>
+
+                    <input type="checkbox" id="ckHipertensao" name="ckCirculacao" value="hipertensao" />
+                    <label for="ckHipertensao">Hipertensão</label>
+                    <br>
+                    <input type="checkbox" id="ckCardiopatia" name="ckCirculacao" value="cardiopatia" />
+                    <label for="ckCardiopatia">Cardiopatia</label>
+
+                    <input type="checkbox" id="ckParestesias" name="ckCirculacao" value="parestesias" />
+                    <label for="ckParestesias">Parestesias</label>
+                    <br>
+                    <input type="checkbox" id="ckEdema" name="ckCirculacao" value="edema" />
+                    <label for="ckEdema">Edema</label>
+
+                    <input type="checkbox" id="ckVarizes" name="ckCirculacao" value="varizes" />
+                    <label for="ckVarizes">Varizes</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Sudorese:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckSudorese" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckDiminuida" name="ckSudorese" value="diminuida" />
+                    <label for="ckDiminuida">Diminuída</label>
+                    <br>
+                    <input type="checkbox" id="ckProfusa" name="ckSudorese" value="profusa" />
+                    <label for="ckProfusa">Profusa</label>
+
+                    <input type="checkbox" id="ckDiurna" name="ckSudorese" value="diurna" />
+                    <label for="ckDiurna">Diurna</label>
+
+                    <input type="checkbox" id="ckNoturna" name="ckSudorese" value="noturna" />
+                    <label for="ckNoturna">Noturna</label>
+                    <br>
+                    <input type="checkbox" id="ckPes" name="ckSudorese" value="pes" />
+                    <label for="ckPes">Pés</label>
+
+                    <input type="checkbox" id="ckMaos" name="ckSudorese" value="naos" />
+                    <label for="ckMaos">Mãos</label>
+
+                    <input type="checkbox" id="ckCabeca" name="ckSudorese" value="cabeca" />
+                    <label for="ckCabeca">Cabeça</label>
+                    <br>
+                    <input type="checkbox" id="ckPernas" name="ckSudorese" value="pernas" />
+                    <label for="ckPernas">Pernas</label>
+
+                    <input type="checkbox" id="ckPeito" name="ckSudorese" value="peito" />
+                    <label for="ckPeito">Peito</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+
+            <br> 
+            <h4>AP Reprodutor Feminino:</h4>
+            <br>
+
+            <div>
+                <label for="txtMenarca">* Menarca:</label>
+                <input type="text" id="txtMenarca" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtNumeroGestacoes">* Número de Gestações:</label>
+                <input type="text" id="txtNumeroGestacoes" required />
+            </div>
+            <br>           
+            <div>
+                <fieldset>
+                    <legend>* Libido:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckLibido" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckDiminuido" name="ckLibido" value="diminuido" />
+                    <label for="ckDiminuido">Diminuída</label>
+
+                    <input type="checkbox" id="ckAumentado" name="ckLibido" value="aumentado" />
+                    <label for="ckAumentado">Aumentada</label>                                                                                             
+                    
+                </fieldset>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Menstruação:</legend>
+                    <input type="checkbox" id="ckNormal" name="ckMenstruacao" value="normal" />
+                    <label for="ckNormal">Normal</label>
+
+                    <input type="checkbox" id="ckCurta" name="ckMenstruacao" value="curta" />
+                    <label for="ckCurta">Curta</label>
+
+                    <input type="checkbox" id="ckLonga" name="ckMenstruacao" value="longa" />
+                    <label for="ckLonga">Longa</label>
+                    <br>
+                    <input type="checkbox" id="ckInfertilidade" name="ckMenstruacao" value="infertilidade" />
+                    <label for="ckInfertilidade">Infertilidade</label>
+
+                    <input type="checkbox" id="ckTpm" name="ckMenstruacao" value="tpm" />
+                    <label for="ckTpm">Tpm</label>
+
+                    <input type="checkbox" id="ckFogachos" name="ckMenstruacao" value="fogachos" />
+                    <label for="ckFogachos">Fogachos</label>
+                    <br>
+                    <input type="checkbox" id="ckDismenorreia" name="ckMenstruacao" value="dismenorreia" />
+                    <label for="ckDismenorreia">Dismenorréia</label>
+
+                    <input type="checkbox" id="ckOligomenorreia" name="ckMenstruacao" value="oligomenorreia" />
+                    <label for="ckOligomenorreia">Oligomenorréia</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* AP Reprodutor Masculino:</legend>
+                    <input type="checkbox" id="ckImpotencia" name="ckApReprodutorMasculino" value="impotencia" />
+                    <label for="ckImpotencia">Impotência</label>
+
+                    <input type="checkbox" id="ckDificuldadeErecao" name="ckApReprodutorMasculino" value="dificuldadeErecao" />
+                    <label for="ckDificuldadeErecao">Dificuldade de Erecção</label>
+
+                    <input type="checkbox" id="ckInfertilidad" name="ckApReprodutorMasculino" value="infertilidad" />
+                    <label for="ckInfertilidad">Infertilidade</label>
+                    <br>
+                    <input type="checkbox" id="ckEjaculacaoPrecoce" name="ckApReprodutorMasculino" value="ejaculacaoPrecoce" />
+                    <label for="ckEjaculacaoPrecoce">Ejaculação Precoce</label>
+
+                    <input type="checkbox" id="ckDiminuicaoLibido" name="ckApReprodutorMasculino" value="diminuicaoLibido" />
+                    <label for="ckDiminuicaoLibido">Diminuição da Libido</label>
+
+                    <input type="checkbox" id="ckProblemasProstata" name="ckApReprodutorMasculino" value="problemasProstata" />
+                    <label for="ckProblemasProstata">Problemas da Próstata</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Fâneros:</legend>
+                    <input type="checkbox" id="ckPeleOleosa" name="ckFaneros" value="peleOleosa" />
+                    <label for="ckPeleOleosa">Pele Oleosa</label>
+
+                    <input type="checkbox" id="ckPeleSeca" name="ckFaneros" value="peleSeca" />
+                    <label for="ckPeleSeca">Pele Seca / Descamada</label>
+
+                    <input type="checkbox" id="ckUnhasFracas" name="ckFaneros" value="unhasFracas" />
+                    <label for="ckUnhasFracas">Unhas Fracas</label>
+                    <br>
+                    <input type="checkbox" id="ckPeleFlacida" name="ckFaneros" value="peleFlacida" />
+                    <label for="ckPeleFlacida">Pele Flácida</label>
+
+                    <input type="checkbox" id="ckPrurido" name="ckFaneros" value="prurido" />
+                    <label for="ckPrurido">Prurido</label>                                                                                             
+                    
+                </fieldset>
+            </div>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Intelecto:</legend>
+                    <input type="checkbox" id="ckPerdaMemoria" name="ckIntelecto" value="perdaMemoria" />
+                    <label for="ckPerdaMemoria">Perda da Memória</label>
+
+                    <input type="checkbox" id="ckDiminuicaoConcentracao" name="ckIntelecto" value="diminuicaoConcentracao" />
+                    <label for="ckDiminuicaoConcentracao">Diminuicção Concentração</label>
+
+                    <input type="checkbox" id="ckSatisfatorio" name="ckIntelecto" value="satisfatorio" />
+                    <label for="ckSatisfatorio">Satisfatório</label>                                                                                             
+                    
+                </fieldset>
+            </div>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Relações Familiares:</legend>
+                    <input type="checkbox" id="ckHarmoniosas" name="ckRelacoesFamiliares" value="harmoniosas" />
+                    <label for="ckHarmoniosas">Harmoniosas</label>
+
+                    <input type="checkbox" id="ckIndiferentes" name="ckRelacoesFamiliares" value="indiferentes" />
+                    <label for="ckIndiferentes">Indiferentes</label>
+
+                    <input type="checkbox" id="ckConflitantes" name="ckRelacoesFamiliares" value="conflitantes" />
+                    <label for="ckConflitantes">Conflitantes</label>                                                                                             
+                    
+                </fieldset>
+            </div>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Relação Casal:</legend>
+                    <input type="checkbox" id="ckHarmoniosa" name="ckRelacaoCasal" value="harmoniosa" />
+                    <label for="ckHarmoniosa">Harmoniosa</label>
+
+                    <input type="checkbox" id="ckIndiferente" name="ckRelacaoCasal" value="indiferente" />
+                    <label for="ckIndiferente">Indiferente</label>
+                    <br>                     
+                    <input type="checkbox" id="ckConflitante" name="ckRelacaoCasal" value="conflitante" />
+                    <label for="ckConflitante">Conflitante</label>
+                    
+
+                    <input type="checkbox" id="ckViolenta" name="ckRelacaoCasal" value="violenta" />
+                    <label for="ckViolenta">Violenta</label>                                                                                                              
+                    
+                </fieldset>
+            </div>           
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Relação Sexual:</legend>
+                    <input type="checkbox" id="ckInsatisfatoria" name="ckRelacaoSexual" value="insatisfatoria" />
+                    <label for="ckInsatisfatoria">Insatisfatória</label>
+
+                    <input type="checkbox" id="ckSatisfatoria" name="ckRelacaoSexual" value="satisfatoria" />
+                    <label for="ckSatisfatoria">Satisfatória</label>
+
+                    <input type="checkbox" id="ckImpotencia" name="ckRelacaoSexual" value="impotencia" />
+                    <label for="ckImpotencia">Impotência</label>
+                    <br>
+                    <input type="checkbox" id="ckFrigidez" name="ckRelacaoSexual" value="frigidez" />
+                    <label for="ckFrigidez">Frigidez</label>
+
+                    <input type="checkbox" id="ckEjaculacaoPrecoce" name="ckRelacaoSexual" value="ejaculacaoPrecoce" />
+                    <label for="ckEjaculacaoPrecoce">Ejaculação Precoce</label>                                                                                             
+                    
+                </fieldset>
+            </div>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Situação Econômica:</legend>
+                    <input type="checkbox" id="ckOtima" name="ckSituacaoEconomica" value="otima" />
+                    <label for="ckOtima">Ótima</label>
+
+                    <input type="checkbox" id="ckSatisfatoria" name="ckSituacaoEconomica" value="satisfatoria" />
+                    <label for="ckSatisfatoria">Satisfatória</label>
+
+                    <input type="checkbox" id="ckPreocupante" name="ckSituacaoEconomica" value="preocupante" />
+                    <label for="ckPreocupante">Preocupante</label>                                                                                             
+                    
+                </fieldset>
+            </div>            
+            <br>
+            <div>
+                <fieldset>
+                    <legend>* Relações Sociais:</legend>
+                    <input type="checkbox" id="ckIsolamentoSocial" name="ckRelacoesSociais" value="isolamentoSocial" />
+                    <label for="ckIsolamentoSocial">Isolamento Social</label>
+
+                    <input type="checkbox" id="ckIntroversao" name="ckRelacoesSociais" value="introversao" />
+                    <label for="ckIntroversao">Introversão</label>
+
+                    <input type="checkbox" id="ckExtroversao" name="ckRelacoesSociais" value="extroversao" />
+                    <label for="ckExtroversao">Extroversão</label>                                                                                             
+                    
+                </fieldset>
+            </div>
+            <br>
+            <div>
+                <label for="txtHobbies">* Hobbies:</label>
+                <input type="text" id="txtHobbies" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtAtividadeFisica">* Atividade Física:</label>
+                <input type="text" id="txtAtividadeFisica" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtAtividadeCultural">* Atividade Cultural:</label>
+                <input type="text" id="txtAtividadeCultural" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtObservacao">* Observação:</label>
+                <input type="text" id="txtObservacao" required />
+            </div>
+            <br>
+            <div>
+                <label for="txtOrientacoesGerais">* Orientações Gerais:</label>
+                <input type="text" id="txtOrientacoesGerais" required />
+            </div>
+            <br><br>
+            <div>
+                <button class="button" type="submit" id="btnCadastrar">Cadastrar</button>
+            </div>
+            <br>                    
+        </form>
+        <br>
+        <!--<hr/>-->
+        <div id="divMensagem" role="alert" aria-live="assertive"></div> 
+    
+        <div class="sair">
+            <a href="areaTerapeuta.html">Sair</a>
+        </div>
+    </body>
+</html>

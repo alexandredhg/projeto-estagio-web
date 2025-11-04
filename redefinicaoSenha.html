@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Redefinição de Senha</title>
+        <link rel="stylesheet" href="css/redefinicaoSenha.css"/>
+    </head>
+    <body>
+        <h1>Página de Redefinição de Senha</h1>
+        <br><br>
+        <h2>Redefinição de Senha:</h2>
+        <br>        
+        <form id="formRedefinicaoSenha" class="centralForm
+        ">                   
+            <br>
+            <div>
+                <label for="txtSenha">* Senha: </label>
+                <br>
+                <input type="password" id="txtSenha" />
+                <button type="button" id="toggleSenha" class="btnMostrar" >Mostrar</button>
+            </div>
+            <br>
+            <div>
+                <label for="txtConfSenha">* Confirmar Senha: </label>
+                <br>
+                <input type="password" id="txtConfSenha" />
+                <button type="button" id="toggleConfSenha" class="btnMostrar" >Mostrar</button>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="btnCadastrar" class="btnCadastrar" >Cadastrar</button>
+            </div>
+            <br>
+            <div>
+                <a href="index.html"></a>
+            </div>            
+            <!--<hr/>-->
+            <div id="divMensagem" role="alert" aria-live="assertive" class="msg" ></div>
+        </form>    
+        <!--<a href="index.html">Voltar</a>--> 
+        <br>
+        <div class="sair">
+            <a href="index.html">Sair</a>
+        </div>
+        <br><br>
+        
+    </body>
+    <script type="module" src="dist/redefinicaoSenha.js"></script>
+</html>

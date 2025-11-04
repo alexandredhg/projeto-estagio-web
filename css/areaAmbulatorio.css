@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;
+}
+
+h1{       
+    background-color: blue;
+    color: white;
+    font-size: 2vw; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 2vw; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 3vw;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{        
+    background-color: coral;
+    color: white;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    height: 3vw;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+h4{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    
+}
+
+.menuLi{   
+    
+    color: blueviolet ;    
+    text-decoration: none;   
+                
+}
+
+.menuUl{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    list-style-type: none;
+                  
+    
+}
+
+.sair{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}

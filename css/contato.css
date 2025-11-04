@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+
+body{
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 4vw;
+    margin-bottom: 4vw;   
+}
+
+h1{
+    background-color: blue;
+    color: white;
+    font-size: 2vw;
+    height: 3vw;  
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+h2{
+    background-color: gray;
+    color: white;
+    font-size: 2vw;    
+    height: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+
+h3{    
+    font-size: 2vw;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+         
+}
+
+h4{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    text-align: center;
+}
+
+.sair{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+
+/*.listaMenu{
+    margin-left: 2vw;
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     list-style-type: none;
+       
+}
+
+.listaMenu2{
+    text-decoration: none;
+}*/
+
+
+
+
+
+
+
+
+
+
+
