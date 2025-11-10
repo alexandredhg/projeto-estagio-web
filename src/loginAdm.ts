@@ -37,7 +37,7 @@ formLoginAdm.addEventListener("submit", (event) =>{
 
         setTimeout(() => {
             window.location.href = "areaCoordenacao.html";
-        }, 3000);
+        }, 2500);
     }  
     else{
         divMensagem.style.color = "Red";

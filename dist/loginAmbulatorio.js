@@ -28,7 +28,7 @@ formLoginAdm.addEventListener("submit", (event) => {
         divMensagem.style.color = "green";
         divMensagem.textContent = "Login Realizado com Sucesso!";
         setTimeout(() => {
-            window.location.href = "areaCoordenacao.html";
+            window.location.href = "areaAmbulatorio.html";
         }, 2500);
     }
     else {
@@ -37,4 +37,4 @@ formLoginAdm.addEventListener("submit", (event) => {
     }
 });
 export {};
-//# sourceMappingURL=loginAdm.js.map
+//# sourceMappingURL=loginAmbulatorio.js.map

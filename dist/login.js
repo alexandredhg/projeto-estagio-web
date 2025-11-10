@@ -29,7 +29,7 @@ formLogin.addEventListener("submit", (event) => {
         divMensagem.textContent = "Login Realizado com Sucesso!";
         setTimeout(() => {
             window.location.href = "areaRestrita.html";
-        }, 3000);
+        }, 2500);
     }
     else {
         divMensagem.style.color = "Red";

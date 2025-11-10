@@ -1,4 +1,4 @@
-const formLogin = document.getElementById("formLogin") as HTMLFormElement;
+const formLoginAdm = document.getElementById("formLoginAdm") as HTMLFormElement;
 const txtEmail = document.getElementById("txtEmail") as HTMLInputElement;
 const txtSenha = document.getElementById("txtSenha") as HTMLInputElement;
 const toggleSenhaBtn = document.getElementById('toggleSenha') as HTMLButtonElement;
@@ -13,7 +13,7 @@ toggleSenhaBtn.addEventListener('click', (mostrar) => {
     toggleSenhaBtn.textContent = type === 'password' ? 'Mostrar' : 'Ocultar';
 });
 
-formLogin.addEventListener("submit", (event) =>{
+formLoginAdm.addEventListener("submit", (event) =>{
    
     event.preventDefault();
 
@@ -36,7 +36,7 @@ formLogin.addEventListener("submit", (event) =>{
         divMensagem.textContent = "Login Realizado com Sucesso!";
 
         setTimeout(() => {
-            window.location.href = "areaRestrita.html";
+            window.location.href = "areaAmbulatorio.html";
         }, 2500);
     }  
     else{
