@@ -89,17 +89,6 @@ table{
 }
 
 
-h1{
-    background-color: blueviolet;
-    color: white;
-    font-size: 2vw;
-    height: 3vw;  
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: center; 
-}
-
 .cor1{
     background-color: darkgray;
 }
@@ -121,6 +110,17 @@ h1{
     color: black;
     font-weight: bold;
 }
+
+.imagem{
+    width: 15%;    
+    text-align: center;
+    align-items: center;
+    }
+
+    .centro{
+        text-align: center;
+        align-items: center;
+    }
 
 
 
