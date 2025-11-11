@@ -111,13 +111,13 @@ table{
     font-weight: bold;
 }
 
-/*.imagem{
-    width: 15%;    
+.imagem{
+    width: 25%;    
     text-align: center;
     align-items: center;
     }
 
-    .centro{
+    /*.centro{
         text-align: center;
         align-items: center;
     }*/
