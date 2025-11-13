@@ -16,7 +16,7 @@ body{
 h1{       
     background-color: blue;
     color: white;
-    font-size: 2.5rem; 
+    font-size: 2.3rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -27,7 +27,7 @@ h1{
 h2{
     background-color: gray; 
     color: white;
-    font-size: 2.5rem;   
+    font-size: 2rem;   
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -57,7 +57,7 @@ h3{
 
 .baner2{
     border: 3px solid white;    
-    height: 18rem;
+    height: 17rem;
     width: 30rem;
     margin: 0.7rem;
     margin-top: 2rem;
