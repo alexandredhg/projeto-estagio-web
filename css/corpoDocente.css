@@ -84,7 +84,7 @@ th, td{
 }
 
 table{
-     width: 95%;
+     width: 100%;
     margin: auto;
 }
 
@@ -111,16 +111,16 @@ table{
     font-weight: bold;
 }
 
-.imagem{
+/*.imagem{
     width: 25%;    
     text-align: center;
     align-items: center;
-    }
+}*/
 
-    /*.centro{
-        text-align: center;
-        align-items: center;
-    }*/
+/*.centro{
+    text-align: center;
+    align-items: center;
+}*/
 
 
 

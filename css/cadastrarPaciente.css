@@ -5,10 +5,11 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 *{
@@ -16,12 +17,20 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/*label{
+    font-size: 2rem;
+    color: black;
+}
+
+input{
+    font-size: 2rem;
+}*/
+
 h1{       
     background-color: blue;
     color: white;
     font-size: 2vw; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
@@ -32,8 +41,7 @@ h2{
     background-color: gray;
     color: white;
     font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
-    height: 3vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
     border: none;
     display: flex;
     align-items: center;

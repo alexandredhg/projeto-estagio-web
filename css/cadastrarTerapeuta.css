@@ -5,23 +5,29 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
-*{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+/*input{
+    font-size: 2.3rem;
 }
+
+label{
+    font-size: 2.3rem;
+    color: black;
+}*/
 
 h1{       
     background-color: blue;
     color: white;
-    font-size: 3vw; 
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-size: 2vw; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
@@ -31,9 +37,8 @@ h1{
 h2{          
     background-color: gray;
     color: white;
-    font-size: 3vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;     
-    
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
     border: none;
     display: flex;
     align-items: center;
@@ -43,7 +48,7 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 2.5vw;
+    font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     border: none;
     display: flex;
@@ -74,4 +79,9 @@ h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     
+}
+
+*{
+    font-size: 2vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
