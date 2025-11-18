@@ -5,17 +5,17 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;  
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 h1{
     background-color: blue;
     color: white;
-    font-size: 2vw;
-    height: 3vw;  
+    font-size: 2.3rem;      
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -26,8 +26,7 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;    
-    height: 3vw;  
+    font-size: 2rem;  
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -38,7 +37,7 @@ h2{
 
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold; 
     text-align: center;   
@@ -83,7 +82,7 @@ h2{
 
     .video{
         width: 80%;
-        height: 600px;
+        height: 700px;
 
     }
 
@@ -116,7 +115,7 @@ h2{
 
     .video{
         width: 80%;
-        height: 600px;
+        height: 700px;
 
     }
 
