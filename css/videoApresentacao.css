@@ -66,6 +66,27 @@ h2{
     margin-bottom: 20px;
     }
 
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .video{
+        width: 80%;
+        height: 600px;
+
+    }
+
 
 }
 
@@ -76,6 +97,27 @@ h2{
     margin-right: 4px;
     margin-top: 20px;
     margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .video{
+        width: 80%;
+        height: 600px;
+
     }
 
 
