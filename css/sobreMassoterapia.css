@@ -51,9 +51,32 @@ h4{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+
+
+h4{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    
+
+}
+
+h5{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 p{
     font-size: 1.5rem;
     color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
 }
 
 .menuLi{   
@@ -111,9 +134,10 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify;
-        width: 90%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
+        text-indent: 1.5rem;
     }
 
     .sair{
@@ -156,9 +180,10 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify;
-        width: 90%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
+        text-indent: 1.5rem;
     }
 
     
