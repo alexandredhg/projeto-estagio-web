@@ -112,8 +112,7 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify; 
-        margin-left: 20px;
-        margin-right: 20px;       
+        width: 92%;       
     }
     
     .sair{
@@ -156,8 +155,7 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify;
-        margin-left: 20px;
-        margin-right: 20px;        
+        width: 92%;        
     }
 
     
