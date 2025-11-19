@@ -44,14 +44,13 @@ h3{
 }
 
 h4{
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 
 h5{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blueviolet;
     text-align: center;
@@ -66,8 +65,8 @@ h5{
 }
 
 .contorno{
-    width: 70vw;
-    height: 30vw;
+    width: 1200px;
+    height: 550px;
     border: 0px solid white;
     text-align: center;
     display: block;
@@ -117,14 +116,27 @@ h5{
     }
 
     h4{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
-    }     
+    } 
+    
+    h5{ 
+        font-size: 2.5rem;
+        text-align: center;
+    }  
        
     .sair{
         font-size: 3.5rem;
         text-align: center;
     }
+
+    .contorno{
+        width: 80%;
+        height: 500px;
+    }
+    
+}
+
 
 
 }
@@ -152,19 +164,14 @@ h5{
         font-size: 3.5rem;
         text-align: center;
     }
-
-    h5{ 
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
+    
     h4{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
     } 
 
     h5{ 
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         text-align: center;
     }   
     
@@ -172,6 +179,11 @@ h5{
     .sair{
         font-size: 3.5rem;
         text-align: center;
+    }
+
+    .contorno{
+        width: 80%;
+        height: 500px;
     }
 
 
