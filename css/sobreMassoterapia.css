@@ -127,9 +127,18 @@ p{
     }
 
     h4{
-        font-size: 3.5rem;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
         text-align: center;
-    } 
+    }
     
     p{
         font-size: 2.5rem;
@@ -173,9 +182,18 @@ p{
     }
 
     h4{
-        font-size: 3.5rem;
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
         text-align: center;
-    } 
+    }
+    
+    h5{
+        font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    }
     
     p{
         font-size: 2.5rem;
