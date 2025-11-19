@@ -131,15 +131,13 @@ h5{
     }
 
     .contorno{
-        width: 80%;
+        width: 90%;
         height: 500px;
     }
     
 }
 
 
-
-}
 
 
 @media (max-width: 500px) {
@@ -182,7 +180,7 @@ h5{
     }
 
     .contorno{
-        width: 80%;
+        width: 90%;
         height: 500px;
     }
 
