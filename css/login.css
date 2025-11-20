@@ -5,17 +5,17 @@
 }
 
 body{
-    margin-left: 3vw;
-    margin-right: 3vw;
-    margin-top: 4vw;
-    margin-bottom: 4vw;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
 }
 
 h1{
     background-color: blue;    
     color: white;
-    font-size: 2vw;
-    height: 3vw;
+    font-size: 2.3rem;    
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -25,9 +25,8 @@ h1{
 h2{
     background-color: gray;
     color: white;
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     display: flex;
     align-items: center;
     justify-content: center; 
@@ -36,9 +35,9 @@ h2{
 .btnEntrar{  
     background-color: blue;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
+    height: 60px;
     width: 10vw;
     border: none;
     cursor: pointer;    
@@ -47,9 +46,9 @@ h2{
 .btnMostrar{    
         background-color: gray;
         color: white;
-        font-size: 2vw;
+        font-size: 2rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 3vw;
+        height: 60px;
         width: 10vw;
         border: none;
         cursor: pointer;    
@@ -57,14 +56,14 @@ h2{
 
 input{
     background-color: aqua;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
 }
 
 label{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
@@ -74,16 +73,167 @@ label{
 }
 
 .msg{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
     font-weight: bold;
+}
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnMostrar{
+        font-size: 2.5rem;
+        text-align: center;
+        width: 50%;
+        height: 60px;
+    }
+    
+    .btnEntrar{
+        font-size: 2.5rem;
+        text-align: center;
+        width: 50%;
+        height: 60px;
+    } 
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    input{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    .btnMostrar{
+        font-size: 2.5rem;
+        text-align: center;
+        width: 50%;
+        height: 60px;
+    }
+    
+    .btnEntrar{
+        font-size: 2.5rem;
+        text-align: center;
+        width: 50%;
+        height: 60px;
+    } 
+
 }
 
 

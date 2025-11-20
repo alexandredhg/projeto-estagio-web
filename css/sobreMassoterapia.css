@@ -105,10 +105,10 @@ p{
 
 @media (max-width: 800px) {
     body{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h1{
@@ -127,14 +127,14 @@ p{
     }
 
     h4{
-        font-size: 2rem;
+        font-size: 3.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         text-align: center;        
     }
     
     h5{
-        font-size: 2rem;
+        font-size: 3.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         text-align: center;
@@ -160,10 +160,10 @@ p{
 
 @media (max-width: 500px) {
     body{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h1{
@@ -182,17 +182,17 @@ p{
     }
 
     h4{
-        font-size: 2rem;
+        font-size: 3.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-weight: bold;
         text-align: center;
     }
     
     h5{
-        font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    text-align: center;
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
     }
     
     p{
