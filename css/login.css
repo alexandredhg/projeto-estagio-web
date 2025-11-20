@@ -147,16 +147,16 @@ label{
     .btnMostrar{
         font-size: 3rem;
         text-align: center;
-        width: 45%;
-        height: 70px;
+        width: 50%;
+        height: 80px;
         margin-top: 30px;
     }
     
     .btnEntrar{
         font-size: 3rem;
         text-align: center;
-        width: 45%;
-        height: 70px;
+        width: 50%;
+        height: 80px;
     } 
 
 
@@ -224,16 +224,16 @@ label{
     .btnMostrar{
         font-size: 3rem;
         text-align: center;
-        width: 45%;
-        height: 70px;
+        width: 50%;
+        height: 80px;
         margin-top: 30px;
     }
     
     .btnEntrar{
         font-size: 3rem;
         text-align: center;
-        width: 45%;
-        height: 70px;
+        width: 50%;
+        height: 80px;
     } 
 
 }
