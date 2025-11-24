@@ -76,13 +76,14 @@ p{
     
     color: blueviolet ;    
     text-decoration: none; 
-    text-align: center;  
+    
                 
 }
 
 .menuUl{
     
     list-style-type: none;
+    text-align: center;
               
     
 }
