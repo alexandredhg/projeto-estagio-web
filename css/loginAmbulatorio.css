@@ -44,14 +44,14 @@ h2{
 }
 
 .btnMostrar{    
-        background-color: gray;
-        color: white;
-        font-size: 2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 60px;
-        width: 10vw;
-        border: none;
-        cursor: pointer;    
+    background-color: gray;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    width: 10vw;
+    border: none;
+    cursor: pointer;    
 }
 
 input{
@@ -82,7 +82,7 @@ label{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    font-weight: bold;
+    
 }
 
 

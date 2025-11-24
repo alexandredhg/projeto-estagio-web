@@ -60,7 +60,7 @@ h5{
 .sair{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    
     text-align: center;
 }
 
@@ -132,7 +132,7 @@ h5{
 
     .contorno{
         width: 90%;
-        height: 500px;
+        height: 550px;
     }
     
 }
@@ -181,7 +181,7 @@ h5{
 
     .contorno{
         width: 90%;
-        height: 500px;
+        height: 550px;
     }
 
 
