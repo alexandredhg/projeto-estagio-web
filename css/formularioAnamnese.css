@@ -74,6 +74,7 @@ label{
 input{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid black;
 }
 
 .centro{
