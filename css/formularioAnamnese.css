@@ -77,6 +77,16 @@ input{
     border: 3px solid black;
 }
 
+select{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .centro{
     text-align: center;
 }
