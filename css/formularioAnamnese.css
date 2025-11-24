@@ -165,6 +165,16 @@ fieldset{
         width: 85%;
     }
 
+    select{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
     .button{
         font-size: 3rem;
         width: 50%;
@@ -248,6 +258,18 @@ label{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 85%;
     }
+
+
+    select{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    fieldset{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
 
     .button{
         font-size: 3rem;
