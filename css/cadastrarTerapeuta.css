@@ -9,24 +9,31 @@ body{
     margin-right: 40px;
     margin-top: 60px;
     margin-bottom: 40px;
-       
+      
 }
 
 
-
-/*input{
-    font-size: 2.3rem;
+input{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
 }
 
 label{
-    font-size: 2.3rem;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
-}*/
+}
+
+select{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 h1{       
     background-color: blue;
     color: white;
-    font-size: 2vw; 
+    font-size: 2rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -37,7 +44,7 @@ h1{
 h2{          
     background-color: gray;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     border: none;
     display: flex;
@@ -48,7 +55,7 @@ h2{
 h3{       
     background-color: coral;
     color:  white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     border: none;
     display: flex;
@@ -57,30 +64,223 @@ h3{
 }
 
 h4{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    text-align: center;
 }
 
 .button{    
     background-color: red;
     color: white;
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3vw;
-    width: 13vw;
+    height: 4rem;
+    width: 15rem;
     border: none;
     cursor: pointer;
     
 }
 
 .sair{
-    font-size: 2vw;
+    font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
         
 }
+.centro{
+    text-align: center;
+}
 
-*{
+/**{
     font-size: 2vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}*/
+
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    label{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    input{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
+    }
+
+    select{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+fieldset{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .button{
+        font-size: 3rem;
+        width: 50%;
+        height: 6.5rem;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+    
+    h5{
+        font-size: 3.5rem;        
+        text-align: center;
+    }
+
+    /*.menuLi{
+        font-size: 3.5rem;
+        text-align: center;                
+    }&/
+
+    /*.menuUl{
+        font-size: 3.5rem;
+        text-align: center;                 
+    }*/
+    
+    /*p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }*/
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+label{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    input{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
+    }
+
+    select{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    font-size: 3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+    .button{
+        font-size: 3rem;
+        width: 50%;
+        height: 6.5rem;
+    }
+
+}
+
+
+
+
+
+
+
