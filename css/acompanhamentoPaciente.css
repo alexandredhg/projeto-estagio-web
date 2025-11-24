@@ -160,6 +160,7 @@ h2{
     input{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
     }
 
     .button{
@@ -239,6 +240,7 @@ label{
     input{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
     }
 
     .button{

@@ -143,7 +143,7 @@ input{
     }
 
     label{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
@@ -151,6 +151,7 @@ input{
     input{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
     }
 
     .button{
@@ -226,7 +227,7 @@ input{
     }
 
 label{
-        font-size: 3.5rem;
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
 
     }
@@ -234,6 +235,7 @@ label{
     input{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
     }
 
     .button{
