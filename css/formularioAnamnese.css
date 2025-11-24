@@ -55,6 +55,7 @@ h4{
     width: 15rem;
     border: none;
     cursor: pointer;
+    text-align: center;
     
 }
 
@@ -73,6 +74,10 @@ label{
 input{
     font-size: 2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.centro{
+    text-align: center;
 }
 
 
@@ -154,6 +159,10 @@ input{
         height: 6.5rem;
     }
 
+    form{
+        text-align: center;
+    }
+
 
 }
 
@@ -231,6 +240,10 @@ label{
         font-size: 3rem;
         width: 50%;
         height: 6.5rem;
+    }
+
+    form{
+        text-align: center;
     }
 
 }
