@@ -162,6 +162,7 @@ p{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 85%;
+        border: 3px solid black;
     }
 
     select{
@@ -251,6 +252,7 @@ p{
         font-size: 3rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         width: 85%;
+        border: 3px solid black;
     }
 
     select{
