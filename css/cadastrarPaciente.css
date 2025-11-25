@@ -65,6 +65,25 @@ h2{
     justify-content: center;           
 }
 
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+h4{
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
 .button{    
     background-color: red;
     color: white;
