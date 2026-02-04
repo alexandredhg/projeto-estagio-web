@@ -127,7 +127,7 @@ table{
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -187,7 +187,8 @@ table{
     }
 
     table{
-        max-width: 95%;
+        width: 95%;
+        margin: auto;
     }
 
     td, th{
@@ -199,7 +200,7 @@ table{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -258,7 +259,8 @@ table{
     }
 
     table{
-        max-width: 95%;
+        width: 95%;
+        margin: auto;
     }
 
     td, th{
