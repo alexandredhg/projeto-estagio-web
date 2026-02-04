@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0; 
-    box-sizing: 0;   
+    box-sizing: border-box;   
     
 }
 
@@ -55,7 +55,7 @@ h3{
     
 }
 
-.baner2{
+/*.baner2{
     border: 3px solid white;    
     height: 17rem;
     width: 30rem;
@@ -65,7 +65,7 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
-}
+}*/
 
 /*.img{
     border-radius: 50%;
@@ -94,7 +94,7 @@ h3{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -125,19 +125,22 @@ h3{
 
     .baner{     
         flex-direction: column;
+        gap: 15px;
+        max-width: 90%;
+        height: 50px;
     } 
     
-    .baner2{
+    /*.baner2{
     border: 0px solid white;    
     height: 35rem;
     width: 90%;    
 
-    }  
+    }*/  
     
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 4800px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -167,14 +170,17 @@ h3{
 
     .baner{     
         flex-direction: column;
+        gap: 15px;
+        max-width: 90%;
+        height: 50px;
     } 
     
-    .baner2{
+    /*.baner2{
     border: 0px solid white;    
     height: 35rem;
     width: 90%;    
 
-    }   
+    }*/   
     
 }
 

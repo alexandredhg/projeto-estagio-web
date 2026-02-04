@@ -82,7 +82,7 @@ th, td{
 }
 
 table{
-     width: 85%;
+     width: 80%;
     margin: auto;
 }
 
@@ -110,7 +110,7 @@ table{
 }
 
 .imagem{
-    width: 250px; 
+    width: 220px; 
 
 }
 
@@ -127,7 +127,7 @@ table{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -186,11 +186,20 @@ table{
         text-align: center;
     }
 
+    table{
+        max-width: 95%;
+    }
+
+    td, th{
+        font-size: 3rem;
+        text-align: center;
+    }
+
 
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 480px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -247,6 +256,16 @@ table{
         font-size: 3.5rem;
         text-align: center;
     }
+
+    table{
+        max-width: 95%;
+    }
+
+    td, th{
+        font-size: 3rem;
+        text-align: center;
+    }
+
 }
 
 
