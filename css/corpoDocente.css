@@ -120,7 +120,7 @@ table{
 }*/
 
 .largura{
-    width: 260px;
+    width: 300px;
 }
 
 
@@ -187,8 +187,8 @@ table{
     }
 
     table{
-        width: 95%;
-        margin: auto;
+        width: 85%;
+        margin: auto;        
     }
 
     td, th{
@@ -259,8 +259,8 @@ table{
     }
 
     table{
-        width: 95%;
-        margin: auto;
+        width: 85%;
+        margin: auto;        
     }
 
     td, th{
