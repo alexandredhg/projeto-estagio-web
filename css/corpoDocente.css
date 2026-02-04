@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -60,8 +60,7 @@ h4{
                 
 }
 
-.menuUl{
-    
+.menuUl{    
     list-style-type: none;
     text-align: center;
                   
@@ -76,14 +75,14 @@ h4{
 
 th, td{
     border: 3px  solid  black;
-    font-size: 2vw;
+    font-size: 1.5vw;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;      
         
 }
 
 table{
-     width: 100%;
+     width: 85%;
     margin: auto;
 }
 
@@ -110,16 +109,19 @@ table{
     font-weight: bold;
 }
 
-/*.imagem{
-    width: 25%;    
-    text-align: center;
-    align-items: center;
-}*/
+.imagem{
+    width: 250px; 
+
+}
 
 /*.centro{
     text-align: center;
     align-items: center;
 }*/
+
+.largura{
+    width: 260px;
+}
 
 
 
