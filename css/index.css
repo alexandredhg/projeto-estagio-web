@@ -94,7 +94,7 @@ h3{
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 808px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
@@ -138,7 +138,7 @@ h3{
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     body{
     margin-left: 4px;
     margin-right: 4px;
