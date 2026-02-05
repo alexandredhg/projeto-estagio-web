@@ -101,7 +101,7 @@ table{
 }
 
 .largura{
-    width: 250px;
+    width:30%;
 }
 
 
@@ -195,13 +195,17 @@ table{
     }
 
     table{
-        width: 85%;
+        width: 90%;
         margin: auto;        
     }
 
     td, th{
-        font-size: 3rem;
+        font-size: 1.5rem;
         text-align: center;
+    }
+
+    .largura{
+        width: auto;
     }
 
 
@@ -267,13 +271,17 @@ table{
     }
 
     table{
-        width: 85%;
+        width: 90%;
         margin: auto;        
     }
 
     td, th{
-        font-size: 3rem;
+        font-size: 1.5rem;
         text-align: center;
+    }
+
+    .largura{
+        width: auto;
     }
 
 }
