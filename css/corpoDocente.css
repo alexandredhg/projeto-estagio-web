@@ -75,7 +75,7 @@ h4{
 
 th,td{
     border: 3px  solid  black;
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
     padding: 10px;     
@@ -83,7 +83,7 @@ th,td{
 }
 
 .fontTh{
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-weight: bold;
@@ -115,6 +115,8 @@ th,td{
 .contener{
     width: 63rem;
     margin: auto;
+    display: flex;
+    flex-direction: row;
 }
 
 
