@@ -231,24 +231,32 @@ th,td{
     }
 
     .contener{
+        width: 100rem;
+        overflow-x: scroll;
+    }
+
+    .fixo{
+        position: fixed;
+        top: 0;
         width: 95%;
     }
 
     .colum{
-        width: 35%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
 
     .colum1{
-        width: 20%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
 
 
     .colum2{
-        width: 20%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
+
 
 
 }
@@ -335,23 +343,30 @@ th,td{
     }*/
 
     .contener{
+        width: 100rem;
+        overflow-x: scroll;
+    }
+
+    .fixo{
+        position: fixed;
+        top: 0;
         width: 95%;
     }
 
     .colum{
-        width: 35%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
 
     .colum1{
-        width: 20%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
 
 
     .colum2{
-        width: 20%;
-        margin: auto;
+        width: 50%;
+        text-align: center;
     }
 
 }
