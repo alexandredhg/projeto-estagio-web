@@ -92,8 +92,9 @@ th,td{
 
 
 /*table{
-     width: 70%;
-    margin: auto;
+     
+    display: flex;
+    flex-direction: column;
 }*/
 
 .imagem{
@@ -115,8 +116,7 @@ th,td{
 .contener{
     width: 63rem;
     margin: auto;
-    display: flex;
-    flex-direction: row;
+    
 }
 
 
@@ -220,15 +220,17 @@ th,td{
     }
 
     .contener{
-        flex-direction: column;
+        width: 63rem;
     }
 
     .colum{
-        width: 90%;
+        width: 20%;
+        margin: auto;
     }
 
     .colum2{
-        width: 90%;
+        width: 20%;
+        margin: auto;
     }
 
 
@@ -310,15 +312,17 @@ th,td{
     }*/
 
     .contener{
-        flex-direction: column;
+        width: 63rem;
     }
 
     .colum{
-        width: 90%;
+        width: 20%;
+        margin: auto;
     }
 
     .colum2{
-        width: 90%;
+        width: 20%;
+        margin: auto;
     }
 
 }
