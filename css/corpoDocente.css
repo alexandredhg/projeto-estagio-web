@@ -104,12 +104,17 @@ th,td{
 }
 
 .colum{
-    width:20%;
+    width:25%;
+    
+}
+
+.colum1{
+    width:25%;
     
 }
 
 .colum2{
-    width: 20%;
+    width: 25%;
     
 }
 
@@ -230,9 +235,15 @@ th,td{
     }
 
     .colum{
-        width: 30%;
+        width: 35%;
         margin: auto;
     }
+
+    .colum1{
+        width: 20%;
+        margin: auto;
+    }
+
 
     .colum2{
         width: 20%;
@@ -307,10 +318,10 @@ th,td{
         text-align: center;
     }
 
-    table{
+    /*table{
         width: 90%;
         margin: auto;        
-    }
+    }*/
 
     td, th{
         font-size: 1.5rem;
@@ -328,9 +339,15 @@ th,td{
     }
 
     .colum{
-        width: 30%;
+        width: 35%;
         margin: auto;
     }
+
+    .colum1{
+        width: 20%;
+        margin: auto;
+    }
+
 
     .colum2{
         width: 20%;
