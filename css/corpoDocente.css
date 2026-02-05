@@ -231,7 +231,7 @@ th,td{
     }
 
     .contener{
-        width: 100rem;
+        width: 100%;
         overflow-x: scroll;
     }
 
@@ -243,6 +243,7 @@ th,td{
 
     .colum{
         width: 50%;
+        height: auto;
         text-align: center;
     }
 
@@ -343,7 +344,7 @@ th,td{
     }*/
 
     .contener{
-        width: 100rem;
+        width: 100%;
         overflow-x: scroll;
     }
 
@@ -355,6 +356,7 @@ th,td{
 
     .colum{
         width: 50%;
+        height: auto;
         text-align: center;
     }
 
