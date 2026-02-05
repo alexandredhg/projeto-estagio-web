@@ -15,7 +15,7 @@ body{
 h1{
     background-color: blueviolet;
     color: white;
-    font-size: 2rem;      
+    font-size: 1.38rem;      
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@ h1{
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.8rem; 
+    font-size: 1.26rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -75,24 +75,26 @@ h4{
 
 th,td{
     border: 3px  solid  black;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;      
+    text-align: center; 
+    padding: 10px;     
         
 }
 
 .fontTh{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-weight: bold;
+    padding: 10px;
 }
 
 
-table{
+/*table{
      width: 70%;
     margin: auto;
-}
+}*/
 
 .imagem{
     max-width: 100%;
@@ -100,8 +102,19 @@ table{
 
 }
 
-.largura{
-    width:30%;
+.colum{
+    width:20%;
+    
+}
+
+.colum2{
+    width: 20%;
+    
+}
+
+.contener{
+    width: 63rem;
+    margin: auto;
 }
 
 
@@ -111,7 +124,7 @@ table{
 }
 
 .cor2{
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blue;
     color: white;
@@ -194,18 +207,26 @@ table{
         text-align: center;
     }
 
-    table{
+    /*table{
         width: 90%;
         margin: auto;        
-    }
+    }*/
 
     td, th{
         font-size: 1.5rem;
         text-align: center;
     }
 
-    .largura{
-        width: auto;
+    .contener{
+        flex-direction: column;
+    }
+
+    .colum{
+        width: 90%;
+    }
+
+    .colum2{
+        width: 90%;
     }
 
 
@@ -280,11 +301,27 @@ table{
         text-align: center;
     }
 
-    .largura{
-        width: auto;
+    
+    /*.table1{
+        display: flex;
+        flex-direction: column;
+    }*/
+
+    .contener{
+        flex-direction: column;
+    }
+
+    .colum{
+        width: 90%;
+    }
+
+    .colum2{
+        width: 90%;
     }
 
 }
+
+
 
 
 
