@@ -155,7 +155,7 @@ th,td{
 
 
 
-@media (max-width: 800px) {
+@media screen and (max-width: 800px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -242,28 +242,30 @@ th,td{
     }
 
     .colum{
-        width: 50%;
+        width: 90%;
         height: auto;
         text-align: center;
+        display: block;
     }
 
     .colum1{
-        width: 50%;
+        width: 90%;
         text-align: center;
+        display: block;
     }
 
 
     .colum2{
-        width: 50%;
+        width: 90%;
         text-align: center;
+        display: block;
     }
-
 
 
 }
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 500px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -355,20 +357,23 @@ th,td{
     }
 
     .colum{
-        width: 50%;
+        width: 90%;
         height: auto;
         text-align: center;
+        display: block;
     }
 
     .colum1{
-        width: 50%;
+        width: 90%;
         text-align: center;
+        display: block;
     }
 
 
     .colum2{
-        width: 50%;
+        width: 90%;
         text-align: center;
+        display: block;
     }
 
 }
