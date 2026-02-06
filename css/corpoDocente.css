@@ -230,8 +230,7 @@ th,td{
         text-align: center;
     }
 
-    .contener{
-        width: 100%;
+    .tabela{        
         overflow-x: scroll;
     }
 
@@ -242,23 +241,23 @@ th,td{
     }
 
     .colum{
-        width: 90%;
+        width: 30%;
         height: auto;
         text-align: center;
-        display: block;
+        
     }
 
     .colum1{
-        width: 90%;
+        width: 30%;
         text-align: center;
-        display: block;
+        
     }
 
 
     .colum2{
-        width: 90%;
+        width: 30%;
         text-align: center;
-        display: block;
+        
     }
 
 
@@ -345,8 +344,7 @@ th,td{
         flex-direction: column;
     }*/
 
-    .contener{
-        width: 100%;
+    .tabela{        
         overflow-x: scroll;
     }
 
@@ -357,23 +355,23 @@ th,td{
     }
 
     .colum{
-        width: 90%;
+        width: 30%;
         height: auto;
         text-align: center;
-        display: block;
+        
     }
 
     .colum1{
-        width: 90%;
+        width: 30%;
         text-align: center;
-        display: block;
+        
     }
 
 
     .colum2{
-        width: 90%;
+        width: 30%;
         text-align: center;
-        display: block;
+        
     }
 
 }
