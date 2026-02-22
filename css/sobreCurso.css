@@ -5,10 +5,10 @@
 }
 
 body{
-    margin-left: 3rem;
-    margin-right: 3rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
        
 }
 
@@ -26,7 +26,7 @@ h1{
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.55rem; 
+    font-size: 1.6rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -37,7 +37,7 @@ h2{
 h3{         
     background-color: coral;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
     border: none;
     display: flex;
@@ -47,21 +47,19 @@ h3{
 }
 
 h4{
-    font-size: 1.25rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 
 h5{
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: black;
     width: 95%;
     text-align: justify;    
@@ -70,28 +68,26 @@ p{
     text-indent: 4rem;
 }
 
-.menuLi{   
-    
+.menuLi{ 
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
     color: blueviolet ;    
     text-decoration: none;   
                 
 }
 
-.menuUl{
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.menuUl{    
     list-style-type: none;
-              
-    
+    text-align: center;   
 }
 
 .sair{
     font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
     
 }
+
 
 
 @media (max-width: 800px) {

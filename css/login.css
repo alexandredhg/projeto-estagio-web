@@ -1,35 +1,91 @@
 *{
     padding: 0;
     margin: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 
 body{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 60px;
-    margin-bottom: 40px;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
        
 }
 
-h1{
-    background-color: blue;    
+h1{        
+    background-color: blue;
     color: white;
-    font-size: 2rem;    
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 1.6rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;  
+
 }
 
-h2{
-    background-color: gray;
-    color: white;
-    font-size: 2.3rem;
+h4{
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    display: flex;
-    align-items: center;
-    justify-content: center; 
+    text-align: center;
+}
+
+h5{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+p{
+    font-size: 1.1rem;
+    color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
+
+.menuLi{ 
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: blueviolet ;    
+    text-decoration: none;   
+                
+}
+
+.menuUl{    
+    list-style-type: none;
+    text-align: center;   
+}
+
+.sair{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    
 }
 
 .btnEntrar{  
@@ -78,12 +134,6 @@ label{
     text-align: center;
 }
 
-.sair{
-    font-size: 2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-    
-}
 
 
 
