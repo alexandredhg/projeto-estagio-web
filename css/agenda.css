@@ -15,7 +15,7 @@ body{
 h1{        
     background-color: blue;
     color: white;
-    font-size: 1.7rem;
+    font-size: 1.6rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -26,7 +26,7 @@ h1{
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.6rem; 
+    font-size: 1.5rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
@@ -37,7 +37,7 @@ h2{
 h3{         
     background-color: coral;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
     border: none;
     display: flex;
@@ -47,19 +47,19 @@ h3{
 }
 
 h4{
-    font-size: 1.4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
-}
-
-h5{
     font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
 }
 
+h5{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
 p{
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: black;
     width: 95%;
     text-align: justify;    
@@ -69,7 +69,7 @@ p{
 }
 
 .menuLi{ 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
     color: blueviolet ;    
     text-decoration: none;   
@@ -82,12 +82,11 @@ p{
 }
 
 .sair{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
     
 }
-
 
 
 
