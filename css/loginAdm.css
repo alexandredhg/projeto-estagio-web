@@ -91,35 +91,37 @@ p{
 .btnEntrar{  
     background-color: blue;
     color: white;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 60px;
     width: 10vw;
     border: none;
-    cursor: pointer;    
+    cursor: pointer;
+    border-radius: 8px;     
 }
 
 .btnMostrar{    
-        background-color: gray;
-        color: white;
-        font-size: 2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: 60px;
-        width: 10vw;
-        border: none;
-        cursor: pointer;    
+    background-color: gray;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 60px;
+    width: 10vw;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;     
 }
 
 input{
     background-color: aqua;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     text-align: center;
 }
 
 label{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
 }
@@ -129,7 +131,7 @@ label{
 }
 
 .msg{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
