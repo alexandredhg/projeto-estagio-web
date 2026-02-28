@@ -274,11 +274,16 @@ table{
 }
 
     table{
-        width: 80%;
+        width: 100%;
         margin: auto;        
     }
 
-    td, th{
+    th{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    td{
         font-size: 1.5rem;
         text-align: center;
     }
@@ -292,21 +297,21 @@ table{
     }*/
 
     .colum{
-        width: 15rem;
+        width: 20rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 100%;
+        width: 15rem;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 100%;
+        width: 35rem;
         text-align: center;
         
     }
@@ -384,7 +389,12 @@ table{
         margin: auto;        
     }*/
 
-    td, th{
+    th{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    td{
         font-size: 1.5rem;
         text-align: center;
     }
@@ -394,7 +404,7 @@ table{
     }
     
     table{
-        width: 80%;
+        width: 100%;
         margin: auto;
     }
     
@@ -406,21 +416,21 @@ table{
     }*/
 
     .colum{
-        width: 15rem;
+        width: 20rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width:100%;
+        width:15rem;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 100%;
+        width: 35rem;
         text-align: center;
         
     }
