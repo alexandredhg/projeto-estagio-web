@@ -88,54 +88,253 @@ p{
     
 }
 
-.btnMostrar{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: gray;
-    color: white;
-    height: 3vw;
-    width: 10vw;
-    border: none;
-    cursor: pointer;    
+.center{
+    text-align: center;
 }
 
-.btnCadastrar{
-    font-size: 2vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: blue;
-    color: white;
-    height: 3vw;
-    width: 12vw;
-    border: none;
-    cursor: pointer;    
+/* Imagem no Index */
+.contener{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
 }
 
-label{
-    font-size: 2vw;
-    color: black;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.item{
+    border: 3px solid white;    
+    height: 16rem;
+    width: 16rem;
+    margin: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Tabelas */
+.tabela{
+    width: 63rem;
+    margin: auto;
     
 }
 
-input{    
-    height: 3vw;  
-    font-size: 2vw;
+th,td{
+    border: 3px  solid  black;
+    font-size: 1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aqua;
-    border: 3px solid black;
-    border-radius: 0%;    
-    color: black;
-    text-align: center;
+    text-align: center; 
+    padding: 10px;     
+        
+}
+
+/* Botões */
+.button{    
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
     cursor: pointer;
+    border-radius: 8px;
+    
 }
 
-.msg{
-    font-size: 2vw;
-font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+.btnCadastrar{    
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
 }
 
+.btnMostrar{    
+    background-color: gray;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2rem;
+    width: 6rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
 
-.centralForm{
+/* Formulários */
+label{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid black;
     text-align: center;
+}
+
+select{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Vídeos */
+.video{
+    width: 250px;
+    height: 300px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border: 4px solid  blueviolet;       
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Estilos para Texto */
+Texto Justificado{
+  text-align: justify;
+}
+
+Espaço Paragrafo{
+  text-indent: 4rem;
+}
+
+Texto Negrito{
+  font-weight: bold;
+}
+
+
+
+/* Comando "Voltar" no html 
+<div>
+  <a href="javaScript: history.back()">Voltar</a>
+</div>*/
+
+
+@media (max-width: 800px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;      
+    }
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+
+}
+
+
+@media (max-width: 500px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 2rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    } 
+
+    h5{
+        font-size: 3rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    p{
+        font-size: 2.5rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;       
+    }
+
+    
+    .sair{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+
+
 }

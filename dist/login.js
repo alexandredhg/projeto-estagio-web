@@ -24,11 +24,25 @@ formLogin.addEventListener("submit", (event) => {
         divMensagem.textContent = "O Campo Senha é Obrigatório!";
         return;
     }
-    else if (email == "admin@gmail.com" && senha == "123") {
+    else if ((email == "adm1@gmail.com" && senha == "123") || (email == "adm2@gmail.com" && senha == "321")) {
         divMensagem.style.color = "green";
         divMensagem.textContent = "Login Realizado com Sucesso!";
         setTimeout(() => {
-            window.location.href = "areaRestrita.html";
+            window.location.href = "areaRestritaCoordenacao.html";
+        }, 2500);
+    }
+    else if (email == "sec@gmail.com" && senha == "456") {
+        divMensagem.style.color = "green";
+        divMensagem.textContent = "Login Realizado com Sucesso!";
+        setTimeout(() => {
+            window.location.href = "areaAmbulatorio.html";
+        }, 2500);
+    }
+    else if (email == "tera@gmail.com" && senha == "789") {
+        divMensagem.style.color = "green";
+        divMensagem.textContent = "Login Realizado com Sucesso!";
+        setTimeout(() => {
+            window.location.href = "areaTerapeuta.html";
         }, 2500);
     }
     else {

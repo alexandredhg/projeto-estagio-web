@@ -1,0 +1,19 @@
+const formCadastrarTerapeuta = document.getElementById("formCadastrarTerapeuta");
+const txtNome = document.getElementById("txtNome");
+const txtSobrenomme = document.getElementById("txtSobrenome");
+const txtMatricula = document.getElementById("txtMatricula");
+const txtDataNascimento = document.getElementById("txtDataNascimento");
+const txtEmail = document.getElementById("txtEmail");
+const txtTelefone1 = document.getElementById("txtTelefone1");
+const txtTelefone2 = document.getElementById("txtTelefone2");
+const txtGenero = document.getElementById("txtGenero");
+const txEndereco = document.getElementById("txEndereco");
+const txtComplemento = document.getElementById("txtComplemento");
+const txtCep = document.getElementById("txtCep");
+const txtBairro = document.getElementById("txtBairro");
+const txtCidade = document.getElementById("txtCidade");
+const txtUf = document.getElementById("txtUf");
+const btnSubmit = document.getElementById("btnSubmit");
+const divMensagem = document.getElementById("divMensagem");
+export {};
+//# sourceMappingURL=cadastrarTerapeuta.js.map

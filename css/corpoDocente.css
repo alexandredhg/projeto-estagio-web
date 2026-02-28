@@ -88,13 +88,42 @@ p{
     
 }
 
+.item{
+    border: 3px solid black;    
+    height: 200px;
+    width: 450px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-th,td{
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+th{
     border: 3px  solid  black;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
-    padding: 10px;     
+    padding: 10px; 
+    margin-top: auto;
+    margin-bottom: auto;   
+        
+}
+
+td{
+    border: 3px  solid  black;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    padding: 10px; 
+    margin-top: auto;
+    margin-bottom: auto;   
         
 }
 
@@ -106,12 +135,16 @@ th,td{
     padding: 10px;
 }
 
-
-/*table{
-     
-    display: flex;
-    flex-direction: column;
+/*.container-tabela{
+    width: 65%;
+    margin: auto;       
 }*/
+
+
+table{
+    width: 75%;    
+    margin: auto;   
+}
 
 /*.imagem{
     max-width: 100%;
@@ -120,7 +153,11 @@ th,td{
 }*/
 
 .colum{
-    width:25%;
+    width: 15rem;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     
 }
 
@@ -134,11 +171,7 @@ th,td{
     
 }
 
-.tabela{
-    width: 63rem;
-    margin: auto;
-    
-}
+
 
 
 
@@ -147,7 +180,7 @@ th,td{
 }
 
 .cor2{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: blue;
     color: white;
@@ -236,42 +269,44 @@ th,td{
         text-align: center;
     }
 
-    /*table{
-        width: 90%;
+    .container-tabela{
+    overflow-x: auto;    
+}
+
+    table{
+        width: 80%;
         margin: auto;        
-    }*/
+    }
 
     td, th{
         font-size: 1.5rem;
         text-align: center;
     }
 
-    .tabela{        
-        overflow-x: scroll;
-    }
+    
 
-    .fixo{
+    /*.fixo{
         position: fixed;
-        top: 0;
+        bottom: 0;;
         width: 95%;
-    }
+    }*/
 
     .colum{
-        width: 30%;
+        width: 15rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 30%;
+        width: 100%;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 30%;
+        width: 100%;
         text-align: center;
         
     }
@@ -354,41 +389,42 @@ th,td{
         text-align: center;
     }
 
-    
-    /*.table1{
-        display: flex;
-        flex-direction: column;
-    }*/
-
-    .tabela{        
-        overflow-x: scroll;
+    .container-tabela{
+      overflow-x: auto;    
     }
+    
+    table{
+        width: 80%;
+        margin: auto;
+    }
+    
 
-    .fixo{
+    /*.fixo{
         position: fixed;
         top: 0;
         width: 95%;
-    }
+    }*/
 
     .colum{
-        width: 30%;
+        width: 15rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 30%;
+        width:100%;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 30%;
+        width: 100%;
         text-align: center;
         
     }
+
 
 }
 

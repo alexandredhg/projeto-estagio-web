@@ -138,6 +138,32 @@ th,td{
     
 }
 
+.button{    
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.button{    
+    background-color: gray;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
 /* Formulários */
 label{
     font-size: 1.5rem;
@@ -148,6 +174,7 @@ input{
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border: 3px solid black;
+    text-align: center;
 }
 
 select{
@@ -176,21 +203,25 @@ fieldset{
 
 
 
-/*
-Anotaçõe{
-    Texto Justificado{
-    text-align: justify;
-    }
-
-    Espaço Paragrafo{
-    text-indent: 4rem;
-    }
-
-    Texto Negrito{
-    font-weight: bold;
-    }
+/* Estilos para Texto */
+Texto Justificado{
+  text-align: justify;
 }
-*/
+
+Espaço Paragrafo{
+  text-indent: 4rem;
+}
+
+Texto Negrito{
+  font-weight: bold;
+}
+
+
+
+/* Comando "Voltar" no html 
+<div>
+  <a href="javaScript: history.back()">Voltar</a>
+</div>*/
 
 
 @media (max-width: 800px) {
