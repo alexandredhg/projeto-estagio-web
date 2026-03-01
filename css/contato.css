@@ -116,64 +116,23 @@ p{
 
 
 
-@media (max-width: 800px) {
-    body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    }
 
-    h1{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h2{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h3{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h4{
-        font-size: 2.5rem;
-        text-align: center;
-    } 
-    
-    h5{ 
-        font-size: 2.5rem;
-        text-align: center;
+@media (max-width: 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
     }  
-       
-    .sair{
-        font-size: 3.5rem;
-        text-align: center;
-    }
 
-    .contorno{
-        width: 90%;
-        height: 550px;
-    }
-    
-}
-
-
-
-
-@media (max-width: 500px) {
     body{
-    margin-left: 4px;
-    margin-right: 4px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
@@ -183,24 +142,44 @@ p{
     }
 
     h3{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         text-align: center;
     }
-    
-    h4{
-        font-size: 2.5rem;
-        text-align: center;
-    } 
 
-    h5{ 
-        font-size: 2.5rem;
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
         text-align: center;
-    }   
-    
-    
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
     .sair{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
     }
 
     .contorno{
@@ -209,8 +188,92 @@ p{
     }
 
 
+}
+
+
+
+@media (max-width: 480px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }  
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
+    }
+
+    .contorno{
+        width: 90%;
+        height: 550px;
+    }
+
 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 

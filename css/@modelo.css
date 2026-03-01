@@ -109,8 +109,8 @@ p{
 }
 
 /* Tabelas */
-.tabela{
-    width: 63rem;
+table{
+    width: 90%;
     margin: auto;
     
 }
@@ -224,7 +224,19 @@ Texto Negrito{
 </div>*/
 
 
-@media (max-width: 800px) {
+
+
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
+}
+
+
+@media (max-width: 768px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -233,7 +245,7 @@ Texto Negrito{
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
@@ -243,43 +255,54 @@ Texto Negrito{
     }
 
     h3{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         text-align: center;
     }
 
     h4{
-        font-size: 3.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        text-align: center;
-    } 
-
-    h5{
-        font-size: 3rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        text-align: center;
+        font-size: 3.1rem;        
+        text-align: center;        
     }
     
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
     p{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align: justify;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
-        text-indent: 3.5rem;      
+        text-indent: 3.5rem;
     }
-    
+
     .sair{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }   
 
 
 }
 
 
-@media (max-width: 500px) {
+
+
+
+@media (max-width: 480px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -288,7 +311,7 @@ Texto Negrito{
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
@@ -298,39 +321,50 @@ Texto Negrito{
     }
 
     h3{
-        font-size: 3.5rem;
+        font-size: 3.3rem;
         text-align: center;
     }
 
     h4{
-        font-size: 2rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        text-align: center;
-    } 
-
-    h5{
-        font-size: 3rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-        text-align: center;
+        font-size: 3.1rem;        
+        text-align: center;        
     }
     
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
     p{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align: justify;
         width: 85%;
         margin-left: auto;
         margin-right: auto;
-        text-indent: 3.5rem;       
+        text-indent: 3.5rem;
     }
 
-    
     .sair{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }   
 
 
 }
+
+
+
+
+
