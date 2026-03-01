@@ -88,26 +88,17 @@ p{
     
 }
 
-.item{
-    border: 3px solid black;    
-    height: 200px;
-    width: 450px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.center{
-    display: flex;
-    justify-content: center;
+/*.center{
+    display: flexbox;
+    margin: auto;
     align-items: center;
-}
+}*/
 
 
 th{
     border: 3px  solid  black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
     padding: 10px; 
@@ -118,7 +109,7 @@ th{
 
 td{
     border: 3px  solid  black;
-    font-size: 1.1rem;
+    font-size: 1.0rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
     padding: 10px; 
@@ -127,18 +118,27 @@ td{
         
 }
 
-.fontTh{
+.item{
+    border: 0px solid black;    
+    height: 13rem;
+    width: 13rem;
+    
+    display: flexbox;
+    margin: auto;
+    align-items: center;
+}
+
+/*.fontTh{
     font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: black;
     font-weight: bold;
     padding: 10px;
-}
-
-/*.container-tabela{
-    width: 65%;
-    margin: auto;       
 }*/
+
+.container-tabela{
+    overflow-x: auto;      
+}
 
 
 table{
@@ -147,13 +147,8 @@ table{
 }
 
 
-/*.colum{
-    width: 17rem;    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
+.colum{
+    width: 15rem;    
 }
 
 /*.colum1{
@@ -207,12 +202,12 @@ table{
         margin-right: 10px;
         margin-top: 20px;        
         margin-bottom: 20px;
-        width: 90%;
+        
         
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
@@ -335,12 +330,12 @@ table{
         margin-right: 10px;
         margin-top: 20px;
         margin-bottom: 20px;
-        width: 90%;
+        
         
     }
 
     h1{
-        font-size: 3.5rem;
+        font-size: 3.7rem;
         text-align: center;
     }
 
