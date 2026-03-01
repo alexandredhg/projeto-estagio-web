@@ -273,12 +273,12 @@ table{
     
 
     th{
-        font-size: 2rem;
+        font-size: 1.2rem;
         text-align: center;
     }
 
     td{
-        font-size: 1.5rem;
+        font-size: 1.1rem;
         text-align: center;
     }
     
@@ -295,27 +295,27 @@ table{
     }
 
     .colum{
-        width: 17rem;
+        width: 12em;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 30%;
+        width: 5em;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 35%;
+        width: 10em;
         text-align: center;
         
     }
 
     .colum3{
-        width: 20%;
+        width: 5em;
         text-align: center;
         
     }
@@ -327,128 +327,7 @@ table{
 
 
 
-@media screen and (max-width: 480px) {
-    body{
-        margin-left: 10px;
-        margin-right: 10px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
 
-    h1{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h2{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h3{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    h4{
-        font-size: 3.5rem;        
-        text-align: center;        
-    }
-    
-    h5{
-        font-size: 3.5rem;        
-        text-align: center;
-    }
-
-    .menuLi{
-        font-size: 3.5rem;
-        text-align: center; 
-                
-    }
-
-    .menuUl{
-        font-size: 3.5rem;
-        text-align: center; 
-                
-    }
-
-    .cor2{
-    font-size: 3.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
-}
-    
-    /*p{
-        font-size: 2.5rem;
-        text-align: justify;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;
-    }*/
-
-    .sair{
-        font-size: 3.5rem;
-        text-align: center;
-    }
-
-    .container-tabela{
-    overflow-x: auto;    
-}
-
-    
-
-    th{
-        font-size: 2rem;
-        text-align: center;
-    }
-
-    td{
-        font-size: 1.5rem;
-        text-align: center;
-    }
-    
-
-    /*.fixo{
-        position: fixed;
-        bottom: 0;;
-        width: 95%;
-    }*/
-
-    table{
-        width: 100%;
-        margin: auto;        
-    }
-
-    .colum{
-        width: 17rem;
-        height: auto;
-        text-align: center;
-        
-    }
-
-    .colum1{
-        width: 30%;
-        text-align: center;
-        
-    }
-
-
-    .colum2{
-        width: 35%;
-        text-align: center;
-        
-    }
-
-    .colum3{
-        width: 20%;
-        text-align: center;
-        
-    }
-
-
-
-}
 
 
 
