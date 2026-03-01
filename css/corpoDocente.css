@@ -107,7 +107,7 @@ p{
 
 th{
     border: 3px  solid  black;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
     padding: 10px; 
@@ -118,7 +118,7 @@ th{
 
 td{
     border: 3px  solid  black;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center; 
     padding: 10px; 
@@ -142,12 +142,12 @@ td{
 
 
 table{
-    width: 80%;    
+    width: 75%;    
     margin: auto;   
 }
 
 
-/*.colum{
+.colum{
     width: 17rem;    
     display: flex;
     justify-content: center;
@@ -156,12 +156,12 @@ table{
     
 }
 
-.colum1{
+/*.colum1{
     width: 20rem;
     
 }
 
-.colum2{
+/*.colum2{
     width: 40rem;
     
 }
@@ -295,14 +295,14 @@ table{
         margin: auto;        
     }
 
-    /*.colum{
-        width: 10em;
+    .colum{
+        width: 12em;
         height: auto;
         text-align: center;
         
     }
 
-    .colum1{
+    /*.colum1{
         width: 3em;
         text-align: center;
         
@@ -422,14 +422,14 @@ table{
         margin: auto;        
     }
 
-    /*.colum{
-        width: 10em;
+    .colum{
+        width: 12em;
         height: auto;
         text-align: center;
         
     }
 
-    .colum1{
+    /*.colum1{
         width: 3em;
         text-align: center;
         
