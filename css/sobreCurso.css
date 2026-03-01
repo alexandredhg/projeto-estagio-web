@@ -92,8 +92,12 @@ p{
 
 
 
-@media (max-width: 768px) {
-   
+@media (max-width: 800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }    
 
     body{
         margin-left: 10px;
@@ -160,7 +164,7 @@ p{
 
 
 
-@media (max-width: 480px) {
+@media (max-width: 500px) {
     
 
     body{
