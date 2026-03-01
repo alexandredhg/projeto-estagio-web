@@ -290,7 +290,7 @@ table{
     }*/
 
     table{
-        width: 80rem;
+        width: 100%;
         margin: auto;        
     }
 
@@ -315,7 +315,7 @@ table{
     }
 
     .colum3{
-        width: 15rem;
+        width: 20rem;
         text-align: center;
         
     }
@@ -416,7 +416,7 @@ table{
     }*/
 
     table{
-        width: 80rem;
+        width: 100%;
         margin: auto;        
     }
 
@@ -441,7 +441,7 @@ table{
     }
 
     .colum3{
-        width: 15rem;
+        width: 20rem;
         text-align: center;
         
     }
