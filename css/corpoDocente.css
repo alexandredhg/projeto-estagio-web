@@ -295,27 +295,27 @@ table{
     }
 
     .colum{
-        width: 20rem;
+        width: 17rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 15rem;
+        width: 30%;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 40rem;
+        width: 35%;
         text-align: center;
         
     }
 
     .colum3{
-        width: 20rem;
+        width: 20%;
         text-align: center;
         
     }
@@ -421,33 +421,37 @@ table{
     }
 
     .colum{
-        width: 20rem;
+        width: 17rem;
         height: auto;
         text-align: center;
         
     }
 
     .colum1{
-        width: 15rem;
+        width: 30%;
         text-align: center;
         
     }
 
 
     .colum2{
-        width: 40rem;
+        width: 35%;
         text-align: center;
         
     }
 
     .colum3{
-        width: 20rem;
+        width: 20%;
         text-align: center;
         
     }
 
 
+
 }
+
+
+
 
 
 
