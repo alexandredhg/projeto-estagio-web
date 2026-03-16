@@ -328,6 +328,7 @@ p{
 
     .containerParagrafo{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 500px;
@@ -469,6 +470,7 @@ p{
 
     .containerParagrafo{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     align-items: center;
