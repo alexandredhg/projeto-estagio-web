@@ -1,0 +1,383 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+       
+}
+
+h1{        
+    background-color: blue;
+    color: white;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 1.5rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*.menuLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: blueviolet ;    
+    text-decoration: none;   
+                
+}*/
+
+.menuUl{    
+    list-style-type: none;
+    text-align: center;   
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+
+}
+
+h4{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
+
+.menuLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: blueviolet ;    
+    text-decoration: none;   
+                
+}
+
+.menuUl{    
+    list-style-type: none;
+    text-align: center;   
+}
+
+.sair{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    
+}
+
+ Imagem no Index */
+.contener{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;   
+}
+
+.item{
+    border: 3px solid white;    
+    height: 16rem;
+    width: 16rem;
+    margin: 0.7rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ Tabelas */
+table{
+    width: 90%;
+    margin: auto;
+    
+}
+
+th,td{
+    border: 3px  solid  black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    padding: 10px;     
+        
+}
+
+/* Botões */
+.button{    
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.button{    
+    background-color: blue;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+.button{    
+    background-color: gray;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 4rem;
+    width: 12rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    
+}
+
+/* Formulários */
+label{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+input{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 3px solid black;
+    text-align: center;
+}
+
+select{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+fieldset{
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Vídeos */
+.video{
+    width: 250px;
+    height: 300px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border: 4px solid  blueviolet;       
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+/* Estilos para Texto */
+Texto Justificado{
+  text-align: justify;
+}
+
+Espaço Paragrafo{
+  text-indent: 4rem;
+}
+
+Texto Negrito{
+  font-weight: bold;
+}
+
+
+
+/* Comando "Voltar" no html 
+<div>
+  <a href="javaScript: history.back()">Voltar</a>
+</div>*/
+
+
+
+
+
+body{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+       
+}*/
+
+
+@media (max-width: 768px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }   
+
+
+}
+
+
+
+
+
+@media (max-width: 480px) {
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        font-size: 3.5rem;
+        text-align: center; 
+                
+    }   
+
+
+}
+
+
+
+
+

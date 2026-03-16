@@ -1,0 +1,55 @@
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Acompanhamento Paciente</title>
+        <link rel="stylesheet" href="css/acompanhamentoPaciente.css" />
+    </head>
+    <body>
+        <h1>Acompanhamento do Paciente</h1>
+        <br>
+        <h2>Ambulatório de Massoterapia</h2>
+        <br><br>
+        <h4>Ficha de Acompanhamento do Paciente:</h4>
+        <br>        
+        <form id="formAcompanhamentoPaciente"  class="centro">
+            <br><br>
+            <div>
+                <label form="txtNomePaciente">* Nome do Paciente:</label>
+                <input type="nome" id="txtNomePaciente" required />
+            </div>
+            <br><br>            
+            <div>
+                <label form="txtDataAtendimento">* Data do Atendimento:</label>
+                <input type="date" id="txtDataAtendimento" required />                
+            </div>
+            <br> <br>          
+            <div>
+                <label form="txtNomeTerapeuta">* Nome do Terapeuta:</label>
+                <input type="nome" id="txtNomeTerapeuta" required />
+            </div>
+            <br><br>            
+            <div>
+                <label form="txtSupervisorEstagio">* Supervisor do Estágio:</label>
+                <input type="text" id="txtSupervisorEstagio" required />
+            </div>
+            <br><br>
+            <div>                
+                <label for="txtRelatorioPaciente">* Relatório do Terapeuta</label>
+                <textarea name="txtRelatorioPaciente" id="txtMensagem" placeholder="Esscreva seu Relatório" 
+                rows="5" cols="30"  required></textarea>                
+            </div>           
+            <br><br>
+            <button type="submit" id="btnSubmit"  class="button" >Cadastrar</button>
+            <br><br>
+            
+            <!--<hr/>-->
+        <div id="divMensagem" role="alert" aria-live="assertive"></div>
+        <br><br>
+        <div class="sair">        
+        <a href="javaScript: history.back()">Voltar</a>            
+    </div> 
+              
+    </body>
+    <script type="module" src="dist/acompanhamentoPaciente.js"></script>
+</html>

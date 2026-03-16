@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+       
+}
+
+
+
+/*titulos*/
+h1{        
+    background-color: blue;
+    color: white;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 1.5rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 4rem; 
+
+}
+
+h4{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+
+
+/*Baner*/
+.containerBaner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: "imagem/fotoMasso1.jpd";
+}
+
+.itemBaner{
+    border: 0px solid black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+/*Menu*/
+.containerUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    margin-bottom: 100px;       
+    list-style-type: none;
+    text-align: center;   
+}
+
+
+.itemLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: blueviolet;  
+    color: white ;     
+    text-decoration: none;  
+    margin-right: 30px;
+    margin-left: 30px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+                
+}
+
+.itemLiInicial{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: red;  
+    color: white ;     
+    text-decoration: none;  
+    margin-right: 30px;
+    margin-left: 30px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;    
+
+    /*Efeito Botão
+    transition: backgroud-color 0.3s;*/          
+
+}
+
+
+
+/*Efeitos <Li>*/
+.itemLi{
+    padding: 10px;
+    transition: backgroud-color 0.3s; 
+}
+
+.efeitoItemLi:hover{
+    background-color: gray;
+    padding: 20px;       
+}
+
+
+
+
+/*Botão Voltar Topo*/
+.btnVoltarTopo{        
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+.voltarTopo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+
+
+
+
+p{
+    font-size: 1rem;
+    color: black;
+    width: 70%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
+
+.menuLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: blueviolet;  
+    color: white ;     
+    text-decoration: none;  
+    margin-right: 40px;
+    margin-left: 40px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+                
+}
+
+.menuUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 100px;       
+    list-style-type: none;
+    text-align: center;   
+}
+
+
+
+.sair{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    
+}
+
+.item{
+    border: px solid black;
+    width: 100vw;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+/*Rodapé*/
+.centerRodape{
+    display: flex;
+    justify-content: center;
+}
+.altoral{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flexbox;
+    margin: auto;
+    text-align: center;            
+    margin-bottom: 0.7rem;  
+    
+}
+
+.linkDev{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;   
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+@media (max-width: 800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }    
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
+    }   
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
+    }   
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

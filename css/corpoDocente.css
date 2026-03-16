@@ -1,0 +1,703 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
+       
+}
+
+
+
+/*Titulos*/
+h1{        
+    background-color: blue;
+    color: white;
+    font-size: 1.6rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h2{       
+    background-color: gray;
+    color: white;
+    font-size: 1.5rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+h3{         
+    background-color: coral;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4rem;  
+
+}
+
+h4{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+}
+
+
+
+/*Baner*/
+.containerBaner{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;    
+    height: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-image: "imagem/fotoMasso1.jpd";
+}
+
+.itemBaner{
+    border: 0px solid black;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+/*Menu*/
+.containerUl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+    margin-bottom: 100px;       
+    list-style-type: none;
+    text-align: center;   
+}
+
+
+.itemLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: blueviolet;  
+    color: white ;     
+    text-decoration: none;  
+    margin-right: 30px;
+    margin-left: 30px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+                
+}
+
+.itemLiInicial{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    background-color: red;  
+    color: white ;     
+    text-decoration: none;  
+    margin-right: 30px;
+    margin-left: 30px; 
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;    
+
+    /*Efeito Botão
+    transition: backgroud-color 0.3s;*/          
+
+}
+
+
+
+/*Efeitos <Li>*/
+.itemLi{
+    padding: 10px;
+    transition: backgroud-color 0.3s; 
+}
+
+.efeitoItemLi:hover{
+    background-color: gray;
+    padding: 20px;       
+}
+
+
+/*Botão Voltar Topo*/
+.btnVoltarTopo{        
+    background-color: red;
+    color: white;
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 2rem;
+    width: 5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    padding: 3px;
+    
+}
+
+
+.voltarTopo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3.5rem;
+}
+
+
+
+/*Rodapé*/
+.centerRodape{
+    display: flex;
+    justify-content: center;
+}
+
+.altoral{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flexbox;
+    margin: auto;
+    text-align: center;            
+    margin-bottom: 0.7rem;  
+    
+}
+
+.linkDev{
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;   
+    text-decoration: none;
+    
+}
+
+
+
+
+
+
+p{
+    font-size: 1rem;
+    color: black;
+    width: 95%;
+    text-align: justify;    
+    margin-left: auto;
+    margin-right: auto;
+    text-indent: 4rem;
+}
+
+.menuLi{ 
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    color: blueviolet ;    
+    text-decoration: none;   
+                
+}
+
+.menuUl{    
+    list-style-type: none;
+    text-align: center;   
+}
+
+.sair{
+    font-size: 1.4rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    
+}
+
+
+/*.center{
+    display: flexbox;
+    margin: auto;
+    align-items: center;
+}*/
+
+
+
+th{
+    border: 3px  solid  black;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    padding: 0px; 
+    margin-top: auto;
+    margin-bottom: auto;   
+        
+}
+
+td{
+    border: 3px  solid  black;
+    font-size: 1.0rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center; 
+    padding: 30px; 
+    margin-top: auto;
+    margin-bottom: auto;   
+        
+}
+
+.itemFoto{
+    border: 0px solid black;    
+    height: 13rem;
+    width: 13rem;
+    
+    display: flexbox;
+    margin: auto;
+    align-items: center;
+}
+
+/*.fontTh{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+}*/
+
+.container-tabela{
+    overflow-x: auto;      
+}
+
+
+table{
+    width: 70%;    
+    margin: auto;   
+}
+
+
+.colum{
+    width: 15%;    
+}
+
+.colum1{
+    width: 20%;
+    
+}
+
+.colum2{
+    width: 25%;
+    
+}
+
+
+.colum3{
+    width: 15%;    
+}
+
+
+.cor1{
+    background-color: darkgray;
+}
+
+.cor2{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: blue;
+    color: white;
+}
+
+.cor4{
+    background-color: lightgray;
+}
+
+
+/*.centro{
+    text-align: center;
+    align-items: center;
+}*/
+
+
+
+
+
+
+@media (max-width: 800px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }  
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
+    } 
+
+
+    /*Imagem*/
+    .container{     
+        flex-direction: column;
+        
+    } 
+    
+    .item{
+    border: 0px solid white;    
+    height: 35rem;
+    width: 90%;    
+
+    }
+
+    
+    /* Formulários */
+    label{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    input{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
+        border: 3px solid black;
+    }
+
+    select{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    fieldset{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .button{
+        font-size: 3.1rem;
+        width: 50%;
+        height: 6.5rem;
+        border-radius: 8px;
+    }
+
+
+    /*Tabelas*/
+    .cor2{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }    
+    
+    .container-tabela{
+      overflow-x: auto;
+          
+    }    
+
+    th{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    td{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+
+    /*.fixo{
+        position: fixed;
+        bottom: 0;;
+        width: 95%;
+    }*/
+
+    table{
+        width: 100%;
+        margin: auto;        
+    }
+
+    .colum{
+        width: 10em;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    /*.colum1{
+        width: 3em;
+        text-align: center;
+        
+    }
+
+
+    .colum2{
+        width: 7em;
+        text-align: center;
+        
+    }
+
+    .colum3{
+        width: 3em;
+        text-align: center;
+        
+    }*/
+
+
+
+}
+
+
+
+
+
+@media (max-width: 500px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    h1{
+        font-size: 3.7rem;
+        text-align: center;
+    }
+
+    h2{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    h4{
+        font-size: 3.1rem;        
+        text-align: center;        
+    }
+    
+    h5{
+        font-size: 2.9rem;        
+        text-align: center;
+    }
+
+    p{
+        font-size: 2.7rem;
+        text-align: justify;
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+        text-indent: 3.5rem;
+    }
+
+    .sair{
+        font-size: 3.3rem;
+        text-align: center;
+    }
+
+    .menuLi{
+        font-size: 3.3rem;
+        text-align: center; 
+                
+    }
+
+    .menuUl{
+        list-style-type: none;        
+        text-align: center; 
+                
+    }
+    
+    
+    /*Imagem*/
+    .container{     
+        flex-direction: column;
+        
+    } 
+    
+    .item{
+    border: 0px solid white;    
+    height: 35rem;
+    width: 90%;    
+
+    }
+
+
+    /*Formulários*/
+    label{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    input{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        width: 85%;
+        border: 3px solid black;
+    }
+
+    select{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    fieldset{
+        font-size: 3.1rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .button{
+        font-size: 3.1rem;
+        width: 50%;
+        height: 6.5rem;
+        border-radius: 8px;
+    } 
+    
+    
+    /*Tabelas*/
+    .cor2{
+        font-size: 3.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    }    
+    
+    .container-tabela{
+      overflow-x: auto;
+          
+    }    
+
+    th{
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    td{
+        font-size: 1.1rem;
+        text-align: center;
+    }
+    
+
+    /*.fixo{
+        position: fixed;
+        bottom: 0;;
+        width: 95%;
+    }*/
+
+    table{
+        width: 100%;
+        margin: auto;        
+    }
+
+    .colum{
+        width: 10em;
+        height: auto;
+        text-align: center;
+        
+    }
+
+    /*.colum1{
+        width: 3em;
+        text-align: center;
+        
+    }
+
+    .colum2{
+        width: 7em;
+        text-align: center;
+        
+    }
+
+    .colum3{
+        width: 3em;
+        text-align: center;
+        
+    }*/    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página de Redefinição de Senha</title>
+        <link rel="stylesheet" href="css/redefinicaoSenha.css"/>
+    </head>
+    <body>
+        <h1>Página de Redefinição de Senha</h1>
+        <br>
+        <h2>Curso Técnico em Massoterapia</h2>
+        <br>
+        <h3>Redefinição de Senha</h3>
+        <br><br>        
+        <form id="formRedefinicaoSenha" class="center">                   
+            <br>
+            <div>
+                <label for="txtSenha">* Senha: </label>
+                <br>
+                <input type="password" id="txtSenha" />
+                <button type="button" id="toggleSenha" class="btnMostrar" >Mostrar</button>
+            </div>
+            <br>
+            <div>
+                <label for="txtConfSenha">* Confirmar Senha: </label>
+                <br>
+                <input type="password" id="txtConfSenha" />
+                <button type="button" id="toggleConfSenha" class="btnMostrar" >Mostrar</button>
+            </div>
+            <br>
+            <div>
+                <button type="submit" id="btnCadastrar" class="btnCadastrar" >Cadastrar</button>
+            </div>
+            <br>
+            <div>
+                <a href="index.html"></a>
+            </div>         
+        </form>    
+        
+        <!--<hr/>-->
+        <div id="divMensagem" role="alert" aria-live="assertive"></div>
+        <br><br>
+        <div class="sair">
+            <a href="index.html">Sair</a>
+        </div>
+        <br><br>
+        
+    </body>
+    <script type="module" src="dist/redefinicaoSenha.js"></script>
+</html>
