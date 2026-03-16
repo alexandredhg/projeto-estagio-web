@@ -319,11 +319,24 @@ p{
     p{
         font-size: 2.7rem;
         text-align: justify;
-        width: 85%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
     }
+
+    .itemParagrafo{
+    width: 90%;
+    height: auto;
+    border: 3px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 
     .sair{
         font-size: 3.3rem;
@@ -434,11 +447,24 @@ p{
     p{
         font-size: 2.7rem;
         text-align: justify;
-        width: 85%;
+        width: 80%;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
     }
+
+    .itemParagrafo{
+    width: 90%;
+    height: auto;
+    border: 3px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
 
     .sair{
         font-size: 3.3rem;
