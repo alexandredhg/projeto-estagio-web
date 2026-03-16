@@ -393,6 +393,15 @@ p{
     }
 
 
+
+    /*Imagem do Perfil*/
+    .containerImagemPerfil{
+        overflow-x: auto;
+    }
+
+
+
+
     /*Formulários*/
     label{
         font-size: 3.1rem;
@@ -533,6 +542,15 @@ p{
         flex-direction: column;
         
     } 
+
+
+
+    /*Imagem do Perfil*/
+    .containerImagemPerfil{
+        overflow-x: auto;
+    }
+
+
     
     .baner2{
     border: 0px solid white;    
