@@ -406,8 +406,10 @@ p{
 
     .itemImagemPerfil{
         border: 0px solid white;    
-        height: 27rem;
-        width: 40rem;
+        height: 28rem;
+        width: 35rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
         
     }
 
@@ -578,8 +580,11 @@ p{
 
     .itemImagemPerfil{
         border: 0px solid white;    
-        height: 27rem;
-        width: 40rem;
+        height: 28rem;
+        width: 35rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+
         
     }
 
