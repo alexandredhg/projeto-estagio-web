@@ -295,6 +295,10 @@ p{
         margin-bottom: 20px;
     }
 
+    html, body{
+        overflow-x: hidden;
+    }
+
     h1{
         font-size: 3.7rem;
         text-align: center;
@@ -402,8 +406,8 @@ p{
 
     .itemImagemPerfil{
         border: 0px solid white;    
-        height: 2.5rem;
-        width: 30%;
+        height: 30rem;
+        width: 30re;
         
     }
 
@@ -449,10 +453,10 @@ p{
         height: 6.5rem;
         border-radius: 8px;
     }
-
-
     
 }
+
+
 
 
 
@@ -574,8 +578,8 @@ p{
 
     .itemImagemPerfil{
         border: 0px solid white;    
-        height: 2.5rem;
-        width: 30%;
+        height: 30rem;
+        width: 30rem;
         
     }
 
