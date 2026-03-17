@@ -328,13 +328,9 @@ p{
         font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: auto;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        margin-left: auto;
-        margin-right: auto;
+        height: auto;       
         text-indent: 3.5rem;
-        overflow-y: auto;
+        
     }
 
     .containerParagrafo{
@@ -362,6 +358,7 @@ p{
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: scroll;
     
 }
 
@@ -400,16 +397,16 @@ p{
 
     /*Imagem do Perfil*/
     .containerImagemPerfil{
-        overflow-x: auto;
+        overflow-x: scroll;
     }
     
 
     .itemImagemPerfil{
         border: 0px solid white;    
         height: 28rem;
-        width: 35rem;
-        margin-left: 1rem;
-        margin-right: 1rem;
+        width: 33rem;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
         
     }
 
@@ -426,8 +423,8 @@ p{
     .btnVoltarTopo{   
         font-size:2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: auto;
-        width: 6rem;    
+        height: 4rem;
+        width: 8rem;    
         
     }
 
@@ -440,7 +437,7 @@ p{
         display: flexbox;
         margin: auto;
         text-align: center;            
-        margin-bottom: 0.5rem;  
+        margin-bottom: 1rem;  
         
     }
 
@@ -543,11 +540,7 @@ p{
         font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: auto;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        margin-left: auto;
-        margin-right: auto;
+        height: auto;        
         text-indent: 3.5rem;
     }
 
@@ -576,6 +569,7 @@ p{
     margin-bottom: 4rem;
     margin-left: auto;
     margin-right: auto;
+    overflow-y: scroll;
     
 }
 
@@ -607,13 +601,13 @@ p{
 
     /*Imagem do Perfil*/
     .containerImagemPerfil{
-        overflow-x: auto;
+        overflow-x: scroll;
     }
 
     .itemImagemPerfil{
         border: 0px solid white;    
         height: 28rem;
-        width: 35rem;
+        width: 33rem;
         margin-left: 1rem;
         margin-right: 1rem;
 
@@ -633,8 +627,8 @@ p{
     .btnVoltarTopo{   
         font-size:2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        height: auto;
-        width: 6rem;    
+        height: 4rem;
+        width:8rem;    
         
     }
 
@@ -647,7 +641,7 @@ p{
         display: flexbox;
         margin: auto;
         text-align: center;            
-        margin-bottom: 0.5rem;  
+        margin-bottom: 1rem;  
         
     }
 
