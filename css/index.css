@@ -56,6 +56,7 @@ h4{
     font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 
@@ -153,37 +154,36 @@ h4{
 
 /*Paragrafo*/
 p{
-    font-size: 2.7rem;
-        text-align: justify;
-        width: 80%;
-        height: 60rem;
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-        margin-left: auto;
-        margin-right: auto;
-        text-indent: 3.5rem;
-        overflow-y: auto;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: justify;
+    width: 80%;
+    height: auto;    
+    
+    text-indent: 3.5rem;
+        
 }
 
 .containerParagrafo{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    margin-top: auto;
-    margin-bottom: auto;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 2rem;
 }
 
 .itemParagrafo{
-    width: 85%;
-    height: 400px;
+    width: 80%;
+    height: 28rem;
     border: 3px solid blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
     margin-left: auto;
     margin-right: auto;
     
@@ -230,8 +230,8 @@ p{
     color: white;
     font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 2rem;
-    width: 5rem;
+    height: 3rem;
+    width: 7rem;
     border: none;
     cursor: pointer;
     border-radius: 8px;
@@ -261,7 +261,7 @@ p{
     display: flexbox;
     margin: auto;
     text-align: center;            
-    margin-bottom: 0.7rem;  
+    margin-bottom: 0rem;  
     
 }
 
@@ -325,10 +325,10 @@ p{
 
     /*Paragrafo*/
     p{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: 60rem;
+        height: 40rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: auto;
@@ -540,10 +540,10 @@ p{
 
     /*Paragrafo*/
     p{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: auto;
+        height: 40rem;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: auto;
