@@ -350,7 +350,7 @@ p{
 
     .itemParagrafo{
     width: 90%;
-    height: 45rem;
+    height: auto;
     border: 4px solid blueviolet;
     display: flex;
     flex-direction: column;
@@ -613,7 +613,7 @@ p{
 
     .itemParagrafo{
     width: 90%;
-    height: 45rem;
+    height: auto;
     border: 3px solid blueviolet;
     display: flex;
     flex-direction: column;
