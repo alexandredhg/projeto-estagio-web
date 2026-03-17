@@ -154,7 +154,7 @@ h4{
 
 /*Paragrafo*/
 p{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
     text-align: justify;
@@ -261,7 +261,7 @@ p{
     display: flexbox;
     margin: auto;
     text-align: center;            
-    margin-bottom: 0rem;  
+    margin-bottom: 1rem;  
     
 }
 
@@ -328,7 +328,7 @@ p{
         font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: 40rem;
+        height: auto;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: auto;
@@ -338,21 +338,21 @@ p{
     }
 
     .containerParagrafo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: auto;
-    margin-right: auto;
-}
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .itemParagrafo{
     width: 90%;
-    height: auto;
+    height: 45rem;
     border: 3px solid blueviolet;
     display: flex;
     flex-direction: column;
@@ -440,7 +440,7 @@ p{
         display: flexbox;
         margin: auto;
         text-align: center;            
-        margin-bottom: 1.2rem;  
+        margin-bottom: 0.5rem;  
         
     }
 
@@ -543,7 +543,7 @@ p{
         font-size: 2.5rem;
         text-align: justify;
         width: 80%;
-        height: 40rem;
+        height: auto;
         margin-top: 4rem;
         margin-bottom: 4rem;
         margin-left: auto;
@@ -552,21 +552,21 @@ p{
     }
 
     .containerParagrafo{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
-    height: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    margin-left: auto;
-    margin-right: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        align-items: center;
+        height: auto;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+        margin-left: auto;
+        margin-right: auto;
 }
 
     .itemParagrafo{
     width: 90%;
-    height: auto;
+    height: 45rem;
     border: 3px solid blueviolet;
     display: flex;
     flex-direction: column;
@@ -647,7 +647,7 @@ p{
         display: flexbox;
         margin: auto;
         text-align: center;            
-        margin-bottom: 1.2rem;  
+        margin-bottom: 0.5rem;  
         
     }
 
