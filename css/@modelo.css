@@ -12,63 +12,60 @@ body{
        
 }
 
+html, body{
+    /*Retira o Balancinho Horizontal do Codigo*/
+        overflow-x: hidden;
+}
+
+
+
+
+
+/*Titulos*/
 h1{        
     background-color: blue;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+        
 }
 
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.5rem; 
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/*.menuLi{ 
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;   
-    color: blueviolet ;    
-    text-decoration: none;   
-                
-}*/
-
-.menuUl{    
-    list-style-type: none;
-    text-align: center;   
+    text-align: center;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
 }
 
 h3{         
     background-color: coral;
     color: white;
-    font-size: 1.4rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;         
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;  
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem; 
 
 }
 
 h4{
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
-}
-
-h5{
     font-size: 1.2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+h5{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 p{
