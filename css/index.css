@@ -24,7 +24,7 @@ h1{
     align-items: center;
     justify-content: center;
     margin-bottom: 2rem;
-        ;
+        
 }
 
 h2{       
@@ -93,7 +93,10 @@ h4{
     justify-content: center;    
     margin-bottom: 100px;       
     list-style-type: none;
-    text-align: center;   
+    text-align: center;
+
+    /*Propriedade para a Linha Mão Quebrar*/
+    white-space: nowrap;  
 }
 
 
@@ -295,6 +298,7 @@ p{
     }
 
     html, body{
+        /*Retira o Balancinho Horizontal do Codigo*/
         overflow-x: hidden;
     }
 
@@ -337,7 +341,10 @@ p{
 
     .containerParagrafo{
         display: flex;
+
+        /*Comando para Quebrar a Linha do Codigo*/
         flex-wrap: wrap;
+
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -373,10 +380,11 @@ p{
 /*Menu*/
 .containerUl{
     display: flex;
-    flex-direction: column;
+    flex-direction: column;    
+    gap: 50px;
+
     margin-left: auto;
-    margin-right: auto;   
-    margin-bottom: 100px;       
+    margin-right: auto;          
     list-style-type: none;
     text-align: center;   
 }
@@ -643,12 +651,14 @@ p{
     .containerUl{
         display: flex;
         flex-direction: column;
+        gap: 50px; 
+
         margin-left: auto;
-        margin-right: auto;   
-        margin-bottom: 100px;       
+        margin-right: auto;               
         list-style-type: none;
         text-align: center;   
     }
+    
 
 
     .itemLi{ 
@@ -693,17 +703,7 @@ p{
         text-align: center;
     }
 
-    .menuLi{
-        font-size: 3.3rem;
-        text-align: center; 
-                
-    }
-
-    .menuUl{
-        list-style-type: none;        
-        text-align: center; 
-                
-    } 
+     
     /*Imagem*/
     .baner{     
         flex-direction: column;
