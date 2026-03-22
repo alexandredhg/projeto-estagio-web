@@ -412,6 +412,7 @@ p{
         width: 85%;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
           
         
     }
@@ -419,7 +420,7 @@ p{
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         
     }
 
@@ -553,6 +554,7 @@ p{
         width: 85%;
         margin-left: auto;
         margin-right: auto;
+        text-align: center;
           
         
     }
@@ -560,7 +562,7 @@ p{
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
         
     }
 
@@ -572,7 +574,8 @@ p{
     .btnVoltarTopo{        
         font-size: 2.7rem;
         text-align: center; 
-        padding: 50px 100px;       
+        padding: 50px 100px;
+        border-radius: 10px;       
     }
 
 
