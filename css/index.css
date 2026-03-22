@@ -402,25 +402,23 @@ p{
 
     /*Imagens do Perfil*/
     .containerImagemPerfil{ 
-        display: block;      
+        display: block; 
+        margin-left: auto;
+        margin-right: auto;     
         
     }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-          
+        width: 85%;        
         
     }
 
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 10rem;
         
     }
 
@@ -432,7 +430,8 @@ p{
     .btnVoltarTopo{        
         font-size: 2.7rem;
         text-align: center; 
-        padding: 50px 100px;       
+        padding: 50px 100px;
+        border-radius: 20px;       
     }
 
 
@@ -544,25 +543,23 @@ p{
 
     /*Imagens do Perfil*/
     .containerImagemPerfil{ 
-        display: block;      
+        display: block;
+        margin-left: auto;
+        margin-right: auto;      
         
     }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 35rem;
-        width: 85%;
-        margin-left: auto;
-        margin-right: auto;
-        text-align: center;
-          
+        width: 85%;         
         
     }
 
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
-        margin-bottom: 100px;
+        margin-bottom: 10rem;
         
     }
 
@@ -575,7 +572,7 @@ p{
         font-size: 2.7rem;
         text-align: center; 
         padding: 50px 100px;
-        border-radius: 10px;       
+        border-radius: 20px;       
     }
 
 
