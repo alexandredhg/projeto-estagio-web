@@ -403,24 +403,26 @@ p{
     /*Imagens do Perfil*/
 .containerImagemPerfil{ 
     display: flex;
-    flex-direction: column;              
+    flex-direction: column;
+    row-gap: 20px
+    ;              
     
 }
 
-.itemImagemPerfil{
-    display: block;
-    border: 0px solid black;    
-    height: 30rem;
-    width: 90%;
-    row-gap: 5px;
-    
-}
+    .itemImagemPerfil{
+        display: block;
+        border: 0px solid black;    
+        height: 30rem;
+        width: 85%;
+        flex-shrink: 0;   
+        
+    }
 
-.legendaImagemPerfil{
-    font-size: 2.5rem;          
-    text-align: center;
-    
-}
+    .legendaImagemPerfil{
+        font-size: 2.5rem;          
+        text-align: center;
+        
+    }
 
 
 
@@ -519,7 +521,7 @@ p{
     }
 
     .itemLiInicial{ 
-        font-size: 2.7rem;
+        font-size: 7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
         width: 80% !important;
         height: auto;         
@@ -539,11 +541,40 @@ p{
 
 
 
+
+    /*Imagens do Perfil*/
+.containerImagemPerfil{ 
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px
+    ;              
+    
+}
+
+    .itemImagemPerfil{
+        display: block;
+        border: 0px solid black;    
+        height: 30rem;
+        width: 85%;
+        flex-shrink: 0;   
+        
+    }
+
+    .legendaImagemPerfil{
+        font-size: 2.5rem;          
+        text-align: center;
+        
+    }
+
+
+
+
+
     /*Botão Voltar Topo*/
     .btnVoltarTopo{        
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align: center; 
-        padding: 30px 50px;       
+        padding: 50px 100px;       
     }
 
 
@@ -553,22 +584,20 @@ p{
     /*Itens do Contener/Rodape*/
     .altoral{
         font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
+        text-align: center;
         
     }
 
 
     .linkDev{
         font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;
-            
+       text-align: center;           
         
     }   
 
 
 } 
+
 
 
 
