@@ -232,6 +232,7 @@ p{
     border: 0px solid black;    
     height: 13rem;
     width: 13rem;
+    flex-shrink: 0;
     
 }
 
@@ -411,13 +412,14 @@ p{
     border: 0px solid black;    
     height: 30rem;
     width: 90%;
+    row-gap: 5px;
     
 }
 
 .legendaImagemPerfil{
     font-size: 2.5rem;          
     text-align: center;
-    margin-bottom: 2rem;
+    
 }
 
 
@@ -428,7 +430,7 @@ p{
     .btnVoltarTopo{        
         font-size: 2.7rem;
         text-align: center; 
-        padding: 30px 50px;       
+        padding: 50px 100px;       
     }
 
 
@@ -445,8 +447,7 @@ p{
 
     .linkDev{
         font-size: 2.5rem;
-       text-align: center;
-            
+       text-align: center;           
         
     }   
 
@@ -541,7 +542,8 @@ p{
     /*Botão Voltar Topo*/
     .btnVoltarTopo{        
         font-size: 2.5rem;
-        text-align: center;        
+        text-align: center; 
+        padding: 30px 50px;       
     }
 
 
