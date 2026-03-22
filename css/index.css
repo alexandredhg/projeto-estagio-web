@@ -400,19 +400,19 @@ p{
 
 
 
-    /*Imagens do Perfil
-    .containerImagemPerfil{            
+    /*Imagens do Perfil*/
+    .containerImagemPerfil{
+        width: 100%;          
         
-    }*/
+    }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
-        width: 85%; 
-        
+        width: 85%;
         display: block;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto;       
         
     }
 
@@ -543,20 +543,20 @@ p{
 
 
 
-    /*Imagens do Perfil
+    /*Imagens do Perfil*/
     .containerImagemPerfil{
+        width: 100%;
             
         
-    }*/
+    }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 35rem;
-        width: 85%; 
-        
-        display: block;
+        width: 85%;
+        display: block; 
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto;      
         
     }
 
