@@ -376,7 +376,7 @@ p{
     .itemLiInicial{ 
         font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 80%;
+        width: 80% !important;
         height: auto;         
 
     }
@@ -386,11 +386,21 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify;
-        width: 85%;
+        width: 80% !important;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
     }
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.5rem;
+        text-align: center;        
+    }
+
+
 
     
     
@@ -413,6 +423,8 @@ p{
 
 
 } 
+
+
 
 
 
@@ -479,7 +491,7 @@ p{
     .itemLiInicial{ 
         font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 80%;
+        width: 80% !important;
         height: auto;         
 
     }
@@ -489,11 +501,21 @@ p{
     p{
         font-size: 2.5rem;
         text-align: justify;
-        width: 85%;
+        width: 80% !important;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
     }
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.5rem;
+        text-align: center;        
+    }
+
+
 
     
     
@@ -509,10 +531,11 @@ p{
     .linkDev{
         font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-weight: bold;   
-                 
+        font-weight: bold;
+            
         
-    }
+    }   
+
 
 } 
 
