@@ -360,54 +360,31 @@ p{
     .containerUl{
         display: flex;
         flex-direction: column;
-        gap: 4rem; 
-
-        margin-left: auto;
-        margin-right: auto;               
-        list-style-type: none;
-        text-align: center;   
+        gap: 4rem;         
     }
     
 
 
     .itemLi{ 
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: blueviolet;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 1rem; 
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
+        width: 80%;
+        height: auto;     
 
     }
 
     .itemLiInicial{ 
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: red;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 30px; 
-        text-align: center;
-        padding: 10px;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
+        width: 80%;
+        height: auto;         
 
     }
 
 
 
     p{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         text-align: justify;
         width: 85%;
         margin-left: auto;
@@ -415,88 +392,28 @@ p{
         text-indent: 3.5rem;
     }
 
-    .sair{
-        font-size: 3.3rem;
-        text-align: center;
-    }
-
-    .menuLi{
-        font-size: 3.3rem;
-        text-align: center; 
-                
-    }
-
-    .menuUl{
-        list-style-type: none;        
-        text-align: center; 
-                
-    } 
-
-
-    /*Imagem*/
-    .container{     
-        flex-direction: column;
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
         
-    } 
-    
-    .item{
-    border: 0px solid white;    
-    height: 35rem;
-    width: 90%;    
-
     }
 
-    
-    /*Formulários*/
-    label{
-        font-size: 3.1rem;
+
+    .linkDev{
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-    }
-
-    input{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 85%;
-        border: 3px solid black;
-    }
-
-    select{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    fieldset{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .btnEntrar{
-        font-size: 3.1rem;
-        width: 50%;
-        height: 6.5rem;
-        border-radius: 8px;
-        margin-top: 1.3rem;
-        text-align: center;
-    }
-
-    .btnMostrar{
-        font-size: 3.1rem;
-        width: 50%;
-        height: 6.5rem;
-        border-radius: 8px;
-        margin-top: 1.3rem;
-        text-align: center;
-    }
-
-    .msg{
-        font-size: 3.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }
+        font-weight: bold;
+            
+        
+    }   
 
 
 } 
+
 
 
 
@@ -546,54 +463,31 @@ p{
     .containerUl{
         display: flex;
         flex-direction: column;
-        gap: 4rem; 
-
-        margin-left: auto;
-        margin-right: auto;               
-        list-style-type: none;
-        text-align: center;   
+        gap: 4rem;         
     }
     
 
 
     .itemLi{ 
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: blueviolet;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 1rem; 
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
+        width: 80%;
+        height: auto;     
 
     }
 
     .itemLiInicial{ 
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: red;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 30px; 
-        text-align: center;
-        padding: 10px;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
+        width: 80%;
+        height: auto;         
 
     }
 
 
 
     p{
-        font-size: 2.7rem;
+        font-size: 2.5rem;
         text-align: justify;
         width: 85%;
         margin-left: auto;
@@ -601,88 +495,29 @@ p{
         text-indent: 3.5rem;
     }
 
-    .sair{
-        font-size: 3.3rem;
-        text-align: center;
-    }
-
-    .menuLi{
-        font-size: 3.3rem;
-        text-align: center; 
-                
-    }
-
-    .menuUl{
-        list-style-type: none;        
-        text-align: center; 
-                
-    } 
-
-
-    /*Imagem*/
-    .container{     
-        flex-direction: column;
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
         
-    } 
-    
-    .item{
-    border: 0px solid white;    
-    height: 35rem;
-    width: 90%;    
-
     }
 
-    
-    /*Formulários*/
-    label{
-        font-size: 3.1rem;
+
+    .linkDev{
+        font-size: 2.5rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+        font-weight: bold;   
+                 
+        
     }
 
-    input{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        width: 85%;
-        border: 3px solid black;
-    }
-
-    select{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    fieldset{
-        font-size: 3.1rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-
-    .btnEntrar{
-        font-size: 3.1rem;
-        width: 50%;
-        height: 6.5rem;
-        border-radius: 8px;
-        margin-top: 1.3rem;
-        text-align: center;
-    }
-
-    .btnMostrar{
-        font-size: 3.1rem;
-        width: 50%;
-        height: 6.5rem;
-        border-radius: 8px;
-        margin-top: 1.3rem;
-        text-align: center;
-    }
-
-    .msg{
-        font-size: 3.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-align: center;
-    }
+} 
 
 
-}
+
 
 
     
