@@ -410,7 +410,8 @@ p{
         border: 0px solid black;    
         height: 30rem;
         width: 85%;
-        margin: auto auto;
+        margin-left: auto;
+        margin-right: auto;
           
         
     }
@@ -418,6 +419,7 @@ p{
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
+        margin-bottom: 50px;
         
     }
 
@@ -547,9 +549,10 @@ p{
 
     .itemImagemPerfil{        
         border: 0px solid black;    
-        height: 30rem;
+        height: 35rem;
         width: 85%;
-        margin: auto auto;
+        margin-left: auto;
+        margin-right: auto;
           
         
     }
@@ -557,6 +560,7 @@ p{
     .legendaImagemPerfil{
         font-size: 2.5rem;          
         text-align: center;
+        margin-bottom: 50px;
         
     }
 
