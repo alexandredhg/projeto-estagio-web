@@ -59,43 +59,53 @@
         </nav>
     </header>    
     <body>
-        
-        <h3>Página Vídeo de Apresentação Sobre o Curso</h3>
-        
-        <h4>Assista o Vídeo:</h4>
-        
-        <div>
-                
-            <video controls  class="video" width="100%" height="100%">
-                <source src="Videos/VideoApresentacao.mp4">
-            </video>
-        </div>
-        <br><br>
-        <div class="sair">
-        <br>
-            <a href="index.html"></a>
-        </div>
 
-        <div class="voltarTopo">
+        <main>
+        
+            <h3>Página Vídeo de Apresentação Sobre o Curso</h3>
+            
+            <h4>Assista o Vídeo:</h4>
+            
+            <div>
+                    
+                <video controls  class="video" width="100%" height="100%">
+                    <source src="Videos/VideoApresentacao.mp4">
+                </video>
+            </div>
+            <br><br>
+            <div class="sair">
+            <br>
+                <a href="index.html"></a>
+            </div>
+
+            <div class="voltarTopo">
                 <button class="btnVoltarTopo" id="btnVoltarTopo"
                 title="Voltar para o topo">Topo</button>
             </div>
-        
+
+        </main>
+
+        <!--"hr"Fubção Cria uma Linha Horizontal no Código-->
+        <hr>
         <footer>
             
-            <p class="altoral">&copy;
-                Instituto Benjamin Constant 2025/2026               
-            </p>            
-
-            <a class="linkDev"  href="desenvolvedores.html">
-                "Site Desenvolvido Pela turma de 2024 do 
-                Curso Técnico em Desenvolvimento de Sistemas do (IBC) Saiba Mais" 
-                                    
-            </a>           
+            <div class="containerAltoral"> 
+                <p class="altoral">&copy;
+                    Instituto Benjamin Constant 2025/2026               
+                </p>
+            </div>
             
-        </footer> 
+            <div class="containerLinkDev">
+                <a class="linkDev"  href="desenvolvedores.html">
+                    "Site Desenvolvido Pela turma de 2024 do 
+                    Curso Técnico em Desenvolvimento de Sistemas do (IBC) Saiba Mais"                                       
+                </a>
+            </div>                       
+            
+        </footer>      
+        
     </body>
 
-    <script type="module" src="dist/voltarTopo.js"></script>
+    <script type="module" src="dist/voltarTopo.js"></script>        
 
 </html>

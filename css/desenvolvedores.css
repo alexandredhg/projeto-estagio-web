@@ -8,62 +8,74 @@ body{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-       
+    margin-bottom: 3.5rem;       
 }
 
 
-/*titulos*/
+html, body{
+    /*Retira o Balancinho Horizontal do Codigo*/
+    overflow-x: hidden;
+}
+
+
+
+
+
+/*Titulos*/
 h1{        
     background-color: blue;
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
+    padding: 0.6rem;
 }
 
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.5rem; 
+    font-size: 1.4rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    padding: 0.6rem;
 }
-
 
 h3{         
     background-color: coral;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
     border: none;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 4rem;  
+    margin-bottom: 6rem;
+    padding: 0.6rem;  
 
 }
 
 h4{
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;    
     text-align: center;
+    margin-bottom: 3rem;
 }
 
 h5{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
+    margin-bottom: 3rem;
 }
-
 
 
 /*Baner*/
@@ -140,15 +152,14 @@ p{
 .btnVoltarTopo{        
     background-color: red;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 2rem;
-    width: 5rem;
+    
     border: none;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
-    padding: 3px;
+    padding: 10px 30px;
     
 }
 
@@ -156,8 +167,10 @@ p{
 .voltarTopo{
     display: flex;
     justify-content: center;
-    margin-bottom: 3.5rem;
+    margin-bottom: 2rem;
+    margin-top: 4rem;
 }
+
 
 
 
@@ -169,15 +182,15 @@ p{
 }
 
 .voltarSite{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
-    width: 10rem;
+    width: 14rem;
     height: auto;
     background-color: blueviolet;
     color: white;
-    padding: 10px;
+    padding: 1rem;
     border-radius: 8px;
 }
 

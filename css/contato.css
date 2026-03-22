@@ -8,13 +8,13 @@ body{
     margin-left: 2.5rem;
     margin-right: 2.5rem;
     margin-top: 3.5rem;
-    margin-bottom: 3.5rem;
-       
+    margin-bottom: 3.5rem;       
 }
+
 
 html, body{
     /*Retira o Balancinho Horizontal do Codigo*/
-        overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -27,87 +27,94 @@ h1{
     color: white;
     font-size: 1.5rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
-    padding: 0.7rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 1.5rem;
-        
+    padding: 0.6rem;
 }
 
 h2{       
     background-color: gray;
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.4rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
-    padding: 0.7rem;
-    margin-bottom: 0rem;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    padding: 0.6rem;
 }
 
 h3{         
     background-color: coral;
     color: white;
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
-    padding: 0.7rem;
-    margin-bottom: 4rem; 
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 6rem;
+    padding: 0.6rem;  
 
 }
 
 h4{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;    
     text-align: center;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 h5{
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
     text-align: center;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.7rem;    
 }
 
 h6{
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;    
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: bold;   
     text-align: center;
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
+    
+    
+    
 }
 
-
-
+.retirarLinha{
+    text-decoration: none;
+}
 
 
 
 /*Baner*/
 .containerBaner{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;    
-    height: 45rem;
-    width: 100vw;
-    border: 0px solid black;    
     
-    background-image: "imagem/fotoMasso1.jpd";
+    margin-top: 0rem;
+    margin-bottom: 3rem;
 
     /*Propriedade Imagem Não Destorcer*/
     object-fit: cover;
+
+    /*background-image: "imagem/fotoMasso1.jpd";*/
 }
 
 .itemBaner{
     border: 0px solid black;
-    width: 100%;
-    height: 35rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
+    width: 100vw;
+    height: 30rem;    
+
 }
-
-
 
 
 
@@ -115,15 +122,23 @@ h6{
 .containerUl{
     display: flex;
     flex-direction: row;
-    justify-content: center;          
-    list-style-type: none;
-    text-align: center;
-    height: 7rem;
-    border: 0px solid black;
+    /*flex-wrap: wrap;*/
+    row-gap: 1rem;
+    column-gap: 1rem;
+    
+    
 
-    /*Propriedade para a Linha Mão Quebrar*/
-    white-space: nowrap;  
+    justify-content: center;
+    align-items: center;    
+           
+    list-style-type: none;    
+    
+    /*Mantem o Texto em uma Única Linha*/
+    white-space: nowrap;
+
+    margin-bottom: 6rem;
 }
+
 
 .itemLi{ 
     font-size: 1.1rem;
@@ -131,15 +146,14 @@ h6{
     background-color: blueviolet;  
     color: white ;     
     text-decoration: none;  
-    margin-right: 1rem;
-    margin-left: 1rem; 
+   
     text-align: center;
-    padding: 1rem;
-    border-radius: 5px;    
+    padding: 0.6rem;
+    
+    border-radius: 6px;
 
-    /*Efeito Botão
-    transition: backgroud-color 0.3s;*/          
-
+    transition: backgroud-color 0.3s; 
+                
 }
 
 .itemLiInicial{ 
@@ -147,77 +161,62 @@ h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-color: red;  
     color: white ;     
-    text-decoration: none;  
-    margin-right: 30px;
-    margin-left: 30px; 
+    text-decoration: none;     
     text-align: center;
-    padding: 10px;
-    border-radius: 5px;    
+    padding: 0.6rem;
+    border-radius: 6px;
+    transition: backgroud-color 0.3s;    
 
     /*Efeito Botão
     transition: backgroud-color 0.3s;*/          
 
 }
 
-
-/*Efeitos Menu <Li>*/
-.itemLi{
-    padding: 10px;
-    transition: backgroud-color 0.3s; 
-}
-
+/*Efeito Botão Menu*/
 .efeitoItemLi:hover{
     background-color: gray;
     padding: 20px;       
 }
 
- /*Ou Quando tiver width e Height usar
-    transform: scale(1.1);*/ 
 
-/*.botao:houver::before{}*/
+
+/*Efeitos <Li>
+.itemLi{
+    padding: 10px;
+    transition: backgroud-color 0.3s; 
+}*/
+
 
 
 
 
 
 /*Paragrafo*/
-p{
-    font-size: 1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
-    font-weight: bold;
-    text-align: justify;   
-    text-indent: 3.5rem;
-    text-align: center;
-    margin-bottom: 0.5rem;
-        
-}
-
 .containerParagrafo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 30rem;
-    border: 0px solid black;
-    margin-top: 0;
-    margin-bottom: 2rem;
-}
-
-.itemParagrafo{
-    width: 80%;
-    height: 20rem;
-    border: 3px solid blueviolet;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 4rem;
-    margin-bottom: 6rem;
-    margin-left: auto;
-    margin-right: auto;
-    
+
+       
 }
 
+p{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;    
+    text-align: center;
+    margin: 0 auto;
+    
+
+    text-align: justify;   
+    text-indent: 3.5rem;
+    /*Cria Espassamentos entre Linhas do Texto*/
+    line-height: 1.5;
+
+    /*Quebra Palavras para Caber na Caixa*/
+    overflow-wrap: break-word;    
+        
+}
 
 
 
@@ -225,15 +224,15 @@ p{
 
 /*Mapa*/
 .contorno{
-    width: 1200px;
-    height: 550px;
+    width: 85%;
+    height: 40rem;
     border: 0px solid white;
     text-align: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 7rem;
 }
-
 
 
 
@@ -244,66 +243,79 @@ p{
     color: white;
     font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 3rem;
-    width: 7rem;
+    
     border: none;
     cursor: pointer;
-    border-radius: 8px;
+    border-radius: 5px;
     text-align: center;
-    padding: 3px;
-    margin-top: 6rem;
+    padding: 10px 30px;
     
 }
+
 
 .voltarTopo{
     display: flex;
     justify-content: center;
-    margin-bottom: 3.5rem;
+    margin-bottom: 15rem;
+    margin-top: 7rem;
+    
 }
 
 
 
+/*Container do Rodapé*/
+.containerLinkDev{
+    display: flex;   
+    justify-content: center;    
+    
+}
 
-
-/*Rodapé*/
-.centerRodape{
+.containerAltoral{
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
+
+
+
+
+/*Itens do Contener/Rodape*/
 .altoral{
     font-size: 0.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
     font-weight: bold;
-    display: flexbox;
-    margin: auto;
-    text-align: center;            
-    margin-bottom: 1rem;  
-    
+       
 }
 
+
+/*Link Equipe Dev*/
 .linkDev{
     font-size: 0.8rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
     font-weight: bold;
-    display: flex;
-    justify-content: center;   
-    text-decoration: none;
+    color: blue; 
+    text-decoration: none !important;     
+    
+    /*"!important"Forçar a Propriedade a Execultar*/
+    
     
 }
 
 
-.contorno{
-    width: 1200px;
-    height: 550px;
-    border: 0px solid white;
-    text-align: center;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -59,64 +59,74 @@
         </nav>
     </header>    
     <body>
-        
-        <h3>Página de Login</h3>
 
-        <h4>Faça Seu Login:</h4>
+        <main>
         
-        <form id="formLogin" class="centralForm">
-            <div>
-                <label for="txtEmail">* E-mail: </label>
+            <h3>Página de Login</h3>
+
+            <h4>Faça Seu Login:</h4>
+            
+            <form id="formLogin" class="centralForm">
+                <div>
+                    <label for="txtEmail">* E-mail: </label>
+                    <br>
+                    <input type="email" id="txtEmail" />
+                </div>
                 <br>
-                <input type="email" id="txtEmail" />
-            </div>
-            <br>
-            <div>
-                <label for="txtSenha">* Senha: </label>
+                <div>
+                    <label for="txtSenha">* Senha: </label>
+                    <br>
+                    <input type="password" id="txtSenha" />
+                    
+                </div>            
+                <br>         
+                <div>
+                    <button type="submit"  class="btnEntrar">Entrar</button>
+                </div>
+                <div>
+
+                    <button type="button" id="toggleSenha"  class="btnMostrar">Mostrar</button>
+                </div>
                 <br>
-                <input type="password" id="txtSenha" />
-                
-            </div>            
-            <br>         
-            <div>
-                <button type="submit"  class="btnEntrar">Entrar</button>
-            </div>
-            <div>
-
-                <button type="button" id="toggleSenha"  class="btnMostrar">Mostrar</button>
-            </div>
+                <!--<div>
+                    <a href="areaRestrita.html"></a>
+                </div> -->
+            </form>
             <br>
-            <!--<div>
-                <a href="areaRestrita.html"></a>
-            </div> -->
-        </form>
-        <br>
-        <!--<hr/>-->
-        
-        <div id="divMensagem" role="alert" 
-        aria-live="assertive"  class="msg"></div>
+            <!--<hr/>-->
+            
+            <div id="divMensagem" role="alert" 
+            aria-live="assertive"  class="msg"></div>
 
-        <div class="sair">
-            <br>
-            <a href="index.html" ></a> 
-        </div>
-
-        <div class="voltarTopo">
+            <div class="sair">
+                <br>
+                <a href="index.html" ></a> 
+            </div>
+            
+            <div class="voltarTopo">
                 <button class="btnVoltarTopo" id="btnVoltarTopo"
                 title="Voltar para o topo">Topo</button>
             </div>
-        
+
+        </main>
+
+        <!--"hr"Fubção Cria uma Linha Horizontal no Código-->
+        <hr>
         <footer>
             
-            <p class="altoral">&copy;
-                Instituto Benjamin Constant 2025/2026               
-            </p>            
-
-            <a class="linkDev"  href="desenvolvedores.html">
-                "Site Desenvolvido Pela turma de 2024 do 
-                Curso Técnico em Desenvolvimento de Sistemas do (IBC) Saiba Mais" 
-                                    
-            </a>           
+            <div class="containerAltoral"> 
+                <p class="altoral">&copy;
+                    Instituto Benjamin Constant 2025/2026               
+                </p>
+            </div>
+            
+            <div class="containerLinkDev">
+                <a class="linkDev"  href="desenvolvedores.html">
+                    "Site Desenvolvido Pela turma de 2024 do 
+                    Curso Técnico em Desenvolvimento de Sistemas do (IBC) Saiba Mais"                                       
+                </a>
+            </div>
+                       
             
         </footer> 
 
