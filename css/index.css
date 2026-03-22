@@ -401,20 +401,17 @@ p{
 
 
     /*Imagens do Perfil*/
-.containerImagemPerfil{ 
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px
-    ;              
-    
-}
+    .containerImagemPerfil{ 
+        display: block;      
+        
+    }
 
-    .itemImagemPerfil{
-        display: block;
+    .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
         width: 85%;
-        flex-shrink: 0;   
+        margin: auto auto;
+          
         
     }
 
@@ -543,20 +540,17 @@ p{
 
 
     /*Imagens do Perfil*/
-.containerImagemPerfil{ 
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px
-    ;              
-    
-}
+    .containerImagemPerfil{ 
+        display: block;      
+        
+    }
 
-    .itemImagemPerfil{
-        display: block;
+    .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
         width: 85%;
-        flex-shrink: 0;   
+        margin: auto auto;
+          
         
     }
 
@@ -597,6 +591,7 @@ p{
 
 
 } 
+
 
 
 
