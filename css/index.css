@@ -402,7 +402,9 @@ p{
 
     /*Imagens do Perfil*/
     .containerImagemPerfil{
-        width: 100%;          
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;         
         
     }
 
@@ -410,9 +412,9 @@ p{
         border: 0px solid black;    
         height: 30rem;
         width: 85%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;       
+        
+        margin-right: auto;
+        margin-left: auto;       
         
     }
 
@@ -456,8 +458,6 @@ p{
 
 
 } 
-
-
 
 
 
@@ -545,18 +545,19 @@ p{
 
     /*Imagens do Perfil*/
     .containerImagemPerfil{
-        width: 100%;
-            
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;         
         
     }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
-        height: 35rem;
+        height: 30rem;
         width: 85%;
-        display: block; 
-        margin-left: auto;
-        margin-right: auto;      
+        
+        margin-right: auto;
+        margin-left: auto;       
         
     }
 
@@ -600,6 +601,13 @@ p{
 
 
 } 
+
+
+
+
+
+
+
 
 
 
