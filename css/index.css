@@ -404,14 +404,15 @@ p{
     .containerImagemPerfil{
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: center;         
+        justify-content: center;
+        align-items: center;         
         
     }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
-        width: 85%;
+        width: 100%;
         
         margin-right: auto;
         margin-left: auto;       
@@ -547,14 +548,15 @@ p{
     .containerImagemPerfil{
         display: grid;
         grid-template-columns: 1fr;
-        justify-content: center;         
+        justify-content: center;
+        align-items: center;         
         
     }
 
     .itemImagemPerfil{        
         border: 0px solid black;    
         height: 30rem;
-        width: 85%;
+        width: 100%;
         
         margin-right: auto;
         margin-left: auto;       
