@@ -206,7 +206,7 @@ p{
     text-indent: 3.5rem;
 
     /*Cria Espassamentos entre Linhas do Texto*/
-    line-height: 2;
+    line-height: 1.5;
 
     /*Quebra Palavras para Caber na Caixa*/
     overflow-wrap: break-word;    
@@ -393,18 +393,18 @@ p{
 
 
     .itemParagrafo{
-        width: 90%;
+        width: 93%;
         height: auto;
         padding: 3rem;
         
-        border: 3px solid blueviolet;   
+        border: 5px solid blueviolet;   
     }
 
 
     p{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align: justify;
-        width: 80% !important;
+        width: 85% !important;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
@@ -547,19 +547,19 @@ p{
 
 
     .itemParagrafo{
-        width: 90%;
+        width: 93%;
         height: auto;
         padding: 3rem;
         
-        border: 3px solid blueviolet;   
+        border: 5px solid blueviolet;   
     }
 
 
 
     p{
-        font-size: 2.5rem;
+        font-size: 2.7rem;
         text-align: justify;
-        width: 80% !important;
+        width: 85% !important;
         margin-left: auto;
         margin-right: auto;
         text-indent: 3.5rem;
