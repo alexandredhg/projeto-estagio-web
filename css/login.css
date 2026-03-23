@@ -552,7 +552,40 @@ label{
     }
 
 
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
+
+
+
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+
+
+    .linkDev{
+        font-size: 2.5rem;
+       text-align: center;           
+        
+    }   
+
+
+
 } 
+
+
 
 
 
@@ -736,6 +769,37 @@ label{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
     }
+
+
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
+
+
+
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+
+
+    .linkDev{
+        font-size: 2.5rem;
+       text-align: center;           
+        
+    }   
+
 
 
 }

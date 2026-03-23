@@ -433,7 +433,42 @@ p{
         height: 700px;
     }
 
+
+
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
+
+
+
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+
+
+    .linkDev{
+        font-size: 2.5rem;
+       text-align: center;           
+        
+    }   
+
+
 }
+
+
+
 
 
 
@@ -561,6 +596,38 @@ p{
         width: 80%;
         height: 700px;
     }
+
+
+
+
+
+
+    /*Botão Voltar Topo*/
+    .btnVoltarTopo{        
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
+
+
+
+    
+    
+    /*Itens do Contener/Rodape*/
+    .altoral{
+        font-size: 2.5rem;
+        text-align: center;
+        
+    }
+
+
+    .linkDev{
+        font-size: 2.5rem;
+       text-align: center;           
+        
+    }   
+
 
 }
 
