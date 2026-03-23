@@ -118,8 +118,8 @@ h5{
            
     list-style-type: none;    
     
-    /*Mantem o Texto em uma Única Linha*/
-    white-space: nowrap;
+    /*Mantem o Texto em uma Única Linha
+    white-space: nowrap;*/
 
     margin-bottom: 6rem;
 }
@@ -153,7 +153,10 @@ h5{
     transition: backgroud-color 0.3s;    
 
     /*Efeito Botão
-    transition: backgroud-color 0.3s;*/          
+    transition: backgroud-color 0.3s;*/
+    
+    width: 60px;
+    
 
 }
 
@@ -392,7 +395,7 @@ p{
     .itemParagrafo{
         width: 90%;
         height: auto;
-        padding: 5rem;
+        padding: 3rem;
         
         border: 3px solid blueviolet;   
     }
@@ -546,7 +549,7 @@ p{
     .itemParagrafo{
         width: 90%;
         height: auto;
-        padding: 5rem;
+        padding: 3rem;
         
         border: 3px solid blueviolet;   
     }
