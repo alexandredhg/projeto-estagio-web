@@ -388,6 +388,16 @@ p{
 
 
 
+
+    .itemParagrafo{
+        width: 90%;
+        height: auto;
+        padding: 5rem;
+        
+        border: 3px solid blueviolet;   
+    }
+
+
     p{
         font-size: 2.5rem;
         text-align: justify;
@@ -528,6 +538,17 @@ p{
         width: 80% !important;
         height: auto;         
 
+    }
+
+
+
+
+    .itemParagrafo{
+        width: 90%;
+        height: auto;
+        padding: 5rem;
+        
+        border: 3px solid blueviolet;   
     }
 
 
