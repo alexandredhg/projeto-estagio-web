@@ -369,27 +369,23 @@ p{
 
     }
 
-    .itemLiInicial{ 
-        font-size: 2.7rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width:50%;
-        height: auto;
+    .itemLiInicial{        
+        width:70%;
+        height: 5rem;
         margin: 0 auto;               
 
     }    
 
     .itemLi{         
-        width:50%;
-        height: auto; 
+        width:70%;
+        height: 5rem; 
         margin: 0 auto; 
-        margin-top: 1.5rem;
-        
-          
+        margin-top: 2rem;
 
     }
 
     .itemTagA{
-        font-size: 2.7rem;
+        font-size: 2.9rem;
         text-decoration: none;    
     
     }
@@ -538,27 +534,23 @@ p{
 
     }
 
-    .itemLiInicial{ 
-        font-size: 2.7rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width:50%;
-        height: auto;
+    .itemLiInicial{        
+        width:70%;
+        height: 5rem;
         margin: 0 auto;               
 
     }    
 
     .itemLi{         
-        width:50%;
-        height: auto; 
+        width:70%;
+        height: 5rem; 
         margin: 0 auto; 
-        margin-top: 1.5rem;
-        
-          
+        margin-top: 2rem;
 
     }
 
     .itemTagA{
-        font-size: 2.7rem;
+        font-size: 2.9rem;
         text-decoration: none;    
     
     }
@@ -645,10 +637,7 @@ p{
         font-size: 2.5rem;
        text-align: center;           
         
-    }   
-
-
-} 
+    } 
 
 
 
