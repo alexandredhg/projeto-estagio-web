@@ -79,6 +79,8 @@ h5{
 
 
 
+
+
 /*Baner*/
 .containerBaner{
     display: flex;
@@ -103,77 +105,69 @@ h5{
 
 
 
+
+
 /*Menu*/
 .containerUl{
     display: flex;
     flex-direction: row;
-    /*flex-wrap: wrap;*/
-    row-gap: 1rem;
-    column-gap: 1rem;
-    
-    
-
     justify-content: center;
-    align-items: center;    
-           
+    column-gap: 1rem;
+    row-gap: 1rem;
     list-style-type: none;    
-    
-    /*Mantem o Texto em uma Única Linha
-    white-space: nowrap;*/
-
     margin-bottom: 6rem;
+
+    /*Mantem o Texto em uma Única Linha*/
+    white-space: nowrap;
+
+    /*flex-wrap: wrap;*/  
+
 }
 
 
-.itemLi{ 
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: blueviolet;  
-    color: white ;     
-    text-decoration: none;  
-   
-    text-align: center;
-    padding: 0.6rem;
+.itemLiInicial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
-    border-radius: 6px;
+    background: red; 
+    border-radius: 0.5rem; 
+    padding: 10px;  
 
     transition: backgroud-color 0.3s; 
-                
 }
 
-.itemLiInicial{ 
+
+.itemLi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: blueviolet;
+    border-radius: 0.5rem;
+    padding: 10px;   
+
+    transition: backgroud-color 0.3s; 
+}
+
+
+.itemTagA{
+    color: white; 
     font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif; 
-    background-color: red;  
-    color: white ;     
+    font-family: Verdana, Geneva, Tahoma, sans-serif;         
     text-decoration: none;     
-    text-align: center;
-    padding: 0.6rem;
-    border-radius: 6px;
-    transition: backgroud-color 0.3s;    
-
-    /*Efeito Botão
-    transition: backgroud-color 0.3s;*/
-    
-    width: 60px;
-    
-
+                  
 }
 
 /*Efeito Botão Menu*/
 .efeitoItemLi:hover{
     background-color: gray;
-    padding: 20px;       
+    border: 3px solid black;
+    color: black;
+    transform: scale(1.2);
+    
+    padding: 10px;       
 }
-
-
-
-/*Efeitos <Li>
-.itemLi{
-    padding: 10px;
-    transition: backgroud-color 0.3s; 
-}*/
-
 
 
 
@@ -365,34 +359,47 @@ p{
 
 
 
+
+
     /*Menu*/
     .containerUl{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;         
-    }
-    
-
-
-    .itemLi{ 
-        font-size: 2.7rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 80%;
-        height: auto;     
+        display: block;
+        width: 100vw;        
+        list-style: none;
 
     }
 
     .itemLiInicial{ 
         font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 100%;
-        height: auto;         
+        width:50%;
+        height: auto;
+        margin: 0 auto;               
+
+    }    
+
+    .itemLi{         
+        width:50%;
+        height: auto; 
+        margin: 0 auto; 
+        margin-top: 1.5rem;
+        
+          
 
     }
 
+    .itemTagA{
+        font-size: 2.7rem;
+        text-decoration: none;    
+    
+    }
+
+
+    
 
 
 
+    /*Pargrafo*/
     .itemParagrafo{
         width: 93%;
         height: auto;
@@ -472,7 +479,8 @@ p{
     }   
 
 
-} 
+}
+
 
 
 
@@ -509,8 +517,8 @@ p{
 
     h4{
         font-size: 3.1rem;        
-        text-align: center;
-        font-weight: bold;        
+        text-align: center; 
+        font-weight: bold;       
     }
     
     h5{
@@ -520,34 +528,47 @@ p{
 
 
 
+
+
     /*Menu*/
     .containerUl{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem;         
-    }
-    
-
-
-    .itemLi{ 
-        font-size: 2.7rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 80%;
-        height: auto;     
+        display: block;
+        width: 100vw;        
+        list-style: none;
 
     }
 
     .itemLiInicial{ 
         font-size: 2.7rem;
         font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        width: 80%;
-        height: auto;         
+        width:50%;
+        height: auto;
+        margin: 0 auto;               
+
+    }    
+
+    .itemLi{         
+        width:50%;
+        height: auto; 
+        margin: 0 auto; 
+        margin-top: 1.5rem;
+        
+          
 
     }
 
+    .itemTagA{
+        font-size: 2.7rem;
+        text-decoration: none;    
+    
+    }
+
+
+    
 
 
 
+    /*Pargrafo*/
     .itemParagrafo{
         width: 93%;
         height: auto;
@@ -555,7 +576,6 @@ p{
         
         border: 5px solid blueviolet;   
     }
-
 
 
     p{
@@ -629,6 +649,10 @@ p{
 
 
 } 
+
+
+
+
 
 
 

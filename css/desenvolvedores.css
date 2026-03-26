@@ -113,15 +113,19 @@ h5{
 }
 
 
-.itemLi{ 
+.itemLi{
+    display: flex;
+    justify-content: center;
+}
+
+
+.itemA{ 
     font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif; 
     background-color: blueviolet;  
-    color: white ;     
+    color: white ;
+    cursor: pointer;     
     text-decoration: none;  
-    margin-right: 40px;
-    margin-left: 40px; 
-    text-align: center;
     padding: 10px;
     border-radius: 5px;
 
@@ -186,11 +190,11 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
-    width: 14rem;
+    width: 10rem;
     height: auto;
     background-color: blueviolet;
     color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     border-radius: 8px;
 }
 
