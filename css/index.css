@@ -162,10 +162,8 @@ h5{
 /*Efeito Botão Menu*/
 .efeitoItemLi:hover{
     background-color: gray;
-    border: 3px solid black;
-    color: black;
-    transform: scale(1.2);
-    
+    border: 6px solid blueviolet;    
+    transform: scale(1.3);    
     padding: 10px;       
 }
 
