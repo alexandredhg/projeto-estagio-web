@@ -133,9 +133,9 @@ h5{
     justify-content: center;
     align-items: center;
     
-    background: red; 
-    border-radius: 0.5rem; 
-    padding: 10px;  
+    background: blue; 
+    border-radius: 5px; 
+    padding: 15px 10px;  
 
     transition: backgroud-color 0.3s; 
 }
@@ -146,9 +146,9 @@ h5{
     justify-content: center;
     align-items: center;
 
-    background: blueviolet;
-    border-radius: 0.5rem;
-    padding: 10px;   
+    background: grey;
+    border-radius: 5px;
+    padding: 15px 10px;   
 
     transition: backgroud-color 0.3s; 
 }
@@ -164,12 +164,11 @@ h5{
 
 /*Efeito Botão Menu*/
 .efeitoItemLi:hover{
-    background-color: gray;
-    border: 6px solid blueviolet;    
-    transform: scale(1.3);    
-    padding: 10px; 
-
+    background-color: coral;        
+    transform: scale(1.1);    
+    padding: 15px 10px;       
 }
+
 
 
 
@@ -353,56 +352,43 @@ p{
 
 
 
+
+
     /*Menu*/
     .containerUl{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem; 
+        display: block;
+        width: 100vw;        
+        list-style: none;
 
-        margin-left: auto;
-        margin-right: auto;               
-        list-style-type: none;
-        text-align: center;   
     }
+
+    .itemLiInicial{        
+        width:70%;
+        height: 5rem;
+        margin: 0 auto;               
+
+    }    
+
+    .itemLi{         
+        width:70%;
+        height: 5rem; 
+        margin: 0 auto; 
+        margin-top: 2rem;
+
+    }
+
+    .itemTagA{
+        font-size: 2.9rem;
+        text-decoration: none;    
     
-
-
-    .itemLi{ 
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: blueviolet;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 1rem; 
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
-
-    }
-
-    .itemLiInicial{ 
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: red;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 30px; 
-        text-align: center;
-        padding: 10px;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
-
     }
 
 
 
+
+
+
+    /*Paragrafo*/
     p{
         font-size: 2.7rem;
         text-align: justify;
@@ -517,56 +503,43 @@ p{
 
 
 
+
+
     /*Menu*/
     .containerUl{
-        display: flex;
-        flex-direction: column;
-        gap: 4rem; 
+        display: block;
+        width: 100vw;        
+        list-style: none;
 
-        margin-left: auto;
-        margin-right: auto;               
-        list-style-type: none;
-        text-align: center;   
     }
+
+    .itemLiInicial{        
+        width:70%;
+        height: 5rem;
+        margin: 0 auto;               
+
+    }    
+
+    .itemLi{         
+        width:70%;
+        height: 5rem; 
+        margin: 0 auto; 
+        margin-top: 2rem;
+
+    }
+
+    .itemTagA{
+        font-size: 2.9rem;
+        text-decoration: none;    
     
-
-
-    .itemLi{ 
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: blueviolet;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 1rem; 
-        text-align: center;
-        padding: 1rem;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
-
-    }
-
-    .itemLiInicial{ 
-        font-size: 2.5rem;
-        font-family: Verdana, Geneva, Tahoma, sans-serif; 
-        background-color: red;  
-        color: white ;     
-        text-decoration: none;  
-        margin-bottom: 2rem;
-        margin-left: 30px; 
-        text-align: center;
-        padding: 10px;
-        border-radius: 5px;    
-
-        /*Efeito Botão
-        transition: backgroud-color 0.3s;*/          
-
     }
 
 
 
+
+
+
+    /*Paragrafo*/
     p{
         font-size: 2.7rem;
         text-align: justify;
