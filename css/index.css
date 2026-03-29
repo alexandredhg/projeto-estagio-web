@@ -107,6 +107,7 @@ h5{
 
 
 
+
 /*Menu*/
 .containerUl{
     display: flex;
@@ -130,12 +131,26 @@ h5{
     justify-content: center;
     align-items: center;
     
-    background: blue; 
-    border-radius: 5px; 
+    background: #4169e1;     
+    border-radius: 7px; 
     padding: 15px 10px;  
 
     transition: backgroud-color 0.3s; 
 }
+
+
+.itemLiLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #303030; 
+    border-radius: 7px; 
+    padding: 15px 10px;  
+
+    transition: backgroud-color 0.3s; 
+}
+
 
 
 .itemLi{
@@ -143,8 +158,8 @@ h5{
     justify-content: center;
     align-items: center;
 
-    background: grey;
-    border-radius: 5px;
+    background: #228b22;
+    border-radius: 7px;
     padding: 15px 10px;   
 
     transition: backgroud-color 0.3s; 
@@ -374,22 +389,34 @@ p{
     }
 
     .itemLiInicial{        
-        width:70%;
+        width:75%;
         height: 8rem;
-        margin: 0 auto;               
+        margin: 0 auto;
+        border-radius: 50%;               
+
+    } 
+    
+    
+    .itemLiLogin{        
+        width:75%;
+        height: 8rem;
+        margin: 0 auto;
+        border-radius: 50%;               
 
     }    
 
+
     .itemLi{         
-        width:70%;
+        width:75%;
         height: 8rem; 
         margin: 0 auto; 
         margin-top: 2rem;
+        border-radius: 50%;
 
     }
 
     .itemTagA{
-        font-size: 2.9rem;
+        font-size: 3.1rem;
         text-decoration: none;    
     
     }
@@ -543,22 +570,34 @@ p{
     }
 
     .itemLiInicial{        
-        width:70%;
+        width:75%;
         height: 8rem;
-        margin: 0 auto;               
+        margin: 0 auto;
+        border-radius: 50%;               
+
+    } 
+    
+    
+    .itemLiLogin{        
+        width:75%;
+        height: 8rem;
+        margin: 0 auto;
+        border-radius: 50%;               
 
     }    
 
+
     .itemLi{         
-        width:70%;
+        width:75%;
         height: 8rem; 
         margin: 0 auto; 
         margin-top: 2rem;
+        border-radius: 50%;
 
     }
 
     .itemTagA{
-        font-size: 2.9rem;
+        font-size: 3.1rem;
         text-decoration: none;    
     
     }
@@ -649,7 +688,6 @@ p{
 
 
 }
-
 
 
 
