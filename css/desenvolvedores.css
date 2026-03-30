@@ -218,7 +218,16 @@ p{
     align-items: center;
 }
 
+
+
+
+
  /*Tabelas */
+ .container-tabela{
+    overflow-x: auto;      
+}
+
+
 table{
     width: 60%;
     margin: auto;
@@ -382,13 +391,11 @@ Texto Negrito{
 
 
 
-body{
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 60px;
-    margin-bottom: 40px;
-       
-}
+
+
+
+
+
 
 
 @media (max-width: 768px) {
@@ -424,6 +431,10 @@ body{
         text-align: center;
     }
 
+
+
+
+
     p{
         font-size: 2.7rem;
         text-align: justify;
@@ -433,25 +444,72 @@ body{
         text-indent: 3.5rem;
     }
 
-    .sair{
-        font-size: 3.7rem;
-        text-align: center;
+
+    
+    /*Botão Voltar Topo*/
+        .btnVoltarTopo{        
+            font-size: 2.7rem;
+            text-align: center; 
+            padding: 50px 100px;
+            border-radius: 20px;       
+        }
+
+
+
+    /*Botão Voltar Para o Site*/    
+    .voltarSite{
+        font-size: 2.7rem;
+            text-align: center; 
+            padding: 50px 100px;
+            border-radius: 20px; 
+    }
+
+
+    /*Tabelas */
+    .container-tabela{
+    overflow-x: auto;      
+    }
+
+
+    table{
+        width: 100%;
+        margin: auto;       
         
     }
 
-    
 
-    .menuLi{
-        font-size: 3.3rem;
-        text-align: center;
-        text-decoration: none; 
-                
+    th,td{
+        border: 3px  solid  black;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center; 
+        padding: 10px;     
+            
     }
 
-    .menuUl{
+    .th1{
         font-size: 3.5rem;
-        text-align: center; 
-                
+    }
+
+    .th2{
+        font-size: 2.9rem;
+    }
+
+    .td1{
+        font-size: 2.7rem;
+    }
+
+    .itemFoto{
+        border: 0px solid black;    
+        height: 13rem;
+        width: 13rem;
+        
+        display: flexbox;
+        margin: auto;
+        align-items: center;
+    }
+
+    .espacoLinha{
+        height: 100px;    ;
     }   
 
 
@@ -459,9 +517,7 @@ body{
 
 
 
-
-
-@media (max-width: 480px) {
+@media (max-width: 768px) {
     body{
         margin-left: 10px;
         margin-right: 10px;
@@ -494,6 +550,10 @@ body{
         text-align: center;
     }
 
+
+
+
+
     p{
         font-size: 2.7rem;
         text-align: justify;
@@ -503,25 +563,81 @@ body{
         text-indent: 3.5rem;
     }
 
-    .sair{
-        font-size: 3.7rem;
-        text-align: center;
+
+    
+    /*Botão Voltar Topo*/
+        .btnVoltarTopo{        
+            font-size: 2.7rem;
+            text-align: center; 
+            padding: 50px 100px;
+            border-radius: 20px;       
+        }
+
+
+
+    /*Botão Voltar Para o Site*/    
+    .voltarSite{
+        font-size: 2.7rem;
+            text-align: center; 
+            padding: 50px 100px;
+            border-radius: 20px; 
     }
 
-    .menuLi{
-        font-size: 3.3rem;
+
+    /*Tabelas */
+    .container-tabela{
+    overflow-x: auto;      
+    }
+
+
+    table{
+        width: 100%;
+        margin: auto;       
+        
+    }
+
+
+    th,td{
+        border: 3px  solid  black;    
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center; 
-                
+        padding: 10px;     
+            
     }
 
-    .menuUl{
+    .th1{
         font-size: 3.5rem;
-        text-align: center; 
-                
+    }
+
+    .th2{
+        font-size: 2.9rem;
+    }
+
+    .td1{
+        font-size: 2.7rem;
+    }
+
+    .itemFoto{
+        border: 0px solid black;    
+        height: 13rem;
+        width: 13rem;
+        
+        display: flexbox;
+        margin: auto;
+        align-items: center;
+    }
+
+    .espacoLinha{
+        height: 100px;    ;
     }   
 
 
 }
+
+
+
+
+
 
 
 

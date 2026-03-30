@@ -536,29 +536,14 @@ table{
         text-indent: 3.5rem;
     }
 
-    .sair{
-        font-size: 3.3rem;
-        text-align: center;
-    }
-
-    .menuLi{
-        font-size: 3.3rem;
-        text-align: center; 
-                
-    }
-
-    .menuUl{
-        list-style-type: none;        
-        text-align: center; 
-                
-    } 
-
+    
 
     /*Imagem*/
     .container{     
         flex-direction: column;
         
     } 
+    
     
     .item{
     border: 0px solid white;    
