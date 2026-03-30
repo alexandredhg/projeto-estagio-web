@@ -320,6 +320,7 @@ p{
 
 
 
+
     /*Menu*/
     .containerUl{
         display: block;
@@ -329,25 +330,39 @@ p{
     }
 
     .itemLiInicial{        
-        width:70%;
+        width:75%;
         height: 8rem;
-        margin: 0 auto;               
+        margin: 0 auto;
+        border-radius: 60px;               
+
+    } 
+    
+    
+    .itemLiLogin{        
+        width:75%;
+        height: 8rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        border-radius: 60px;               
 
     }    
 
+
     .itemLi{         
-        width:70%;
+        width:75%;
         height: 8rem; 
         margin: 0 auto; 
         margin-top: 2rem;
+        border-radius: 600px;
 
     }
 
     .itemTagA{
-        font-size: 2.9rem;
+        font-size: 3.1rem;
         text-decoration: none;    
     
     }
+
 
 
 
@@ -465,6 +480,7 @@ p{
 
 
 
+
     /*Menu*/
     .containerUl{
         display: block;
@@ -474,25 +490,39 @@ p{
     }
 
     .itemLiInicial{        
-        width:70%;
+        width:75%;
         height: 8rem;
-        margin: 0 auto;               
+        margin: 0 auto;
+        border-radius: 60px;               
+
+    } 
+    
+    
+    .itemLiLogin{        
+        width:75%;
+        height: 8rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+        border-radius: 60px;               
 
     }    
 
+
     .itemLi{         
-        width:70%;
+        width:75%;
         height: 8rem; 
         margin: 0 auto; 
         margin-top: 2rem;
+        border-radius: 600px;
 
     }
 
     .itemTagA{
-        font-size: 2.9rem;
+        font-size: 3.1rem;
         text-decoration: none;    
     
     }
+
 
 
 
@@ -559,7 +589,6 @@ p{
 
 
 }
-
 
 
 
