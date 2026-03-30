@@ -437,6 +437,11 @@ Texto Negrito{
 
 
 
+    .containerBaner{
+        margin-bottom: 5rem;
+    }
+
+
     .itemBaner{
         width: 100%;
         height: 45rem;
@@ -573,6 +578,11 @@ Texto Negrito{
     }
 
 
+
+    .containerBaner{
+        margin-bottom: 5rem;
+    }
+    
 
     .itemBaner{
         width: 100%;
