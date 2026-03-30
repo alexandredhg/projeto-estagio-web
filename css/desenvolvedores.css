@@ -78,6 +78,10 @@ h5{
 }
 
 
+
+
+
+
 /*Baner*/
 .containerBaner{
     display: flex;
@@ -433,6 +437,15 @@ Texto Negrito{
 
 
 
+    .itemBaner{
+        width: 100%;
+        height: 45rem;
+
+    }
+
+
+
+
 
 
     p{
@@ -558,6 +571,15 @@ Texto Negrito{
         font-size: 2.9rem;        
         text-align: center;
     }
+
+
+
+    .itemBaner{
+        width: 100%;
+        height: 45rem;
+
+    }
+
 
 
 
