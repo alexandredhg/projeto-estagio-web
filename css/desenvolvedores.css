@@ -448,11 +448,11 @@ Texto Negrito{
     
     /*Botão Voltar Topo*/
         .btnVoltarTopo{        
-            font-size: 2.7rem;
-            text-align: center; 
-            padding: 50px 100px;
-            border-radius: 20px;       
-        }
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
 
 
 
@@ -490,14 +490,17 @@ Texto Negrito{
 
     .th1{
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .th2{
         font-size: 2.9rem;
+        text-align: center;
     }
 
     .td1{
         font-size: 2.7rem;
+        text-align: center;
     }
 
     .itemFoto{
@@ -573,11 +576,11 @@ Texto Negrito{
     
     /*Botão Voltar Topo*/
         .btnVoltarTopo{        
-            font-size: 2.7rem;
-            text-align: center; 
-            padding: 50px 100px;
-            border-radius: 20px;       
-        }
+        font-size: 2.7rem;
+        text-align: center; 
+        padding: 50px 100px;
+        border-radius: 20px;       
+    }
 
 
 
@@ -585,8 +588,10 @@ Texto Negrito{
     .voltarSite{
         font-size: 2.7rem;
             text-align: center; 
-            padding: 50px 100px;
+            padding: 15px 20px;
             border-radius: 20px; 
+            width: 60%;
+            height: auto;
     }
 
 
@@ -613,14 +618,17 @@ Texto Negrito{
 
     .th1{
         font-size: 3.5rem;
+        text-align: center;
     }
 
     .th2{
         font-size: 2.9rem;
+        text-align: center;
     }
 
     .td1{
         font-size: 2.7rem;
+        text-align: center;
     }
 
     .itemFoto{
