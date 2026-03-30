@@ -427,8 +427,10 @@ Texto Negrito{
     }
 
     h4{
-        font-size: 3.1rem;        
-        text-align: center;        
+        font-size: 3.1rem;
+        font-weight: bold;        
+        text-align: center; 
+               
     }
     
     h5{
@@ -528,7 +530,7 @@ Texto Negrito{
     }
 
     .espacoLinha{
-        height: 100px;    ;
+        height: 120px;    ;
     }   
 
 
@@ -565,7 +567,8 @@ Texto Negrito{
     }
 
     h4{
-        font-size: 3.1rem;        
+        font-size: 3.1rem;
+        font-weight: bold;        
         text-align: center;        
     }
     
@@ -667,7 +670,7 @@ Texto Negrito{
     }
 
     .espacoLinha{
-        height: 100px;    ;
+        height: 120px;    ;
     }   
 
 
