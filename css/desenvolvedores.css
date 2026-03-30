@@ -233,12 +233,19 @@ p{
 
 
 table{
-    width: 60%;
+    width: 50%;
     margin: auto;
     margin-top: 3.5rem;
     margin-bottom: 10rem;
     
 }
+
+
+.colum{
+    width: 60rem;
+}
+
+
 
 th,td{
     border: 3px  solid  black;    
@@ -496,6 +503,12 @@ Texto Negrito{
     }
 
 
+    .colum{
+        width: 60%;
+
+    }
+
+
     th,td{
         border: 3px  solid  black;    
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -633,6 +646,12 @@ Texto Negrito{
         width: 100%;
         margin: auto;       
         
+    }
+
+
+    .colum{
+        width: 60%;
+
     }
 
 
