@@ -579,7 +579,19 @@ Texto Negrito{
 
     .espacoLinha{
         height: 120px;    ;
-    }   
+    } 
+    
+    th:nth-child(1){
+      width: 25%;
+    }
+
+    th:nth-child(2){
+        width: 50%;
+    }
+
+    th:nth-child(3){
+        width: 25%;
+    }
 
 
 }
@@ -725,7 +737,20 @@ Texto Negrito{
 
     .espacoLinha{
         height: 120px;    ;
-    }   
+    }
+    
+    
+    th:nth-child(1){
+      width: 25%;
+    }
+
+    th:nth-child(2){
+        width: 50%;
+    }
+
+    th:nth-child(3){
+        width: 25%;
+    }
 
 
 }
