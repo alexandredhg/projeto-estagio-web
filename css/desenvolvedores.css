@@ -517,12 +517,14 @@ Texto Negrito{
     /*Botão Voltar Para o Site*/    
     .voltarSite{
         font-size: 2.7rem;
-            text-align: center; 
-            padding: 15px 20px;
-            border-radius: 20px; 
-            width: 60%;
-            height: auto;
+        text-align: center; 
+        padding: 20px 20px;
+        border-radius: 20px; 
+        width: 50%;
+        height: auto;
     }
+
+
 
 
     /*Tabelas */
@@ -536,12 +538,7 @@ Texto Negrito{
         margin: auto;       
         
     }
-
-
-    .colum{
-        width: 60%;
-
-    }
+    
 
 
     th,td{
@@ -586,11 +583,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 50%;
+        width: 55%;
     }
 
     th:nth-child(3){
-        width: 25%;
+        width: 20%;
     }
 
 
@@ -676,9 +673,9 @@ Texto Negrito{
     .voltarSite{
         font-size: 2.7rem;
             text-align: center; 
-            padding: 15px 20px;
+            padding: 20px 20px;
             border-radius: 20px; 
-            width: 60%;
+            width: 50%;
             height: auto;
     }
 
@@ -745,11 +742,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 50%;
+        width: 55%;
     }
 
     th:nth-child(3){
-        width: 25%;
+        width: 20%;
     }
 
 
