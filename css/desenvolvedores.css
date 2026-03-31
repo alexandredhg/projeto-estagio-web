@@ -578,15 +578,15 @@ Texto Negrito{
         height: 120px;    ;
     } 
     
-    th:nth-child(1){
+    td:nth-child(1){
       width: 25%;
     }
 
-    th:nth-child(2){
+    td:nth-child(2){
         width: 55%;
     }
 
-    th:nth-child(3){
+    td:nth-child(3){
         width: 20%;
     }
 
@@ -691,13 +691,7 @@ Texto Negrito{
         margin: auto;       
         
     }
-
-
-    .colum{
-        width: 60%;
-
-    }
-
+    
 
     th,td{
         border: 3px  solid  black;    
@@ -737,15 +731,15 @@ Texto Negrito{
     }
     
     
-    th:nth-child(1){
+    td:nth-child(1){
       width: 25%;
     }
 
-    th:nth-child(2){
+    td:nth-child(2){
         width: 55%;
     }
 
-    th:nth-child(3){
+    td:nth-child(3){
         width: 20%;
     }
 
