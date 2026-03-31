@@ -196,7 +196,7 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
-    width: 10rem;
+    width: 8rem;
     height: auto;
     background-color: blueviolet;
     color: white;
@@ -578,15 +578,15 @@ Texto Negrito{
         height: 120px;    ;
     } 
     
-    td:nth-child(1){
+    th:nth-child(1){
       width: 25%;
     }
 
-    td:nth-child(2){
+    th:nth-child(2){
         width: 65%;
     }
 
-    td:nth-child(3){
+    th:nth-child(3){
         width: 10%;
     }
 
@@ -731,15 +731,15 @@ Texto Negrito{
     }
     
     
-    td:nth-child(1){
+    th:nth-child(1){
       width: 25%;
     }
 
-    td:nth-child(2){
+    th:nth-child(2){
         width: 65%;
     }
 
-    td:nth-child(3){
+    th:nth-child(3){
         width: 10%;
     }
 
