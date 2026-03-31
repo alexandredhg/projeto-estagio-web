@@ -534,7 +534,7 @@ Texto Negrito{
 
 
     table{
-        width: 130%;
+        width: 150%;
         margin: auto;       
         
     }
@@ -583,11 +583,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 65%;
+        width: 55%;
     }
 
     th:nth-child(3){
-        width: 10%;
+        width: 20%;
     }
 
 
@@ -687,7 +687,7 @@ Texto Negrito{
 
 
     table{
-        width: 130%;
+        width: 150%;
         margin: auto;       
         
     }
@@ -736,11 +736,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 65%;
+        width: 55%;
     }
 
     th:nth-child(3){
-        width: 10%;
+        width: 20%;
     }
 
 
