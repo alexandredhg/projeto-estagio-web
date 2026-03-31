@@ -583,11 +583,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 55%;
+        width: 45%;
     }
 
     th:nth-child(3){
-        width: 20%;
+        width: 30%;
     }
 
 
@@ -736,11 +736,11 @@ Texto Negrito{
     }
 
     th:nth-child(2){
-        width: 55%;
+        width: 45%;
     }
 
     th:nth-child(3){
-        width: 20%;
+        width: 30%;
     }
 
 
