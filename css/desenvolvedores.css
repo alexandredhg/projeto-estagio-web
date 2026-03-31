@@ -520,7 +520,7 @@ Texto Negrito{
         text-align: center; 
         padding: 20px 20px;
         border-radius: 20px; 
-        width: 50%;
+        width: 35%;
         height: auto;
     }
 
@@ -583,11 +583,11 @@ Texto Negrito{
     }
 
     td:nth-child(2){
-        width: 55%;
+        width: 65%;
     }
 
     td:nth-child(3){
-        width: 20%;
+        width: 10%;
     }
 
 
@@ -675,7 +675,7 @@ Texto Negrito{
             text-align: center; 
             padding: 20px 20px;
             border-radius: 20px; 
-            width: 50%;
+            width: 35%;
             height: auto;
     }
 
@@ -736,11 +736,11 @@ Texto Negrito{
     }
 
     td:nth-child(2){
-        width: 55%;
+        width: 65%;
     }
 
     td:nth-child(3){
-        width: 20%;
+        width: 10%;
     }
 
 
