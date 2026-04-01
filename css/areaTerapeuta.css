@@ -99,17 +99,20 @@ p{
     align-items: center;
 }
 
-.voltarInicio{
-    font-size: 1.4rem;
+
+
+
+.voltarSite{
+    font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     text-align: center;
-    width: 13rem;
+    width: 8rem;
     height: auto;
     background-color: blueviolet;
     color: white;
-    padding: 10px;
-    border-radius: 8px;
+    padding: 10px 20px;
+    border-radius: 6px;
 }
 
 
