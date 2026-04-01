@@ -177,7 +177,7 @@ h5{
 /*Efeito Botão Menu*/
 .efeitoItemLi:hover{
     background-color: black;        
-    transform: scale(1.15);    
+    transform: scale(1.2);    
     padding: 15px 10px;       
 }
 
