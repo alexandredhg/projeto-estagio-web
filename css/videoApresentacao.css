@@ -50,7 +50,7 @@ h2{
 }
 
 h3{         
-    background-color: coral;
+    background-color: blueviolet;
     color: white;
     font-size: 1.3rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;         
@@ -116,16 +116,19 @@ h5{
     flex-direction: row;
     justify-content: center;
     column-gap: 1rem;
-    row-gap: 1rem;
+    row-gap: 2rem;
     list-style-type: none;    
     margin-bottom: 6rem;
 
-    /*Mantem o Texto em uma Única Linha*/
-    white-space: nowrap;
+    flex-wrap: wrap;
+    /*Propriedade Quebra para a Outra Linha*/
 
-    /*flex-wrap: wrap;*/  
+    /*Mantem o Texto em uma Única Linha
+    white-space: nowrap;*/     
 
 }
+
+
 
 
 .itemLiInicial{

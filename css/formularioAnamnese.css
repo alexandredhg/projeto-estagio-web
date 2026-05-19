@@ -81,6 +81,26 @@ p{
     text-align: center;   
 }
 
+
+/*Botão Voltar Topo*/
+.btnVoltarTopo{        
+    background-color: red;
+    color: white;
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 30px;
+    margin-bottom: 3rem;
+    
+}
+
+
+
+
 .sair{
     font-size: 1.4rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
