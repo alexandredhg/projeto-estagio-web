@@ -57,7 +57,7 @@ h3{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 6rem;
+    margin-bottom: 4rem;
     padding: 0.6rem;  
 
 }
@@ -224,6 +224,70 @@ p{
 
 
 
+/*Galeria - Fotos*/
+.containerFotosAlunos{ 
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: 3rem;
+    margin-bottom: 3rem;
+    
+    
+    /*flex-wrap: wrap;
+    Propriedade Quebra para a Outra Linha*/
+    overflow-x: auto;
+    
+    
+}
+
+
+
+.itemFotosAlunos{
+    border: 0px solid black;    
+    height: 13rem;
+    width: 13rem;
+    flex-shrink: 0;
+    border-radius: 5px;
+    
+}
+
+
+
+
+
+/*Galeria - Videos*/
+.containerVideosAlunos{ 
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    margin-bottom: 6rem;
+    
+    
+    flex-wrap: wrap;
+    /*Propriedade Quebra para a Outra Linha*/
+    
+    
+}
+
+
+
+.itemVideosAlunos{
+    border: 1px solid black;    
+    height: 13rem;
+    width: 20rem;
+    flex-shrink: 0;
+
+    
+}
+
+
+
+
 
 
 /*Imagens do Perfil*/
@@ -234,7 +298,7 @@ p{
     align-items: center;
     column-gap: 1rem;
     row-gap: 3rem;
-    margin-bottom: 1rem;
+    margin-bottom: 6rem;
     
     
     flex-wrap: wrap;
@@ -257,6 +321,48 @@ p{
             
     text-align: center;
 }
+
+
+
+/*curiosidades*/
+.containerCuriosidades{ 
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-evenly;
+    align-items: center;
+    column-gap: 1.5rem;
+    row-gap: 1rem;
+    margin-bottom: 6rem;
+    
+    
+    flex-wrap: wrap;
+    /*Propriedade Quebra para a Outra Linha*/
+    
+    
+}
+
+
+
+.itemCuriosidades{
+    border: 1px solid black;    
+    height: 13rem;
+    width: 20rem;
+    flex-shrink: 0;
+
+    
+}
+
+
+.legendaCuriosidades{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+    text-align: center;
+    width: 20rem;
+    height: auto;
+
+}
+
 
 
 
