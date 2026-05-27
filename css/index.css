@@ -582,6 +582,7 @@ p{
     height: 30rem;
     width: 30rem;
     flex-shrink: 0;
+    margin-bottom: 8rem;
     
     
 }
@@ -610,7 +611,7 @@ p{
     .itemVideosAlunos{
         border: 1px solid black;    
         height: 35rem;
-        width: 90%;
+        width: 50rem;
         flex-shrink: 0;
         margin-bottom: 8rem;
 
@@ -796,7 +797,7 @@ p{
         width:75%;
         height: 8rem;
         margin: 0 auto;
-        border-radius: 50%;               
+        border-radius: 60px;               
 
     } 
     
@@ -805,7 +806,8 @@ p{
         width:75%;
         height: 8rem;
         margin: 0 auto;
-        border-radius: 50%;               
+        margin-top: 2rem;
+        border-radius: 60px;               
 
     }    
 
@@ -815,7 +817,7 @@ p{
         height: 8rem; 
         margin: 0 auto; 
         margin-top: 2rem;
-        border-radius: 50%;
+        border-radius: 600px;
 
     }
 
@@ -873,12 +875,45 @@ p{
 
 .itemFotosAlunos{
     border: 0px solid black;    
-    height: 25rem;
-    width: 25rem;
+    height: 30rem;
+    width: 30rem;
     flex-shrink: 0;
+    margin-bottom: 8rem;
     
     
 }
+
+
+
+    /*Galeria - Videos*/
+    .containerVideosAlunos{ 
+        display: flex;
+        flex-direction: column;    
+        justify-content: center;
+        align-items: center;
+        column-gap: 1.5rem;
+        row-gap: 1rem;
+        text-align: center;
+        
+        
+        flex-wrap: wrap;
+        /*Propriedade Quebra para a Outra Linha*/
+        
+        
+    }
+
+
+
+    .itemVideosAlunos{
+        border: 1px solid black;    
+        height: 35rem;
+        width: 50rem;
+        flex-shrink: 0;
+        margin-bottom: 8rem;
+
+        
+    }
+
 
 
 
@@ -889,7 +924,8 @@ p{
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
-        align-items: center;         
+        align-items: center; 
+        text-align: center;        
         
     }
 
@@ -897,8 +933,10 @@ p{
         border: 0px solid black;    
         height: 40rem;
         width: 90%;
+        align-items: center;
+        margin-bottom: 2rem;
         
-              
+             
         
     }
 
@@ -906,10 +944,12 @@ p{
         font-size: 2.5rem;
         font-weight: bold;          
         text-align: center;
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
+
+        width: 100%;
+        height: auto;
         
     }
-    
 
 
 
@@ -922,6 +962,7 @@ p{
         row-gap: 1.5rem;
        
         margin-bottom: 1rem;
+        text-align: center;
         
         
         flex-wrap: wrap;
@@ -936,8 +977,9 @@ p{
         border: 0px solid black;    
         height: 35rem;
         width: 90%;
+        margin-bottom: 2rem;
         
-       
+        
 
         
     }
@@ -947,7 +989,7 @@ p{
         font-size: 2.5rem;
         font-weight: bold;          
         text-align: center;
-        margin-bottom: 10rem;
+        margin-bottom: 8rem;
         width: 100%;
         height: auto;
 
@@ -982,6 +1024,10 @@ p{
        text-align: center;           
         
     }   
+
+
+}
+  
 
 
 }
