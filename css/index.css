@@ -609,9 +609,9 @@ p{
 
 
     .itemVideosAlunos{
-        border: 1px solid black;    
+        border: 1.5px solid black;    
         height: 35rem;
-        width: 50rem;
+        width: 90%;
         flex-shrink: 0;
         margin-bottom: 8rem;
 
