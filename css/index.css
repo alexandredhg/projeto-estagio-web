@@ -582,7 +582,7 @@ p{
     height: 30rem;
     width: 30rem;
     flex-shrink: 0;
-    margin-bottom: 8rem;
+    margin-bottom: 10rem;
     
     
 }
@@ -611,9 +611,9 @@ p{
     .itemVideosAlunos{
         border: 1.5px solid black;    
         height: 25rem;
-        width: 35rem;
+        width: 40rem;
         flex-shrink: 0;
-        margin-bottom: 8rem;
+        margin-bottom: 10rem;
 
         
     }
