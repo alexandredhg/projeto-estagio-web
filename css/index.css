@@ -333,6 +333,7 @@ p{
     column-gap: 1.5rem;
     row-gap: 1rem;
     margin-bottom: 6rem;
+width: 100%;
     
     
     flex-wrap: wrap;
@@ -348,6 +349,7 @@ p{
     height: 13rem;
     width: 20rem;
     flex-shrink: 0;
+    aspect-ratio: 16/9;
 
     
 }
