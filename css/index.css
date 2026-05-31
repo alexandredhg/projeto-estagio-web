@@ -451,7 +451,7 @@ p{
 
 
 
-@media (max-width: 1400px) and (orientation: landscape) {
+@media (max-width: 800px) and (orientation: landscape) {
     
     *{
         padding: 0;
