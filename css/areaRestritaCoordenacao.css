@@ -92,12 +92,44 @@ p{
 }
 
 
+
+
+/*Encerrar Login*/
+.centerEncerrarLogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.encerrarLogin{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    width: 8rem;
+    height: auto;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 6px;
+    
+}
+
+
+
+
+
+
 /*Voltat Página Inicial*/
 .centerVoltarInicio{
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 
 
 

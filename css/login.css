@@ -21,6 +21,34 @@ html, body{
 
 
 
+/*Skip-Link*/
+/* Esconde o link da tela por padrão, mas mantém acessível para leitores de tela */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 2.5rem;
+    background: #0056b3; /* Cor forte que combine com o design */
+    color: white;
+    padding: 10px 20px;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 5px 5px;
+    transition: top 0.2s ease;
+}
+
+
+
+/* Mostra o link no topo da tela quando ele recebe o foco do teclado (Tab) */
+.skip-link:focus {
+    top: 10px;
+    outline: 2px solid #ffcc00; /* Destaque visual */
+}
+
+
+
+
+
 
 /*Titulos*/
 h1{        
