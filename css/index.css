@@ -5,10 +5,10 @@
 }
 
 body{
-    margin-left: 2.5rem;
-    margin-right: 2.5rem;
-    margin-top: 3.5rem;
-    margin-bottom: 3.5rem;       
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;       
 }
 
 
@@ -21,60 +21,171 @@ html, body{
 
 
 
-/*Titulos*/
-h1{        
-    background-color: blue;
+/* Skip-Limk : Esconder o link da tela por padrão, 
+mas mantém acessível para leitores de tela */
+.skip-link {
+    position: absolute;
+    top: -100px;
+    left: 2.5rem;
+    background: #0056b3; /* Cor forte que combine com o design */
     color: white;
-    font-size: 1.5rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    border: none;
+    padding: 10px 20px;
+    z-index: 100;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 0 0 5px 5px;
+    transition: top 0.2s ease;
+}
+
+/* Mostra o link no topo da tela quando ele recebe o foco do teclado (Tab) */
+.skip-link:focus {
+    top: 10px;
+    outline: 2px solid #ffcc00; /* Destaque visual */
+}
+
+
+
+
+
+/*Mpdp Escuro*/
+/* ==========================================================================
+   CONFIGURAÇÃO DE ACESSIBILIDADE E VARIÁVEIS - MODO ESCURO (FIXO)
+   ========================================================================== */
+
+body {
+    /* Cores Padrão (Modo Claro) */
+    --background-color: #ffffff;
+    --text-color: #000000;
+
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    --background-color: #121212;
+    --text-color: #ffffff;
+}
+
+/* Força o container a ficar SEMPRE na extrema direita, independente de zoom ou tamanho */
+.container-switch {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    padding: 10px 20px;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* A label engloba o texto e o switch de forma fixa */
+.switch {
     display: flex;
     align-items: center;
-    justify-content: center;
-    margin-bottom: 1.5rem;
-    padding: 0.6rem;
+    gap: 12px;                 /* Espaço controlado entre texto e botão */
+    cursor: pointer;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;         /* Tamanho ideal e fixo para não estourar com o zoom */
+    position: relative;
+    user-select: none;
+}
+
+/* Esconde COMPLETAMENTE o checkbox padrão do navegador em qualquer nível de zoom */
+.switch input {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    pointer-events: none;
+}
+
+/* O corpo do Switch (Tamanho fixo e confortável) */
+.slider {
+    display: inline-block;
+    position: relative;
+    width: 55px;               /* Largura estável */
+    height: 28px;              /* Altura estável */
+    background-color: #ccc;
+    border-radius: 28px;
+    transition: 0.4s;
+}
+
+/* A bolinha branca interna */
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;              
+    width: 20px;               
+    left: 4px;
+    bottom: 4px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+
+/* Cor de fundo quando ativado */
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+/* Movimento exato da bolinha */
+input:checked + .slider:before {
+    transform: translateX(27px);
+}
+
+
+
+
+
+
+/*Titulos*/
+h1{        
+    
+    color: black;
+    font-size: 2.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    margin-bottom: 4rem;
+    text-align: center;
+   
 }
 
 h2{       
-    background-color: gray;
-    color: white;
-    font-size: 1.4rem; 
+    
+    color: black;
+    font-size: 1.75rem; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 3rem;
-    padding: 0.6rem;
+    margin-bottom: 0rem;    
+    text-align: left;
+    margin-left: 345px;
 }
 
 h3{         
-    background-color:blueviolet;
-    color: white;
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;         
-    border: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 4rem;
-    padding: 0.6rem;  
+    
+    color: black;
+    font-size: 1.75rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;     
+    margin-bottom: 3rem;   
+    text-align: center; 
 
 }
 
 h4{
-    font-size: 1.2rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;    
-    text-align: center;
-    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;       
+    text-align: left;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
 }
 
 h5{
-    font-size: 1.1rem;
+    font-size: 1.25rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;    
-    text-align: center;
+    text-align: left;
     margin-bottom: 3rem;
+    margin-left: 4rem;
 }
 
 
@@ -88,7 +199,7 @@ h5{
     align-items: center;    
     
     margin-top: 0rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1.5rem;
 
     /*Propriedade Imagem Não Destorcer*/
     object-fit: cover;
@@ -99,7 +210,7 @@ h5{
 .itemBaner{
     border: 0px solid black;
     width: 100vw;
-    height: 30rem;    
+    height: 23rem;    
 
 }
 
@@ -113,10 +224,10 @@ h5{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    column-gap: 1rem;
+    column-gap: 1.5rem;
     row-gap: 2rem;
     list-style-type: none;    
-    margin-bottom: 6rem;
+    margin-bottom: 3.5rem;
 
     flex-wrap: wrap;
     /*Propriedade Quebra para a Outra Linha*/
@@ -134,7 +245,7 @@ h5{
     
     background: blue;     
     border-radius: 7px; 
-    padding: 15px 10px;  
+    padding: 10px 10px;  
 
     transition: backgroud-color 0.3s; 
 }
@@ -147,7 +258,7 @@ h5{
     
     background: gray; 
     border-radius: 7px; 
-    padding: 15px 10px;  
+    padding: 10px 10px;  
 
     transition: backgroud-color 0.3s; 
 }
@@ -159,9 +270,9 @@ h5{
     justify-content: center;
     align-items: center;
 
-    background: coral;
+    background: blueviolet;
     border-radius: 7px;
-    padding: 15px 10px;   
+    padding: 10px 10px;   
 
     transition: backgroud-color 0.3s; 
 }
@@ -178,8 +289,8 @@ h5{
 /*Efeito Botão Menu*/
 .efeitoItemLi:hover{
     background-color: black;        
-    transform: scale(1.2);    
-    padding: 15px 10px;       
+    transform: scale(1.15);    
+    padding: 10px 10px;       
 }
 
 
@@ -194,16 +305,16 @@ h5{
     justify-content: center;
     align-items: center;
 
-    margin-bottom: 6.5rem;   
+    margin-bottom: 5rem;   
     
 }
 
 .itemParagrafo{
-    width: 80%;
+    width: 60%;
     height: auto;
-    padding: 2rem;
+    padding: 0rem;
     
-    border: 3px solid blueviolet;   
+    border: 0px solid black;   
 }
 
 p{
@@ -232,7 +343,7 @@ p{
     align-items: center;
     column-gap: 2rem;
     row-gap: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     width: 100%;
     
     
@@ -252,6 +363,7 @@ p{
     flex-shrink: 0;
     
     aspect-ratio: 16/9;
+    margin-left: 4rem;
     
 }
 
@@ -263,11 +375,11 @@ p{
 .containerVideosAlunos{ 
     display: flex;
     flex-direction: row;    
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
     column-gap: 2rem;
     row-gap: 3rem;
-    margin-bottom: 6rem;
+    margin-bottom: 5rem;
     width: 100%;
     
     
@@ -281,13 +393,12 @@ p{
 
 .itemVideosAlunos{
     border: 1px solid black;
-    height: 12rem;   
-    width: 18rem;
+    height: 10rem;   
+    width: 15rem;
     flex-shrink: 0;
 
     aspect-ratio: 16/9;
-
-    
+    margin-left: 4rem;    
 }
 
 
@@ -296,37 +407,58 @@ p{
 
 
 /*Imagens do Perfil*/
-.containerImagemPerfil{ 
-    display: flex;
-    flex-direction: row;    
-    justify-content: space-evenly;
-    align-items: center;
-    column-gap: 2rem;
-    row-gap: 3rem;
-    margin-bottom: 6rem;
-    width: 100%;
+.containerImagensPerfil{    
+       
+    width: 65%;
+    margin: auto;
+    margin-bottom: 5rem;      
     
     
-    flex-wrap: wrap;
-    /*Propriedade Quebra para a Outra Linha*/
+    /*flex-wrap: wrap;
+    Propriedade Quebra para a Outra Linha*/
     
     
 }
 
-.itemImagemPerfil{
-    border: 0px solid black;    
+
+
+.centerItemImagensPerfil{
+    width: 100%;
+    height: auto;
+    border: 0px  solid  black;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    column-gap: 2rem;
+    row-gap: 5rem;
+    margin-bottom: 0rem;
+    
+}
+
+
+
+.itemImagensPerfil{
+    border: 1px solid black;    
     height: 12rem;
     width: 12rem;
     flex-shrink: 0;
     aspect-ratio: 16/9;
+    margin-bottom: 1rem;
     
 }
 
-.legendaImagemPerfil{
+
+
+.legendaImagensPerfil{
     font-size: 1.2rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-            
+    width: 12rem;
+    height: auto;
     text-align: center;
+
+    
 }
 
 
@@ -335,14 +467,12 @@ p{
 .containerCuriosidades{ 
     display: flex;
     flex-direction: row;    
-    justify-content: space-evenly;
+    justify-content: left;
     align-items: center;
-    column-gap: 2rem;
+    column-gap: 1.5rem;
     row-gap: 3rem;
     margin-bottom: 6rem;
-    width: 100%;
-    
-    
+    width: 100%;   
     flex-wrap: wrap;
     /*Propriedade Quebra para a Outra Linha*/
     
@@ -353,10 +483,12 @@ p{
 
 .itemCuriosidades{
     border: 1px solid black; 
-    height: 12rem;
+    height: 10rem;
     width: 18rem;
     flex-shrink: 0;
     aspect-ratio: 16/9;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
 
     
 }
@@ -367,8 +499,12 @@ p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
             
     text-align: center;
-    width: 20rem;
+    width: 18rem;
     height: auto;
+    margin-left: 4rem;
+
+    
+
 
 }
 
@@ -382,23 +518,24 @@ p{
 .btnVoltarTopo{        
     background-color: red;
     color: white;
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    font-size: 0.7rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
-    padding: 10px 30px;
+    padding: 17px 8px;
+       
     
 }
 
 
 .voltarTopo{
     display: flex;
-    justify-content: center;
-    margin-bottom: 15rem;
-    margin-top: 7rem;
+    justify-content: left;
+    margin-bottom: 2.5rem;
+    margin-top: 10rem;
+    margin-left: 4rem;
 }
 
 

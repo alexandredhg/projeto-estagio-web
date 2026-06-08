@@ -19,7 +19,66 @@ html, body{
 
 
 
-/* Esconde o link da tela por padrão, mas mantém acessível para leitores de tela */
+
+
+
+
+.centerModoEscuro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+:root {
+    --bg-color: #f0f2f5;
+    --text-color: #1c1e21;
+    --btn-bg: #1877f2;
+    --btn-text: #ffffff;
+}
+
+body.dark-mode {
+    --bg-color: #18191a;
+    --text-color: #e4e6eb;
+    --btn-bg: #3a3b3c;
+    --btn-text: #e4e6eb;
+}
+
+/* Opcional: Ativa o modo escuro automaticamente se o usuário preferir no sistema */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #18191a;
+        --text-color: #e4e6eb;
+        --btn-bg: #3a3b3c;
+        --btn-text: #e4e6eb;
+    }
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    background-color: var(--btn-bg);
+    color: var(--btn-text);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+
+    margin-bottom: 5rem;
+}
+
+
+
+
+
+/* Esconder o link da tela por padrão, mas mantém acessível para leitores de tela */
 .skip-link {
     position: absolute;
     top: -100px;
